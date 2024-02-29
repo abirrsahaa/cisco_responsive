@@ -7,11 +7,27 @@ import darkWorld from "@/assets/darkWorld.jpeg";
 import future from "@/assets/future.jpeg";
 import girlUmbrella from "@/assets/girlUmbrella.jpg";
 import Image from "next/image";
+import {
+  BsFillArrowRightCircleFill,
+  BsFillArrowLeftCircleFill,
+} from "react-icons/bs";
 
 const ImageSlider = () => {
   const ref = useRef(null);
   const IsinView = useInView(ref, { amount: 0.5, once: true });
   const [positionIndexes, setPositionIndexes] = useState([0, 1, 2, 3, 4]);
+
+  let [current, setCurrent] = useState(0);
+
+  let previousSlide = () => {
+    if (current === 0) setCurrent(images.length - 1);
+    else setCurrent(current - 1);
+  };
+
+  let nextSlide = () => {
+    if (current === images.length - 1) setCurrent(0);
+    else setCurrent(current + 1);
+  };
 
   const handleNext = () => {
     setPositionIndexes((prevIndexes) => {
@@ -49,11 +65,53 @@ const ImageSlider = () => {
         initial={{ opacity: 0, x: -100 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.4 }}
-        className="w-full  flex justify-center items-center text-6xl mb-10 text-white commonFontLight m-5"
+        className="w-full mx-auto text-green-500   flex justify-center items-center text-6xl mb-10  commonFontLight m-5"
       >
         EVENTS
       </motion.h1>
-      <motion.div className="flex items-center flex-col justify-center  h-screen">
+      <div className="overflow-hidden md:hidden relative w-[90%] h-[60vh] rounded-lg mx-auto mb-3">
+        <div
+          className={`flex transition ease-out duration-40 w-full h-full`}
+          style={{
+            transform: `translateX(-${current * 100}%)`,
+          }}
+        >
+          {images.map((s) => {
+            return (
+              <Image
+                src={s}
+                className="h-full w-full object-cover object-center"
+              />
+            );
+          })}
+        </div>
+
+        <div className="absolute top-0 h-full w-full justify-between items-center flex text-white px-10 text-3xl">
+          <button onClick={previousSlide}>
+            <BsFillArrowLeftCircleFill />
+          </button>
+          <button onClick={nextSlide}>
+            <BsFillArrowRightCircleFill />
+          </button>
+        </div>
+
+        <div className="absolute bottom-0 py-4 flex justify-center gap-3 w-full">
+          {images.map((s, i) => {
+            return (
+              <div
+                onClick={() => {
+                  setCurrent(i);
+                }}
+                key={"circle" + i}
+                className={`rounded-full w-5 h-5 cursor-pointer  ${
+                  i == current ? "bg-white" : "bg-gray-500"
+                }`}
+              ></div>
+            );
+          })}
+        </div>
+      </div>
+      <motion.div className="hidden md:flex items-center flex-col justify-center  h-screen">
         {images.map((image, index) => (
           <motion.div
             initial={{ opacity: 0 }}

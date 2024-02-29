@@ -8,7 +8,7 @@ const EventHero = () => {
     <>
       <main
         className={
-          " flex-col   justify-between  bg-slate-500  items-center w-[100vw] h-[70vh] md:h-[100vh]  mx-auto  "
+          " flex-col top-0  justify-between  bg-slate-500  items-center w-[100vw] h-[70vh] md:h-[100vh]  mx-auto  "
         }
       >
         <div
