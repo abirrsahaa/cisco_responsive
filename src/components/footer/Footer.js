@@ -59,7 +59,7 @@ const Footer = () => {
           <FaInstagram className="w-8 h-8 text-green-500" />
           <FaLinkedin className="w-8 h-8 text-green-500" />
         </div>
-        <div className="h-[90%] w-[40%] p-1 flex flex-col items-center justify-center gap-2 ">
+        <div className="hidden md:flex h-[90%] w-[40%] p-1  flex-col items-center justify-center gap-2 ">
           <div className="w-[90%] h-[20%] ">
             {" "}
             <div className="w-[20%] h-[100%]">
