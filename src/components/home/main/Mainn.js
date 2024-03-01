@@ -1,8 +1,28 @@
+"use client";
 import Header from "@/components/header/Header";
+import { Input } from "postcss";
+import { useState } from "react";
 import ReactPlayer from "react-player";
 // import bg from "../../../assets/vii.mp4";
 
 const Main = () => {
+  const [name, setname] = useState("");
+  const submithander = async () => {
+    console.log(name);
+    try {
+      const res = await fetch("/api/userInfo", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ username: name }),
+      });
+      const data = await res.json();
+      console.log(data);
+    } catch (error) {
+      console.log(error);
+    }
+  };
   return (
     <>
       <div className="w-[100vw]  top-0  h-[40vh] md:min-h-screen ">
@@ -30,6 +50,16 @@ const Main = () => {
           <div className="w-[40%] h-[30%] bg-yellow-300">
             WELCOME TO <br></br>CISCO LPU I GEN
           </div>
+          <input
+            type="text"
+            value={name}
+            placeholder="name"
+            className="w-1/2 h-10 p-3 text-black"
+            onChange={(e) => setname(e.target.value)}
+          />
+          <button onClick={submithander} className="hover:cursor-pointer">
+            submit
+          </button>
           <p></p>
           <button></button>{" "}
         </div>
