@@ -13,19 +13,19 @@ const Header = () => {
           />
         </div>
         <div className="hidden md:flex justify-between items-center w-[50%] h-[80%]  rounded-lg">
-          <div className="w-[23%] flex text-white justify-center items-center font-bold text-xl  h-[80%]  rounded-2xl ">
+          <div className="w-[23%] hover:border-b-2 hover:cursor-pointer hover:border-b-green-500 transition ease-in duration-100 flex text-white justify-center items-center font-bold text-xl  h-[100%] rounded-b-none    rounded-2xl ">
             HOME
           </div>
-          <div className="w-[23%] flex justify-center items-center font-bold text-xl text-white h-[80%]  rounded-2xl ">
+          <div className="w-[23%] hover:border-b-2 hover:cursor-pointer hover:border-b-green-500 transition ease-in duration-100 flex justify-center items-center font-bold text-xl text-white h-[100%]   rounded-b-none  rounded-2xl ">
             ABOUT US
           </div>
-          <div className="w-[23%] flex justify-center items-center font-bold text-xl text-white h-[80%]  rounded-2xl ">
+          <div className="w-[23%] hover:border-b-2 hover:cursor-pointer hover:border-b-green-500 transition ease-in duration-100 flex justify-center items-center font-bold text-xl text-white h-[100%]  rounded-b-none   rounded-2xl ">
             BLOGS
           </div>
-          <div className="w-[23%] flex justify-center items-center font-bold text-xl text-white h-[80%]  rounded-2xl ">
+          <div className="w-[23%]  hover:border-b-2 hover:cursor-pointer hover:border-b-green-500 transition ease-in duration-100 flex justify-center items-center font-bold text-xl text-white h-[100%] rounded-b-none   rounded-2xl ">
             EVENTS
           </div>
-          <div className="w-[23%] flex justify-center items-center font-bold text-xl text-white h-[80%]  rounded-2xl ">
+          <div className="w-[23%] hover:border-b-2 hover:cursor-pointer hover:border-b-green-500 transition ease-in duration-100 flex justify-center items-center font-bold text-xl text-white h-[100%] rounded-b-none    rounded-2xl ">
             RESOURCES
           </div>
         </div>

@@ -41,7 +41,7 @@ const Countdown = () => {
       <div className="w-[100%] h-[30vh] md:h-[40vh]  ">
         <div className="w-[100%] h-[100%]   flex justify-center items-center p-2">
           <div className="h-[90%] w-[90%] md:w-[50%]  rounded-lg flex flex-col items-center justify-center ">
-            <div className="w-[100%] h-[40%] flex justify-center items-center text-3xl md:text-5xl p-2">
+            <div className="w-[100%] h-[40%] flex justify-center items-center text-2xl md:text-5xl p-2">
               COUNTDOWN TO D-DAY
             </div>
             <div className="w-[100%] md:w-[85%] flex justify-between items-center  h-[60%]  p-1">

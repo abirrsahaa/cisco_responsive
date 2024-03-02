@@ -52,7 +52,7 @@ const Symposium = () => {
               />
             </div>
           </div>
-          <div className="w-[100%] h-[55%]  md:w-[85%] md:h-[30%] md:mt-2  flex flex-col md:flex md:flex-row gap-1 items-center p-1 justify-between md:justify-between md:items-start">
+          <div className="w-[100%] h-[55%]  md:w-[85%] md:h-[30%] md:mt-2  flex flex-col md:flex md:flex-row gap-1 items-center p-1 justify-between md:justify-center md:items-start">
             <div className="w-[90%]  h-[55%]  md:w-[60%] md:h-[85%]  ">
               <div className="w-[100%] h-[72%]  flex justify-between items-center ">
                 <div className="w-[24%] text-5xl border-2 border-solid border-green-500  md:text-8xl font-bold flex items-center justify-center h-[98%] rounded-xl  rounded-r-none">

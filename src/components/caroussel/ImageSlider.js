@@ -65,7 +65,7 @@ const ImageSlider = () => {
         initial={{ opacity: 0, x: -100 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.4 }}
-        className="w-full mx-auto text-green-500   flex justify-center items-center text-6xl mb-10  commonFontLight m-5"
+        className="w-full mx-auto text-green-500   flex justify-center items-center text-6xl mb-8 md:mb-1  commonFontLight m-5"
       >
         EVENTS
       </motion.h1>
@@ -111,7 +111,7 @@ const ImageSlider = () => {
           })}
         </div>
       </div>
-      <motion.div className="hidden md:flex items-center flex-col justify-center  h-screen">
+      <motion.div className="hidden md:flex items-center  flex-col justify-start pt-10 h-[70vh]">
         {images.map((image, index) => (
           <motion.div
             initial={{ opacity: 0 }}
@@ -126,7 +126,7 @@ const ImageSlider = () => {
             <Image src={image} alt="photos" />
           </motion.div>
         ))}
-        <div className="flex flex-row gap-3 -mb-12">
+        <div className="flex flex-row gap-3 -mb-12 mt-5">
           <button
             className="text-white mt-[400px] bg-indigo-400 rounded-md py-2 px-4"
             onClick={handleBack}

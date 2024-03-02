@@ -78,15 +78,15 @@ const Information = () => {
           <div className=" h-[50%] gap-2  flex-col md:flex-row md:flex justify-center items-start commonFontLight p-10 pt-0">
             {/* right */}
             <div className=" p-1">
-              <h3 className="text-[#13d1b2] text-2xl">Date</h3>
-              <h1 className="text-6xl text-[#13d1b2] ">
+              <h3 className="text-[#13d1b2] text-4xl">Date</h3>
+              <h1 className="text-5xl text-[#13d1b2] mt-2">
                 OCT 30 - <br></br>NOV 25
               </h1>
             </div>
             {/*left  */}
-            <div className=" p-2">
-              <h3 className="text-[#13d1b2] text-2xl">Location</h3>
-              <h1 className="text-6xl text-[#13d1b2]">
+            <div className=" p-2 mt-4">
+              <h3 className="text-[#13d1b2] text-4xl">Location</h3>
+              <h1 className="text-5xl text-[#13d1b2] mt-2">
                 Lovely<br></br> Proffessional<br></br> University
               </h1>
             </div>

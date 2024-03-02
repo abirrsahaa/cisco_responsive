@@ -7,7 +7,7 @@ import Footer from "@/components/footer/Footer";
 
 export default function Home() {
   return (
-    <div className="w-[100%] min-h-screen m-0 p-0 overflow-x-hidden flex justify-center items-center flex-col">
+    <div className="w-[100%] overflow-y-hidden min-h-screen m-0 p-0 overflow-x-hidden flex justify-center items-center flex-col">
       <Header />
       <Main />
       <Symposium />

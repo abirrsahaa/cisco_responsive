@@ -6,10 +6,10 @@ const Past = () => {
       <div className=" w-[100vw] min-h-screen m-1">
         <div className=" flex flex-col items-center justify-center w-[100%] h-[100%] ">
           <div className="w-[100%] flex flex-col items-center justify-center  h-[25vh] md:h-[35vh]">
-            <div className="w-[65%] h-[40%] text-3xl flex items-center justify-center font-bold text-green-500  rounded-lg">
+            <div className="w-[65%] h-[35%] text-3xl flex items-center justify-center font-bold text-green-500  rounded-lg">
               RECENT EVENTS
             </div>
-            <p className="w-[90%] text-center h-[60%] ">
+            <p className="w-[95%] text-center tracking-tighter leading-5 h-[60%] p-3 ">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s, when an unknown printer took a galley of
