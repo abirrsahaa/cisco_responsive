@@ -10,7 +10,7 @@ import cisco from "../../assets/CiscoLogo101.png";
 const Footer = () => {
   return (
     <>
-      <div className="w-[100vw] h-[70vh] md:h-[50vh]  md:flex md:items-center md:gap-2 md:justify-center ">
+      <div className="w-[100vw] h-[70vh] md:h-[50vh]  md:flex md:items-center md:gap-2 md:justify-center bg-[#09131D] ">
         <div className="w-full h-[13%] mx-1  md:hidden block">
           <div className="w-[20%] h-[100%]">
             <Image

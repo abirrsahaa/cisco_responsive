@@ -38,9 +38,9 @@ const Symposium = () => {
   }, []);
   return (
     <>
-      <div className="w-[100vw] h-[53vh]   md:min-h-screen flex flex-col justify-between items-center ">
+      <div className="w-[100vw] h-[53vh]   md:min-h-screen flex flex-col justify-between items-center bg-gradient-to-b from-[#121E2C] to-[#09131D] ">
         <div className="w-[100%] h-[100%]  flex flex-col p-2 gap-1 justify-between items-center">
-          <div className="font-semibold md:text-6xl text-green-400 text-2xl w-[100%] h-[20%] md:h-[25%]  flex items-center justify-center  ">
+          <div className="font-bold md:text-[48px]  md:mt-5  text-[#13FBD3] text-2xl w-[100%] h-[20%] md:h-[54px] md:w[361px]  flex items-center justify-center  ">
             Upcoming Event
           </div>
           <div className="w-[100%] h-[25%] md:h-[40%]  flex items-center justify-center ">
@@ -54,17 +54,17 @@ const Symposium = () => {
           </div>
           <div className="w-[100%] h-[55%]  md:w-[85%] md:h-[30%] md:mt-2  flex flex-col md:flex md:flex-row gap-1 items-center p-1 justify-between md:justify-center md:items-start">
             <div className="w-[90%]  h-[55%]  md:w-[60%] md:h-[85%]  ">
-              <div className="w-[100%] h-[72%]  flex justify-between items-center ">
-                <div className="w-[24%] text-5xl border-2 border-solid border-green-500  md:text-8xl font-bold flex items-center justify-center h-[98%] rounded-xl  rounded-r-none">
+              <div className="w-[100%] h-[72%]  flex justify-between items-center transition-all ease-out duration-200 ">
+                <div className="w-[24%] text-5xl border-2 border-solid border-[#13FBD3] md:text-8xl font-bold flex items-center justify-center h-[98%] rounded-xl  rounded-r-none">
                   {days}
                 </div>
-                <div className="w-[24%] text-5xl border-2 border-solid border-green-500 md:text-8xl font-bold flex items-center justify-center h-[98%] ">
+                <div className="w-[24%] text-5xl border-2 border-solid border-[#13FBD3] md:text-8xl font-bold flex items-center justify-center h-[98%] ">
                   {hours}
                 </div>
-                <div className="w-[24%] text-5xl border-2 border-solid border-green-500 md:text-8xl font-bold flex items-center justify-center h-[98%]  ">
+                <div className="w-[24%] text-5xl border-2 border-solid border-[#13FBD3] md:text-8xl font-bold flex items-center justify-center h-[98%]  ">
                   {minutes}
                 </div>
-                <div className="w-[24%] text-5xl border-2 border-solid border-green-500 md:text-8xl font-bold flex items-center justify-center h-[98%] rounded-xl rounded-l-none">
+                <div className="w-[24%] text-5xl border-2 border-solid border-[#13FBD3] md:text-8xl font-bold flex items-center justify-center h-[98%] rounded-xl rounded-l-none">
                   {seconds}
                 </div>
               </div>
@@ -84,7 +84,7 @@ const Symposium = () => {
               </div>
             </div>
             <div className="w-[100%] h-[30%] md:h-[80%] md:w-[30%]  flex items-center justify-center">
-              <button className=" w-[30%] border-t-2 border-b-2  border-green-500 h-[80%] md:w-[50%] md:h-[40%] flex items-center justify-center text-center rounded-2xl p-2 text-sm text-blue-300 font-semibold ">
+              <button className=" w-[30%] border-t-2 border-[#13FBD3] h-[80%] md:w-[50%] md:h-[40%] flex items-center justify-center text-center rounded-2xl p-2 text-sm text-blue-300 font-semibold ">
                 Register Now
               </button>
             </div>
