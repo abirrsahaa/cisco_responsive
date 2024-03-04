@@ -5,7 +5,7 @@ const Information = () => {
         <div className="  h-[100%] w-[100%] md:w-[50%]   m-1 ">
           <div className="   h-[100%] w-[100%] ">
             <div className=" hidden md:block  text-left px-5 pt-0 pb-0 ">
-              <h1 className="  text-8xl mt-0 pt-0 mb-10 h-[20%] flex justify-start items-center  text-[#12f8d0] ">
+              <h1 className="font-bold  text-8xl mt-0 pt-0 mb-10 h-[20%] flex justify-start items-center  text-[#12f8d0] ">
                 JOIN THE <br></br>ASSEMBLY
               </h1>
               <div className="  welcomeText text-[#12e2bf] text-xl ">
@@ -33,15 +33,17 @@ const Information = () => {
                   there.
                 </p>
               </div>
-              <button className="text-white p-5 rounded-md  focus:outline-none bookTicket mt-10">
-                Book Tickets
+              <button class="relative w-[150px] mt-2 md:mt-5 inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-[37px] group bg-gradient-to-br from-[#00B3FF] to-[#2CE1C0]  hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800">
+                <span class="relative w-[150px] px-5 py-2.5 transition-all tracking-tighter ease-in duration-75 text-[12px] md:text-[15px] font-normal bg-white dark:bg-gray-900 rounded-[37px] text-[#13FBD3] ">
+                  Book Tickets
+                </span>
               </button>
             </div>
-            <div className=" md:hidden  text-left px-5 pt-0 pb-0 ">
-              <h1 className="font-none  text-7xl mt-0 pt-0 mb-10 h-[20%] flex justify-center items-center md:justify-start  text-[#12f8d0] ">
+            <div className=" md:hidden block  text-left px-5 pt-0 pb-0 ">
+              <h1 className="font-bold  text-6xl mt-0 pt-0 mb-10 h-[20%] flex justify-center items-center md:justify-start  text-[#12f8d0] ">
                 JOIN THE ASSEMBLY
               </h1>
-              <div className="  welcomeText text-[#12e2bf] text-xl ">
+              <div className="  welcomeText text-[#12e2bf] text-lg ">
                 <p className="text-left">
                   We welcome you all to the greatest workshop in Lovely
                   Professional University, Cisco x LPlJiGen CyberSec Symposium
@@ -49,7 +51,7 @@ const Information = () => {
                 </p>
               </div>
               <br></br>
-              <div className="  text-white commonFontLight text-xl ">
+              <div className="  text-white commonFontLight text-lg ">
                 <p>
                   As Cisco is known for its expertise in networking and security
                   solutions, this event is primarily centered around tutorials
@@ -65,8 +67,10 @@ const Information = () => {
                   the aspiring coders out there.
                 </p>
               </div>
-              <button className="text-white p-5 rounded-md  focus:outline-none bookTicket mt-10">
-                Book Tickets
+              <button class="relative w-[150px] mt-4 md:mt-5 inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-[37px] group bg-gradient-to-br from-[#00B3FF] to-[#2CE1C0]  hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800">
+                <span class="relative w-[150px] px-5 py-2.5 transition-all tracking-tighter ease-in duration-75 text-[12px] md:text-[15px] font-normal bg-white dark:bg-gray-900 rounded-[37px] text-[#13FBD3] ">
+                  Book Tickets
+                </span>
               </button>
             </div>
           </div>
@@ -78,15 +82,19 @@ const Information = () => {
           <div className=" h-[50%] gap-2  flex-col md:flex-row md:flex justify-center items-start commonFontLight p-10 pt-0">
             {/* right */}
             <div className=" p-1">
-              <h3 className="text-[#13d1b2] text-4xl">Date</h3>
-              <h1 className="text-5xl text-[#13d1b2] mt-2">
+              <h3 className="text-[#13d1b2] text-4xl md:text-7xl font-bold">
+                Date
+              </h3>
+              <h1 className="text-3xl md:text-5xl text-[#13d1b2] mt-2">
                 OCT 30 - <br></br>NOV 25
               </h1>
             </div>
             {/*left  */}
-            <div className=" p-2 mt-4">
-              <h3 className="text-[#13d1b2] text-4xl">Location</h3>
-              <h1 className="text-5xl text-[#13d1b2] mt-2">
+            <div className="  mt-4 mr-2  bottom-10 flex flex-col justify-start ">
+              <h3 className="text-[#13d1b2] text-4xl md:text-7xl font-bold">
+                Location
+              </h3>
+              <h1 className="text-3xl md:text-5xl text-[#13d1b2] mt-2 mr-2">
                 Lovely<br></br> Proffessional<br></br> University
               </h1>
             </div>

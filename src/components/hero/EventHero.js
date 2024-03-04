@@ -18,7 +18,7 @@ const EventHero = () => {
           }
         >
           <div className=" flex flex-col items-center  justify-center gap-2   h-[100%] w-[100%] md:w-[66%] md:h-[100%] md:px-8 md:items-end md:ml-5">
-            <div className="md:text-5xl tracking-tight">
+            <div className="md:text-5xl tracking-tight text-[#13FBD3] font-bold">
               CISCO X LPU IGEN &apos; s
             </div>
             <div>

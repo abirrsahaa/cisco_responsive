@@ -14,7 +14,7 @@ import {
 
 const ImageSlider = () => {
   const ref = useRef(null);
-  const IsinView = useInView(ref, { amount: 0.5, once: true });
+  // const IsinView = useInView(ref, { amount: 0.5, once: true });
   const [positionIndexes, setPositionIndexes] = useState([0, 1, 2, 3, 4]);
 
   let [current, setCurrent] = useState(0);
@@ -65,7 +65,7 @@ const ImageSlider = () => {
         initial={{ opacity: 0, x: -100 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.4 }}
-        className="w-full mx-auto text-green-500   flex justify-center items-center text-6xl mb-8 md:mb-1  commonFontLight m-5"
+        className="w-full mx-auto text-[#13FBD3] font-bold  flex justify-center items-center text-6xl mb-8 md:mb-1  commonFontLight m-5"
       >
         EVENTS
       </motion.h1>
@@ -128,13 +128,13 @@ const ImageSlider = () => {
         ))}
         <div className="flex flex-row gap-3 -mb-12 mt-5">
           <button
-            className="text-white mt-[400px] bg-indigo-400 rounded-md py-2 px-4"
+            className="mt-[400px] text-[#13FBD3] border-2 border-solid border-[#13FBD3] rounded-md py-2 px-4"
             onClick={handleBack}
           >
             Back
           </button>
           <button
-            className="text-white mt-[400px] bg-indigo-400 rounded-md py-2 px-4"
+            className=" mt-[400px] border-2 border-solid border-[#13FBD3]  text-[#13FBD3] rounded-md py-2 px-4"
             onClick={handleNext}
           >
             Next

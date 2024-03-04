@@ -1,6 +1,8 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { useRef } from "react";
+import { motion, useInView } from "framer-motion";
 
 const Countdown = () => {
   const eventDate = new Date("2024-04-01T23:59:59");
@@ -41,9 +43,14 @@ const Countdown = () => {
       <div className="w-[100%] h-[30vh] md:h-[40vh]  ">
         <div className="w-[100%] h-[100%]   flex justify-center items-center p-2">
           <div className="h-[90%] w-[90%] md:w-[50%]  rounded-lg flex flex-col items-center justify-center ">
-            <div className="w-[100%] h-[40%] flex justify-center items-center text-2xl md:text-5xl p-2">
+            <motion.div
+              initial={{ opacity: 0, x: -100 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.4 }}
+              className="w-[100%] text-[#13FBD3] h-[40%] flex justify-center font-bold items-center text-2xl md:text-5xl p-2"
+            >
               COUNTDOWN TO D-DAY
-            </div>
+            </motion.div>
             <div className="w-[100%] md:w-[85%] flex justify-between items-center  h-[60%]  p-1">
               <div className="bg-gray-800 p-4 rounded-lg w-[24%] h-[95%] gap-1 md:gap-2 flex flex-col justify-center items-center">
                 <div className="text-4xl md:text-7xl font-semibold  ">

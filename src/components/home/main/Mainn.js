@@ -3,7 +3,9 @@ import Header from "@/components/header/Header";
 import { Input } from "postcss";
 import { useState } from "react";
 import ReactPlayer from "react-player";
-// import bg from "../../../assets/vii.mp4";
+import bg from "../../../assets/vii.mp4";
+// import high from "./e.mp4";
+// import low from "./hehe.mp4";
 
 const Main = () => {
   const [name, setname] = useState("");
@@ -26,7 +28,14 @@ const Main = () => {
   return (
     <>
       <div className="w-[100vw]  top-0  h-[40vh] md:min-h-screen ">
-        <div className="w-full h-full fixed top-0 left-0 -z-10">
+        <div className="w-full h-full fixed  top-0 left-0 -z-10">
+          <video
+            src={bg}
+            autoPlay
+            loop
+            muted
+            className="w-[100%] h-[100%] object-cover object-center"
+          ></video>
           {/* <video
             autoPlay
             loop
@@ -46,22 +55,31 @@ const Main = () => {
           </video> */}
         </div>
         {/* <Header /> */}
-        <div className="w-[100%]  h-[100%]   bg-red-500 flex flex-col gap-4 md:gap-3 items-center justify-center">
-          <div className="w-[40%] h-[30%] bg-yellow-300">
-            WELCOME TO <br></br>CISCO LPU I GEN
+        <div className="w-[100%]  h-[100%] flex flex-col items-center justify-center gap-4 mb-5">
+          <div className="w-[256px] h-[71px] md:w-[554px] text-white md:h-[141px] md:text-[70px] text-[32px] font-bold leading-none text-center">
+            Welcome to <span className="text-[#13FBD3]">Cisco x LPU iGen</span>
           </div>
-          <input
-            type="text"
-            value={name}
-            placeholder="name"
-            className="w-1/2 h-10 p-3 text-black"
-            onChange={(e) => setname(e.target.value)}
-          />
-          <button onClick={submithander} className="hover:cursor-pointer">
-            submit
+          <p className="w-[303px] hidden md:block md:w-[699px] md:mb-10 md:h-[50px] h-[54px] text-center text-[14px] md:text-[16px] font-normal">
+            Step into the vibrant realm of Cisco x LPU iGen Community, where
+            enthusiasm ignites purpose and creativity thrives. Led by the
+            torchbearers of tomorrow, we're not just another community; we're
+            the architects of a tech revolution. Join us as we sculpt the future
+            of innovation and empower the next wave of trailblazers. Welcome to
+            our playground of ideas, where every voice echoes with the promise
+            of progress. Strap in, adventurer, for here, dreams take flight!{" "}
+          </p>
+          <p className="w-[303px] md:hidden md:w-[699px] md:mb-10 md:h-[50px] h-[54px] text-center text-[14px] md:text-[16px] font-normal">
+            Step into the vibrant realm of Cisco x LPU iGen Community, where
+            enthusiasm ignites purpose and creativity thrives. Led by the
+            torchbearers of tomorrow, we're not just another community; we're
+            the architects of a tech revolution.{" "}
+          </p>
+          <button class="btn transition-all  group relative w-[150px] mt-10 inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-[37px] group bg-gradient-to-br from-[#00B3FF] to-[#2CE1C0] hover:bg-blue-400 dark:text-white focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800">
+            <span className="absolute left-0 w-full h-full bg-blue-400 opacity-0 group-hover:opacity-100 duration-400 ease-in"></span>
+            <span class="relative z-10 w-[150px] px-5 py-2.5 transition-all ease-in duration-75 text-[12px] md:text-[20px] font-normal   bg-black hover:bg-blue-400  rounded-[37px] text-[#13FBD3] group-hover:text-black">
+              Sponsor Us
+            </span>
           </button>
-          <p></p>
-          <button></button>{" "}
         </div>
       </div>
     </>
