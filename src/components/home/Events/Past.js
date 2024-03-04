@@ -3,7 +3,41 @@ import Image from "next/image";
 import Event1 from "../../../assets/asddad.png";
 import { motion, useInView } from "framer-motion";
 import styles from "./Past.module.css";
+import { useEffect, useState } from "react";
 const Past = () => {
+  const data = [
+    {
+      name: "Cisco ExpertSpeak Session",
+      description:
+        "Delved deep into industry insights with 6 hours of invaluable perspectives shared by Cisco oƯicials directly with our students.",
+      image: Event1,
+    },
+    {
+      name: "Cisco NetAcad Workshop",
+      description:
+        "Ignited curiosity among enthusiastic learners with a 3-hour exploration of Cisco Packet Tracer, unlocking the world of networking",
+      image: Event1,
+    },
+    {
+      name: "Ethical Hacking Training",
+      description:
+        "Empowered students with practical insights during a 20-hour deep dive into cybersecurity and ethical hacking techniques.",
+      image: Event1,
+    },
+    {
+      name: "Capture the Flag (CTF) Challenge",
+      description:
+        "Tested skills in a thrilling 12-hour overnight challenge, ending the event on an exhilarating note!",
+      image: Event1,
+    },
+  ];
+  const [current, setCurrent] = useState(0);
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrent((prev) => (prev + 1) % data.length);
+    }, 3000);
+    return () => clearInterval(interval);
+  }, [data]);
   return (
     <>
       <div className=" w-[100vw] min-h-screen m-1 mt-0 mb-0 bg-[#121E2C]">
@@ -26,22 +60,20 @@ const Past = () => {
           {/* for cards */}
           <div className="w-[100%] h-[75vh]  md:hidden  flex items-center justify-center ">
             <div className="w-[98%]  h-[98%] bg-[#09131D] rounded-lg shadow-xl m-2   flex flex-col items-center justify-center gap-2 ">
-              <div className=" w-[321px] rounded-bl-[14%] overflow-hidden  rounded-tr-[14%] h-[309.63px]  ">
+              <div className=" w-[321px] rounded-bl-[14%] overflow-hidden  rounded-tr-[14%] h-[300px]  ">
                 <Image
-                  src={Event1}
+                  src={data[current].image}
                   alt="event1"
                   className="w-full h-full object-cover object-center"
                 />
               </div>
               <div className="h-[167.2px] w-[321px]   flex flex-col items-start justify-center">
-                <div className="w-[125px]  h-[28px]  text-[#13FBD3] text-[24px] tracking-tighter flex items-center justify-start font-bold">
-                  Event Name
+                <div className="w-[325px]  h-[40px]  text-[#13FBD3]  text-[22px] tracking-tighter flex items-center justify-start font-bold">
+                  {data[current].name}
                 </div>
                 <p className="h-[80px] w-[321px] text-[13px] font-normal mt-3   text-left">
                   {" "}
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s,
+                  {data[current].description}
                 </p>
                 <div className="w-full h-[25%]  flex items-center justify-start">
                   <button class="relative w-[187px]  inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-[37px] group bg-gradient-to-br from-[#00B3FF] to-[#2CE1C0]  hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800">

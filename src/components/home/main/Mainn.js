@@ -3,9 +3,10 @@ import Header from "@/components/header/Header";
 import { Input } from "postcss";
 import { useState } from "react";
 import ReactPlayer from "react-player";
-import bg from "../../../assets/vii.mp4";
+// import bg from "../../../assets/vii.mp4";
 // import high from "./e.mp4";
 // import low from "./hehe.mp4";
+import final from "./final.mp4";
 
 const Main = () => {
   const [name, setname] = useState("");
@@ -30,11 +31,11 @@ const Main = () => {
       <div className="w-[100vw]  top-0  h-[40vh] md:min-h-screen ">
         <div className="w-full h-full fixed  top-0 left-0 -z-10">
           <video
-            src={bg}
+            src={final}
             autoPlay
             loop
             muted
-            className="w-[100%] h-[100%] object-cover object-center"
+            className="w-[100%]  h-[100%] object-cover  object-center "
           ></video>
           {/* <video
             autoPlay

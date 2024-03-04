@@ -8,7 +8,7 @@ import Image from "next/image";
 import who from "../../../assets/future.jpeg";
 import keda from "../../../assets/car.png";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const Testimonials = () => {
   const data = [
@@ -31,6 +31,13 @@ const Testimonials = () => {
       img: keda,
     },
   ];
+  const [currentIndex, setCurrentIndex] = useState(0);
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentIndex((prev) => (prev + 1) % data.length);
+    }, 3000);
+    return () => clearInterval(interval);
+  }, [data]);
   let [current, setCurrent] = useState(0);
 
   let previousSlide = () => {
@@ -55,31 +62,28 @@ const Testimonials = () => {
           Testimonials
         </motion.div>
         <div className="w-[85%] transition-all ease-in duration-300  h-[80%] md:hidden rounded-xl overflow-hidden m-1 flex flex-col items-center justify-center bg-[#121E2C] shadow-xl mb-3">
-          <div className="w-[100%] h-[70%]  flex justify-center items-center">
+          <div className="w-[100%] h-[60%]   flex justify-center items-center">
             <div className="w-[80%] relative h-[95%] overflow-hidden rounded-xl ">
-              <div className="w-[100%] p-2 flex flex-col  items-start justify-center h-[25%] bg-black bottom-0 absolute opacity-[0.4] ">
-                <div className="text-green-500 font-bold text-2xl mb-3 h-10 flex  items-center justify-start text-left pl-1 ">
-                  Name
+              <div className="w-[100%] p-2 flex flex-col  items-start justify-center h-[25%] bg-black bottom-0 absolute opacity-[0.6] ">
+                <div className="text-green-500 font-bold text-xl mb-3 h-10 flex  items-center justify-start text-left pl-1 ">
+                  {data[currentIndex].name}
                 </div>
                 <p className="text-white p-1 text-lg tracking-tight h-12 mb-10 leading-none text-left pb-4   flex items-center justify-start">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry.
+                  {data[currentIndex].caption}
                 </p>
               </div>
               <Image
-                src={me}
+                src={data[currentIndex].img}
                 alt="me"
                 className="w-[100%] h-[100%] object-cover object-center -z-10"
               />
             </div>
           </div>
-          <div className="w-[80%] relative h-[30%] rounded-xl flex items-center justify-center ">
+          <div className="w-[95%] relative h-[40%] rounded-xl flex items-center justify-center ">
             <ImQuotesLeft className="w-6 absolute top-1 left-2 h-6 text-green-200" />
             <div className="w-[80%] h-[80%] rounded-xl p-2  flex items-center tracking-tighter leading-none justify-center text-center">
               {" "}
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s,
+              {data[currentIndex].bio}
             </div>
             <ImQuotesRight className="w-6 h-6 absolute bottom-1 right-2 text-green-200" />
           </div>
