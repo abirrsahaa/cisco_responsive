@@ -3,6 +3,7 @@ import style from "./style.module.css";
 import cyber from "./CYBERPUNK.png";
 import logo from "./Logo.png";
 import Image from "next/image";
+import Typing from "../typing/Typing";
 const EventHero = () => {
   return (
     <>
@@ -24,7 +25,9 @@ const EventHero = () => {
             <div>
               <Image src={logo} alt="photo" className="h-[100%] w-[97%]" />
             </div>
-            <div>TYPING</div>
+            <div>
+              <Typing />
+            </div>
             <button className="mt-3 border-dashed bg-green-900 border-1 border-green-600">
               ERROR 404
             </button>

@@ -74,9 +74,9 @@ const Main = () => {
             torchbearers of tomorrow, we're not just another community; we're
             the architects of a tech revolution.{" "}
           </p>
-          <button class="btn transition-all  group relative w-[150px] mt-10 inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-[37px] group bg-gradient-to-br from-[#00B3FF] to-[#2CE1C0] hover:bg-blue-400 dark:text-white focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800">
-            <span className="absolute left-0 w-full h-full bg-blue-400 opacity-0 group-hover:opacity-100 duration-400 ease-in"></span>
-            <span class="relative z-10 w-[150px] px-5 py-2.5 transition-all ease-in duration-75 text-[12px] md:text-[20px] font-normal   bg-black hover:bg-blue-400  rounded-[37px] text-[#13FBD3] group-hover:text-black">
+          <button class=" transition-all  group relative w-[150px] mt-10 inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-[37px] group bg-gradient-to-br from-[#00B3FF] to-[#2CE1C0] hover:bg-blue-400 dark:text-white focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800">
+            <span className="absolute bottom-0 bg-blue-400 w-0 h-0  left-0 hover:w-full hover:h-full   group-hover:opacity-100 duration-400 ease-in"></span>
+            <span class="btn relative z-10 w-[150px] px-5 py-2.5 transition-all ease-in duration-75 text-[12px] md:text-[20px] font-normal   bg-black hover:bg-blue-400  rounded-[37px] text-[#13FBD3] group-hover:text-black">
               Sponsor Us
             </span>
           </button>

@@ -10,27 +10,32 @@ const Information = () => {
               </h1>
               <div className="  welcomeText text-[#12e2bf] text-xl ">
                 <p className="text-left">
-                  We welcome you all to the greatest workshop<br></br> in Lovely
-                  Professional University,<br></br> Cisco x LPlJiGen CyberSec
-                  Symposium 1.0 2Ø23.
+                  The Biggest Cybersecurity event of UNI is back! CyberSec
+                  Symposium 2.0 returns, promising to ignite minds and foster
+                  innovation. This symposium stands as a beacon of opportunity
+                  for students, professionals, and enthusiasts alike
                 </p>
               </div>
               <br></br>
+              <p className="text-left">
+                Featuring an impressive lineup of keynote speakers, panel
+                discussions, workshops, competitions, and networking sessions,
+                it covers ethical hacking, cybercrime, data privacy, metaverse
+                and more
+              </p>
+              <br></br>
               <div className="  text-white commonFontLight text-xl ">
                 <p>
-                  As Cisco is known for its expertise in networking<br></br> and
-                  security solutions, this event is primarily centered<br></br>{" "}
-                  around tutorials related to cybersecurity trends,<br></br>{" "}
-                  technologies, and best practices of it.
+                  With a commitment to empowerment, CyberSec Symposium 2.0
+                  serves as more than just a gathering—it's a platform for
+                  growth and collaboration. Whether you're a seasoned
+                  professional seeking to expand your knowledge or a curious
+                  student eager to explore the world of cybersecurity, this
+                  event oƯers something for everyone.
                   <br></br>
                   <br></br>
-                  This event focuses on instilling new skills in our<br></br>{" "}
-                  participants through a 14-day long bootcamp where<br></br>{" "}
-                  experts and professionals will guide them and help<br></br>{" "}
-                  them to explore the latest trends in cybersecurity.<br></br>{" "}
-                  Focusing on creativity, innovation, and collaboration,
-                  <br></br> this event is a boon for all the aspiring coders out
-                  there.
+                  Join us as we come together to learn, inspire, and forge new
+                  pathways in the ever-evolving realm of cybersecurity
                 </p>
               </div>
               <button class="relative w-[150px] mt-2 md:mt-5 inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-[37px] group bg-gradient-to-br from-[#00B3FF] to-[#2CE1C0]  hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800">
@@ -44,27 +49,33 @@ const Information = () => {
                 JOIN THE ASSEMBLY
               </h1>
               <div className="  welcomeText text-[#12e2bf] text-lg ">
-                <p className="text-left">
-                  We welcome you all to the greatest workshop in Lovely
-                  Professional University, Cisco x LPlJiGen CyberSec Symposium
-                  1.0 2Ø23.
+                <p className="text-left text-lg">
+                  The Biggest Cybersecurity event of UNI is back! CyberSec
+                  Symposium 2.0 returns, promising to ignite minds and foster
+                  innovation. This symposium stands as a beacon of opportunity
+                  for students, professionals, and enthusiasts alike
                 </p>
               </div>
               <br></br>
+              <p className="text-left text-lg">
+                Featuring an impressive lineup of keynote speakers, panel
+                discussions, workshops, competitions, and networking sessions,
+                it covers ethical hacking, cybercrime, data privacy, metaverse
+                and more
+              </p>
+              <br></br>
               <div className="  text-white commonFontLight text-lg ">
                 <p>
-                  As Cisco is known for its expertise in networking and security
-                  solutions, this event is primarily centered around tutorials
-                  related to cybersecurity trends technologies, and best
-                  practices of it.
+                  With a commitment to empowerment, CyberSec Symposium 2.0
+                  serves as more than just a gathering—it's a platform for
+                  growth and collaboration. Whether you're a seasoned
+                  professional seeking to expand your knowledge or a curious
+                  student eager to explore the world of cybersecurity, this
+                  event oƯers something for everyone.
                   <br></br>
                   <br></br>
-                  This event focuses on instilling new skills in our{" "}
-                  participants through a 14-day long bootcamp where experts and
-                  professionals will guide them and help them to explore the
-                  latest trends in cybersecurity. Focusing on creativity,
-                  innovation, and collaboration, this event is a boon for all
-                  the aspiring coders out there.
+                  Join us as we come together to learn, inspire, and forge new
+                  pathways in the ever-evolving realm of cybersecurity
                 </p>
               </div>
               <button class="relative w-[150px] mt-4 md:mt-5 inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-[37px] group bg-gradient-to-br from-[#00B3FF] to-[#2CE1C0]  hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800">
