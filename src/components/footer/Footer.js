@@ -10,8 +10,8 @@ import cisco from "../../assets/CiscoLogo101.png";
 const Footer = () => {
   return (
     <>
-      <div className="w-[100vw] h-[70vh] md:h-[50vh]  md:flex md:items-center md:gap-2 md:justify-center bg-[#09131D] ">
-        <div className="w-full h-[13%] mx-1  md:hidden block">
+      <div className="w-[100vw] h-[70vh] md:h-[50vh] md:flex md:items-center md:gap-2 md:pt-10 md:justify-center bg-[#09131D] ">
+        <div className="w-full h-[13%] mx-1 md:hidden block">
           <div className="w-[20%] h-[100%]">
             <Image
               src={cisco}
@@ -20,11 +20,11 @@ const Footer = () => {
             />
           </div>
         </div>
-        <div className="w-full h-[40%]  md:hidden block">
+        <div className="w-full h-[40%] md:hidden block">
           <div className="text-3xl font-bold mx-3 mb-2 text-[#13FBD3] flex items-center justify-start ">
             Quick Links
           </div>
-          <ul className="flex  gap-2 mx-2 pl-2 mt-2 tracking-tighter text-sm">
+          <ul className="flex gap-2 mx-2 pl-2 mt-2 tracking-tighter text-sm">
             <div className="flex flex-col gap-3 mx-3">
               <li>Home</li>
               <li>Events</li>
@@ -99,10 +99,10 @@ const Footer = () => {
         </div>
         <div className="hidden md:block h-[90%] w-[25%] ">
           {" "}
-          <div className="text-6xl font-bold mx-3 mb-2 text-[#13FBD3] ">
+          <div className="text-5xl font-bold mx-3 mb-16 text-[#13FBD3] ">
             Quick Links
           </div>
-          <ul className="flex  gap-3 mx-3 tracking-tighter text-xl mt-4">
+          <ul className="flex gap-16 mx-3 tracking-tighter text-xl mt-4">
             <div className="flex flex-col gap-3 mx-3">
               <li>Home</li>
               <li>Events</li>
@@ -117,7 +117,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className="h-[90%] w-[25%] hidden md:block ">
-          <div className="text-6xl font-bold mx-3 mb-2 text-[#13FBD3] ">
+          <div className="text-5xl font-bold mx-3 mb-14 text-[#13FBD3] ">
             Contact Us
           </div>
           <ul className="flex flex-col gap-3 mx-3 pl-5 mt-4 tracking-tighter text-xl items-start justify-center">

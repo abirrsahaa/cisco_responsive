@@ -118,11 +118,11 @@ const Testimonials = () => {
             </div>
           </div>
           <FaCircleArrowLeft
-            className="absolute w-10 h-10 bottom-2  text-black hover:cursor-pointer right-12 mr-10"
+            className="absolute w-10 h-10 bottom-4 hover:cursor-pointer hover:text-white text-[#13FBD3] right-12 mr-10"
             onClick={previousSlide}
           />
           <FaCircleArrowRight
-            className="absolute w-10 h-10 bottom-2 hover:cursor-pointer  text-black right-8"
+            className="absolute w-10 h-10 bottom-4 hover:cursor-pointer hover:text-white text-[#13FBD3] right-8"
             onClick={nextSlide}
           />
         </div>

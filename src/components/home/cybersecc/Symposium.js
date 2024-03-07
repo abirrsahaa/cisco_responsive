@@ -50,8 +50,8 @@ const Symposium = () => {
           >
             Upcoming Event
           </motion.div>
-          <div className="w-[100%] h-[25%] md:h-[40%]  flex items-center justify-center ">
-            <div className="w-[94%] md:w-[85%] h-[95%]  rounded-xl">
+          <div className="w-[100%] h-[25%] md:h-[36%] flex items-center justify-center ">
+            <div className="w-[94%] md:w-[85%] h-[95%] rounded-xl">
               <Link href="/cybersec">
                 <Image
                   src={symposium}
@@ -94,7 +94,7 @@ const Symposium = () => {
             </div>
             <div className="w-[100%]  h-[30%] md:h-[80%] md:w-[30%]  flex items-center justify-center">
               <button className="card-wrapper w-[30%] shadow-xl h-[80%] md:w-[50%] md:h-[40%] flex items-center justify-center text-center rounded-2xl p-2 text-sm text-blue-300 font-semibold ">
-                <div class="card-content flex items-center justify-center text-xs">
+                <div class="card-content flex items-center justify-center text-xl">
                   <span>
                     <Link href="https://cisco-payments.sabal.in">
                       Register Now
