@@ -1,5 +1,6 @@
 import style from "./style.module.css";
 // import background from "./Background.png";
+import symposium from "../../assets/symposium.png";
 import cyber from "./CYBERPUNK.png";
 import logo from "./Logo.png";
 import Image from "next/image";
@@ -23,7 +24,7 @@ const EventHero = () => {
               CISCO X LPU IGEN &apos; s
             </div>
             <div>
-              <Image src={logo} alt="photo" className="h-[100%] w-[97%]" />
+              <Image src={symposium} alt="photo" className="h-[100%] w-[97%]" />
             </div>
             <div>
               <Typing />

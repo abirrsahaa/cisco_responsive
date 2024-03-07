@@ -4,7 +4,9 @@ import Event1 from "../../../assets/asddad.png";
 import { motion, useInView } from "framer-motion";
 import styles from "./Past.module.css";
 import { useEffect, useState } from "react";
+import Events from "@/components/events/Events";
 const Past = () => {
+  const [clicked, setclicked] = useState(false);
   const data = [
     {
       name: "Cisco ExpertSpeak Session",
@@ -111,13 +113,17 @@ const Past = () => {
                 </p>
                 <div className="w-full h-[25%]  flex items-center justify-start">
                   <button class="relative w-[187px]  inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-[37px] group bg-gradient-to-br from-[#00B3FF] to-[#2CE1C0]  hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800">
-                    <span class="relative w-[187px] px-5 py-2.5 transition-all ease-in duration-75 text-[20px] font-normal bg-white dark:bg-gray-900 rounded-[37px] text-[#13FBD3]">
+                    <span
+                      onClick={() => setclicked(!clicked)}
+                      class="relative w-[187px] px-5 py-2.5 transition-all ease-in duration-75 text-[20px] font-normal bg-white dark:bg-gray-900 rounded-[37px] text-[#13FBD3]"
+                    >
                       View More
                     </span>
                   </button>
                 </div>
               </div>
             </div>
+            {/* {clicked && <Events clicked={clicked} setclicked={setclicked} />} */}
           </motion.div>
           <motion.div
             initial={{ opacity: 0 }}

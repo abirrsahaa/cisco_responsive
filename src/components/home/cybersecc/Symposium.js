@@ -92,9 +92,13 @@ const Symposium = () => {
                 </div>
               </div>
             </div>
-            <div className="w-[100%] h-[30%] md:h-[80%] md:w-[30%]  flex items-center justify-center">
-              <button className=" w-[30%] border-t-2 border-[#13FBD3] h-[80%] md:w-[50%] md:h-[40%] flex items-center justify-center text-center rounded-2xl p-2 text-sm text-blue-300 font-semibold ">
-                Register Now
+            <div className="w-[100%]  h-[30%] md:h-[80%] md:w-[30%]  flex items-center justify-center">
+              <button className="card-wrapper w-[30%] shadow-xl h-[80%] md:w-[50%] md:h-[40%] flex items-center justify-center text-center rounded-2xl p-2 text-sm text-blue-300 font-semibold ">
+                <div class="card-content flex items-center justify-center text-xs">
+                  <span>
+                    <Link href="http://localhost:5173">Register Now</Link>
+                  </span>
+                </div>
               </button>
             </div>
           </div>

@@ -1,7 +1,13 @@
+"use client";
+
 import Image from "next/image";
 import cisco from "../../assets/CiscoLogo101.png";
+import { useState } from "react";
+// import { slide as Menu } from "react-burger-menu";
+// import Sidebar from "../home/Sidebar/Sidebar";
 
 const Header = () => {
+  const [show, setshow] = useState(false);
   return (
     <>
       <div className="w-[100vw]    h-[8vh] px-2 z-10 flex items-center justify-between md:h-[15vh] ">
@@ -35,7 +41,36 @@ const Header = () => {
               Join Us
             </span>
           </button>
-          <div className="w-[35%] md:hidden block h-[90%] bg-pink-300"></div>
+          <div
+            onClick={() => setshow(!show)}
+            className="w-[35%]  p-1 md:hidden flex flex-col gap-1 justify-center items-center   h-[90%] "
+          >
+            <div className="h-[10%] w-[60%] bg-black"></div>
+            <div className="h-[10%] w-[60%] bg-black"></div>
+            <div className="h-[10%] w-[60%] bg-black"></div>
+            {show && (
+              <div className="bg-gray-900 p-4 md:hidden absolute flex items-center justify-center top-8 rounded-xl z-[10000] right-5 h-[300px] w-[200px]">
+                <div className="w-[80%] h-[80%]  flex flex-col justify-between rounded-lg">
+                  <div className="w-full h-[19%] shadow-xl rounded-lg text-white font-bold text-lg flex items-center justify-center">
+                    HOME
+                  </div>
+                  <div className="w-full h-[19%] shadow-xl  rounded-xl text-white font-bold text-lg flex items-center justify-center">
+                    ABOUT US
+                  </div>
+                  <div className="w-full h-[19%] shadow-xl rounded-xl text-white font-bold text-lg flex items-center justify-center">
+                    BLOGS
+                  </div>
+                  <div className="w-full h-[19%] shadow-xl  rounded-xl text-white font-bold text-lg flex items-center justify-center">
+                    EVENTS
+                  </div>
+                  <div className="w-full h-[19%] shadow-xl rounded-xl text-white font-bold text-lg flex items-center justify-center">
+                    RESOURCES
+                  </div>
+                </div>
+              </div>
+            )}
+            {/* <div className="w-[95vw] h-[90vh] absolute top-0  mx-auto bg-black opacity-50"></div> */}
+          </div>
         </div>
       </div>
     </>
