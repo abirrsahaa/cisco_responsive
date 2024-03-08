@@ -96,9 +96,7 @@ const Symposium = () => {
               <button className="card-wrapper w-[30%] shadow-xl h-[80%] md:w-[50%] md:h-[40%] flex items-center justify-center text-center rounded-2xl p-2 text-sm text-blue-300 font-semibold ">
                 <div class="card-content flex items-center justify-center text-xl">
                   <span>
-                    <Link href="https://cisco-payments.sabal.in">
-                      Register Now
-                    </Link>
+                    <Link href="/cybersec">Register Now</Link>
                   </span>
                 </div>
               </button>

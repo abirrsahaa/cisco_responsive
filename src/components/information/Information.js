@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Information = () => {
   return (
     <>
@@ -40,7 +42,9 @@ const Information = () => {
               </div>
               <button class="relative w-[150px] mt-2 md:mt-5 inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-[37px] group bg-gradient-to-br from-[#00B3FF] to-[#2CE1C0]  hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800">
                 <span class="relative w-[150px] px-5 py-2.5 transition-all tracking-tighter ease-in duration-75 text-[12px] md:text-[15px] font-normal bg-white dark:bg-gray-900 rounded-[37px] text-[#13FBD3] ">
-                  Book Tickets
+                  <Link href="https://cisco-payments.sabal.in">
+                    Book Tickets
+                  </Link>
                 </span>
               </button>
             </div>
