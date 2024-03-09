@@ -46,7 +46,7 @@ const Symposium = () => {
             initial={{ opacity: 0, x: -100 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.4 }}
-            className="font-bold md:text-[48px]  md:mt-5  text-[#13FBD3] text-2xl w-[100%] h-[20%] md:h-[54px] md:w[361px]  flex items-center justify-center  "
+            className="font-bold md:text-[48px] font-benderregular  md:mt-5  text-[#13FBD3] text-2xl w-[100%] h-[20%] md:h-[54px] md:w[361px]  flex items-center justify-center  "
           >
             Upcoming Event
           </motion.div>
@@ -63,7 +63,7 @@ const Symposium = () => {
           </div>
           <div className="w-[100%] h-[55%]  md:w-[85%] md:h-[30%] md:mt-2  flex flex-col md:flex md:flex-row gap-1 items-center p-1 justify-between md:justify-center md:items-start">
             <div className="w-[90%]  h-[55%]  md:w-[60%] md:h-[85%]  ">
-              <div className="w-[100%] h-[72%]  flex justify-between items-center transition-all ease-out duration-200 ">
+              <div className="w-[100%] font-benderregular h-[72%]  flex justify-between items-center transition-all ease-out duration-200 ">
                 <div className="w-[24%] text-white text-5xl border-2 border-solid border-[#13FBD3] md:text-8xl font-bold flex items-center justify-center h-[98%] rounded-xl  rounded-r-none">
                   {days}
                 </div>
@@ -77,7 +77,7 @@ const Symposium = () => {
                   {seconds}
                 </div>
               </div>
-              <div className="w-[100%] h-[28%]  flex justify-between items-center ">
+              <div className="w-[100%] h-[28%] font-benderregular  flex justify-between items-center ">
                 <div className="w-[24%] text-white font-semibold h-[98%] md:text-3xl text-xl flex justify-center items-center rounded-xl  rounded-r-none ">
                   Days
                 </div>
@@ -93,13 +93,16 @@ const Symposium = () => {
               </div>
             </div>
             <div className="w-[100%]  h-[30%] md:h-[80%] md:w-[30%]  flex items-center justify-center">
-              <button className="card-wrapper w-[30%] shadow-xl h-[80%] md:w-[50%] md:h-[40%] flex items-center justify-center text-center rounded-2xl p-2 text-sm text-blue-300 font-semibold ">
-                <div class="card-content flex items-center justify-center text-xl">
-                  <span>
-                    <Link href="/cybersec">Register Now</Link>
-                  </span>
-                </div>
-              </button>
+              <Link
+                href="/cybersec"
+                className="w-[45%] h-[80%] md:w-[50%] md:h-[40%]"
+              >
+                <button className="card-wrapper w-[100%] shadow-xl h-[100%]  flex items-center justify-center text-center rounded-2xl p-2 text-sm text-blue-300 font-semibold ">
+                  <div class="card-content flex items-center justify-center text-lg  md:text-xl">
+                    <span className="font-benderregular ">Register Now</span>
+                  </div>
+                </button>
+              </Link>
             </div>
           </div>
         </div>

@@ -40,13 +40,16 @@ const Information = () => {
                   pathways in the ever-evolving realm of cybersecurity
                 </p>
               </div>
-              <button class="relative w-[150px] mt-2 md:mt-5 inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-[37px] group bg-gradient-to-br from-[#00B3FF] to-[#2CE1C0]  hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800">
-                <span class="relative w-[150px] px-5 py-2.5 transition-all tracking-tighter ease-in duration-75 text-[12px] md:text-[15px] font-normal bg-white dark:bg-gray-900 rounded-[37px] text-[#13FBD3] ">
-                  <Link href="https://cisco-payments.sabal.in">
+              <Link
+                href="https://cisco-payments.sabal.in"
+                className="hover:cursor-pointer"
+              >
+                <button class="relative w-[150px]  mt-2 md:mt-5 inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-[37px] group bg-gradient-to-br from-[#00B3FF] to-[#2CE1C0]  hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800">
+                  <span class="relative w-[150px] hover:bg-blue-500   px-5 py-2.5 transition-all tracking-tighter ease-in duration-75 text-[12px] md:text-[15px] font-normal bg-white dark:bg-gray-900 rounded-[37px] text-[#13FBD3] ">
                     Book Tickets
-                  </Link>
-                </span>
-              </button>
+                  </span>
+                </button>
+              </Link>
             </div>
             <div className=" md:hidden block  text-left px-5 pt-0 pb-0 ">
               <h1 className="font-bold  text-6xl mt-0 pt-0 mb-10 h-[20%] flex justify-center items-center md:justify-start  text-[#12f8d0] ">
@@ -82,11 +85,11 @@ const Information = () => {
                   pathways in the ever-evolving realm of cybersecurity
                 </p>
               </div>
-              <button class="relative w-[150px] mt-4 md:mt-5 inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-[37px] group bg-gradient-to-br from-[#00B3FF] to-[#2CE1C0]  hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800">
-                <span class="relative w-[150px] px-5 py-2.5 transition-all tracking-tighter ease-in duration-75 text-[12px] md:text-[15px] font-normal bg-white dark:bg-gray-900 rounded-[37px] text-[#13FBD3] ">
+              <Link href="https://cisco-payments.sabal.in">
+                <button class="relative w-[150px] h-[50px] shadow-2xl mt-4 md:mt-5 inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-[37px] group bg-gradient-to-br from-[#00B3FF] to-[#2CE1C0]  hover:text-white dark:text-white focus:ring-4 focus:outline-none hover:bg-blue">
                   Book Tickets
-                </span>
-              </button>
+                </button>
+              </Link>
             </div>
           </div>
         </div>

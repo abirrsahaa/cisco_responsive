@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "light";
+  src: local("bender.light"),
+    url("../assets/fonts/bender.light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "regular";
+  src: local("bender.regular"),
+    url("../assets/fonts/bender.regular.otf") format("opentype");
+}
+
 @layer utilities {
   /* Act as a border */
   .card-wrapper {

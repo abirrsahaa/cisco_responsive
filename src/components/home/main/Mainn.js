@@ -57,10 +57,10 @@ const Main = () => {
         </div>
         {/* <Header /> */}
         <div className="w-[100%]  h-[100%] flex flex-col items-center justify-center gap-4 mb-5">
-          <div className="w-[256px] h-[71px] md:w-[554px] text-white md:h-[141px] md:text-[70px] text-[32px] font-bold leading-none text-center">
+          <div className="w-[256px] h-[71px] md:w-[554px] text-white md:h-[141px] font-benderregular md:text-[70px] text-[32px] font-bold leading-none text-center">
             Welcome to <span className="text-[#13FBD3]">Cisco x LPU iGen</span>
           </div>
-          <p className="w-[303px] hidden md:block md:w-[699px] md:mb-10 md:h-[50px] h-[54px] text-center text-[14px] md:text-[16px] font-normal">
+          <p className="w-[303px] hidden md:block md:w-[699px] md:mb-10 md:h-[50px] font-benderlight h-[54px] text-center text-[14px] md:text-[16px] font-normal">
             Step into the vibrant realm of Cisco x LPU iGen Community, where
             enthusiasm ignites purpose and creativity thrives. Led by the
             torchbearers of tomorrow, we're not just another community; we're
@@ -83,8 +83,8 @@ const Main = () => {
           </button> */}
           <button className="relative w-[150px] mt-10 inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-[37px] bg-gradient-to-br from-[#00B3FF] to-[#2CE1C0] hover:bg-blue-400 dark:text-white focus:ring-4 focus:outline-none group">
             <span className="absolute bottom-0 bg-blue-400 w-0 h-0 left-0 group-hover:w-full group-hover:h-full duration-400 ease-in"></span>
-            <span className="relative z-10 w-[150px] px-5 py-2.5 transition-all ease-in duration-75 text-[12px] md:text-[20px] font-semibold bg-black hover:bg-[#13FBD3] rounded-[37px] text-[#13FBD3] group-hover:text-black">
-                Sponsor Us
+            <span className="relative z-10 w-[150px] font-benderlight px-5 py-2.5 transition-all ease-in duration-75 text-[12px] md:text-[20px] font-semibold bg-black hover:bg-[#13FBD3] rounded-[37px] text-[#13FBD3] group-hover:text-black">
+              Sponsor Us
             </span>
           </button>
         </div>
