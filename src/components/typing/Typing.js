@@ -20,10 +20,8 @@ const Typing = () => {
       speed={50}
       style={{
         fontSize: "2em",
-        display: "inline-block",
-        fontFamily: "bender-light",
       }}
-      className="text-[#13FBD3] font-bold text-2xl md:text-5xl p-2"
+      className="text-[#13FBD3] font-benderregular font-bold text-sm  tracking-tight md:text-5xl p-2"
       repeat={Infinity}
     />
   );

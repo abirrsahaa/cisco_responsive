@@ -41,9 +41,9 @@ const Header = () => {
               BLOGS
             </div>
           </Link>
-          <Link href="/Resources" className="w-[23%] ">
+          <Link href="https://cisco-payments.sabal.in" className="w-[23%] ">
             <div className="w-[100%] hover:border-b-2 hover:cursor-pointer hover:border-b-green-500 transition ease-in duration-100 flex justify-center items-center font-bold text-xl text-white h-[100%] rounded-b-none    rounded-2xl ">
-              RESOURCES
+              REGISTER
             </div>
           </Link>
         </div>
@@ -63,21 +63,35 @@ const Header = () => {
             {show && (
               <div className="bg-gray-900 p-4 md:hidden absolute flex items-center justify-center top-8 rounded-xl z-[10000] right-5 h-[300px] w-[200px]">
                 <div className="w-[80%] h-[80%]  flex flex-col justify-between rounded-lg">
-                  <div className="w-full h-[19%] shadow-xl rounded-lg text-white font-bold text-lg flex items-center justify-center">
-                    HOME
-                  </div>
-                  <div className="w-full h-[19%] shadow-xl  rounded-xl text-white font-bold text-lg flex items-center justify-center">
-                    ABOUT US
-                  </div>
-                  <div className="w-full h-[19%] shadow-xl rounded-xl text-white font-bold text-lg flex items-center justify-center">
-                    BLOGS
-                  </div>
-                  <div className="w-full h-[19%] shadow-xl  rounded-xl text-white font-bold text-lg flex items-center justify-center">
-                    EVENTS
-                  </div>
-                  <div className="w-full h-[19%] shadow-xl rounded-xl text-white font-bold text-lg flex items-center justify-center">
-                    RESOURCES
-                  </div>
+                  <Link href="/" className="w-[23%] ">
+                    {" "}
+                    <div className="w-[100%] hover:border-b-2 hover:cursor-pointer hover:border-b-green-500 transition ease-in duration-100 flex text-white justify-center items-center font-bold text-xl  h-[100%] rounded-b-none    rounded-2xl ">
+                      HOME
+                    </div>
+                  </Link>
+                  <Link href="/About" className="w-[23%] ">
+                    <div className="w-[100%] hover:border-b-2 hover:cursor-pointer hover:border-b-green-500 transition ease-in duration-100 flex justify-center items-center font-bold text-xl text-white h-[100%]   rounded-b-none  rounded-2xl ">
+                      ABOUT US
+                    </div>
+                  </Link>
+                  <Link href="/cybersec" className="w-[23%] ">
+                    <div className="w-[100%] hover:border-b-2 hover:cursor-pointer hover:border-b-green-500 transition ease-in duration-100 flex justify-center items-center font-bold text-xl text-white h-[100%] rounded-b-none    rounded-2xl ">
+                      EVENTS
+                    </div>
+                  </Link>
+                  <Link href="/Blogs" className="w-[23%] ">
+                    <div className="w-[100%] hover:border-b-2 hover:cursor-pointer hover:border-b-green-500 transition ease-in duration-100 flex justify-center items-center font-bold text-xl text-white h-[100%] rounded-b-none    rounded-2xl ">
+                      BLOGS
+                    </div>
+                  </Link>
+                  <Link
+                    href="https://cisco-payments.sabal.in"
+                    className="w-[23%] "
+                  >
+                    <div className="w-[100%] hover:border-b-2 hover:cursor-pointer hover:border-b-green-500 transition ease-in duration-100 flex justify-center items-center font-bold text-xl text-white h-[100%] rounded-b-none    rounded-2xl ">
+                      REGISTER
+                    </div>
+                  </Link>
                 </div>
               </div>
             )}

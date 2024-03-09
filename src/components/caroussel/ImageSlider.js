@@ -65,7 +65,7 @@ const ImageSlider = () => {
         initial={{ opacity: 0, x: -100 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.4 }}
-        className="w-full mx-auto text-[#13FBD3] font-bold  flex justify-center items-center text-6xl mb-8 md:mb-1  commonFontLight m-5"
+        className="w-full font-benderregular mx-auto text-[#13FBD3] font-bold  flex justify-center items-center text-6xl mb-8 md:mb-1  commonFontLight m-5"
       >
         EVENTS
       </motion.h1>
@@ -128,13 +128,13 @@ const ImageSlider = () => {
         ))}
         <div className="flex flex-row gap-3 -mb-12 mt-5">
           <button
-            className="mt-[400px] text-[#13FBD3] border-2 border-solid border-[#13FBD3] rounded-md py-2 px-4"
+            className="mt-[400px] font-benderregular text-[#13FBD3] border-2 border-solid border-[#13FBD3] rounded-md py-2 px-4"
             onClick={handleBack}
           >
             Back
           </button>
           <button
-            className=" mt-[400px] border-2 border-solid border-[#13FBD3]  text-[#13FBD3] rounded-md py-2 px-4"
+            className=" mt-[400px] font-benderregular border-2 border-solid border-[#13FBD3]  text-[#13FBD3] rounded-md py-2 px-4"
             onClick={handleNext}
           >
             Next

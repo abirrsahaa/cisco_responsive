@@ -47,30 +47,30 @@ const Countdown = () => {
               initial={{ opacity: 0, x: -100 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.4 }}
-              className="w-[100%] text-[#13FBD3] h-[40%] flex justify-center font-bold items-center text-2xl md:text-5xl p-2"
+              className="w-[100%] font-benderregular text-[#13FBD3] h-[40%] flex justify-center font-bold items-center text-2xl md:text-5xl p-2"
             >
               COUNTDOWN TO D-DAY
             </motion.div>
             <div className="w-[100%] md:w-[85%] flex justify-between items-center  h-[60%]  p-1">
-              <div className="bg-gray-800 p-4 rounded-lg w-[24%] h-[95%] gap-1 md:gap-2 flex flex-col justify-center items-center">
+              <div className="bg-gray-800 font-benderregular p-4 rounded-lg w-[24%] h-[95%] gap-1 md:gap-2 flex flex-col justify-center items-center">
                 <div className="text-4xl md:text-7xl font-semibold  ">
                   {days}
                 </div>
                 <div className="text-gray-400 text-sm md:text-3xl">DAYS</div>
               </div>
-              <div className="bg-gray-800 p-4 rounded-lg w-[24%] h-[95%] gap-1 md:gap-2 flex flex-col justify-center items-center">
+              <div className="bg-gray-800 font-benderregular p-4 rounded-lg w-[24%] h-[95%] gap-1 md:gap-2 flex flex-col justify-center items-center">
                 <div className="text-4xl md:text-7xl font-semibold  ">
                   {hours}
                 </div>
                 <div className="text-gray-400 text-sm md:text-3xl">HOURS</div>
               </div>
-              <div className="bg-gray-800 p-4 rounded-lg w-[24%] h-[95%] gap-1 md:gap-2 flex flex-col justify-center items-center">
+              <div className="bg-gray-800 font-benderregular p-4 rounded-lg w-[24%] h-[95%] gap-1 md:gap-2 flex flex-col justify-center items-center">
                 <div className="text-4xl md:text-7xl font-semibold  ">
                   {minutes}
                 </div>
                 <div className="text-gray-400 text-sm md:text-3xl">MINUTES</div>
               </div>
-              <div className="bg-gray-800 p-4 rounded-lg w-[24%] h-[95%] gap-1 md:gap-2 flex flex-col justify-center items-center">
+              <div className="bg-gray-800 font-benderregular p-4 rounded-lg w-[24%] h-[95%] gap-1 md:gap-2 flex flex-col justify-center items-center">
                 <div className="text-4xl md:text-7xl font-semibold  ">
                   {seconds}
                 </div>

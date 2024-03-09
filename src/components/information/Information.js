@@ -7,11 +7,11 @@ const Information = () => {
         <div className="  h-[100%] w-[100%] md:w-[50%]   m-1 ">
           <div className="   h-[100%] w-[100%] ">
             <div className=" hidden md:block  text-left px-5 pt-0 pb-0 ">
-              <h1 className="font-bold  text-8xl mt-0 pt-0 mb-10 h-[20%] flex justify-start items-center  text-[#12f8d0] ">
+              <h1 className="font-bold font-benderregular  text-8xl mt-0 pt-0 mb-10 h-[20%] flex justify-start items-center  text-[#12f8d0] ">
                 JOIN THE <br></br>ASSEMBLY
               </h1>
               <div className="  welcomeText text-[#12e2bf] text-xl ">
-                <p className="text-left">
+                <p className="text-left font-benderregular">
                   The Biggest Cybersecurity event of UNI is back! CyberSec
                   Symposium 2.0 returns, promising to ignite minds and foster
                   innovation. This symposium stands as a beacon of opportunity
@@ -19,14 +19,14 @@ const Information = () => {
                 </p>
               </div>
               <br></br>
-              <p className="text-left">
+              <p className="text-left font-benderregular">
                 Featuring an impressive lineup of keynote speakers, panel
                 discussions, workshops, competitions, and networking sessions,
                 it covers ethical hacking, cybercrime, data privacy, metaverse
                 and more
               </p>
               <br></br>
-              <div className="  text-white commonFontLight text-xl ">
+              <div className=" font-benderregular  text-white commonFontLight text-xl ">
                 <p>
                   With a commitment to empowerment, CyberSec Symposium 2.0
                   serves as more than just a gathering—it's a platform for
@@ -45,18 +45,18 @@ const Information = () => {
                 className="hover:cursor-pointer"
               >
                 <button class="relative w-[150px]  mt-2 md:mt-5 inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-[37px] group bg-gradient-to-br from-[#00B3FF] to-[#2CE1C0]  hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800">
-                  <span class="relative w-[150px] hover:bg-blue-500   px-5 py-2.5 transition-all tracking-tighter ease-in duration-75 text-[12px] md:text-[15px] font-normal bg-white dark:bg-gray-900 rounded-[37px] text-[#13FBD3] ">
+                  <span class="relative font-benderregular w-[150px] hover:bg-blue-500   px-5 py-2.5 transition-all tracking-tighter ease-in duration-75 text-[12px] md:text-[15px] font-normal bg-white dark:bg-gray-900 rounded-[37px] text-[#13FBD3] ">
                     Book Tickets
                   </span>
                 </button>
               </Link>
             </div>
             <div className=" md:hidden block  text-left px-5 pt-0 pb-0 ">
-              <h1 className="font-bold  text-6xl mt-0 pt-0 mb-10 h-[20%] flex justify-center items-center md:justify-start  text-[#12f8d0] ">
+              <h1 className="font-bold font-benderregular  text-6xl mt-0 pt-0 mb-10 h-[20%] flex justify-center items-center md:justify-start  text-[#12f8d0] ">
                 JOIN THE ASSEMBLY
               </h1>
               <div className="  welcomeText text-[#12e2bf] text-lg ">
-                <p className="text-left text-lg">
+                <p className="text-left font-benderregular text-lg">
                   The Biggest Cybersecurity event of UNI is back! CyberSec
                   Symposium 2.0 returns, promising to ignite minds and foster
                   innovation. This symposium stands as a beacon of opportunity
@@ -64,14 +64,14 @@ const Information = () => {
                 </p>
               </div>
               <br></br>
-              <p className="text-left text-lg">
+              <p className="text-left font-benderregular text-lg">
                 Featuring an impressive lineup of keynote speakers, panel
                 discussions, workshops, competitions, and networking sessions,
                 it covers ethical hacking, cybercrime, data privacy, metaverse
                 and more
               </p>
               <br></br>
-              <div className="  text-white commonFontLight text-lg ">
+              <div className="  text-white font-benderregular commonFontLight text-lg ">
                 <p>
                   With a commitment to empowerment, CyberSec Symposium 2.0
                   serves as more than just a gathering—it's a platform for
@@ -86,7 +86,7 @@ const Information = () => {
                 </p>
               </div>
               <Link href="https://cisco-payments.sabal.in">
-                <button class="relative w-[150px] h-[50px] shadow-2xl mt-4 md:mt-5 inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-[37px] group bg-gradient-to-br from-[#00B3FF] to-[#2CE1C0]  hover:text-white dark:text-white focus:ring-4 focus:outline-none hover:bg-blue">
+                <button class="relative font-benderregular w-[150px] h-[50px] shadow-2xl mt-4 md:mt-5 inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-[37px] group bg-gradient-to-br from-[#00B3FF] to-[#2CE1C0]  hover:text-white dark:text-white focus:ring-4 focus:outline-none hover:bg-blue">
                   Book Tickets
                 </button>
               </Link>
@@ -97,7 +97,7 @@ const Information = () => {
         {/* right */}
         <div className="flex flex-col items-start  m-1 mx-0  h-full w-[100%] md:w-[50%]">
           {/* top */}
-          <div className=" h-[50%] gap-2  flex-col md:flex-row md:flex justify-center items-start commonFontLight p-10 pt-0">
+          <div className=" font-benderregular h-[50%] gap-2  flex-col md:flex-row md:flex justify-center items-start commonFontLight p-10 pt-0">
             {/* right */}
             <div className=" p-1">
               <h3 className="text-[#13d1b2] text-4xl md:text-7xl font-bold">
@@ -108,7 +108,7 @@ const Information = () => {
               </h1>
             </div>
             {/*left  */}
-            <div className="  mt-4 mr-2  bottom-10 flex flex-col justify-start ">
+            <div className="  mt-0 ml-3  bottom-10 flex flex-col justify-start ">
               <h3 className="text-[#13d1b2] text-4xl md:text-7xl font-bold">
                 Location
               </h3>

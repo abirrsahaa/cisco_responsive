@@ -19,17 +19,17 @@ const EventHero = () => {
             style["main"]
           }
         >
-          <div className=" flex flex-col items-center  justify-center gap-2   h-[100%] w-[100%] md:w-[66%] md:h-[100%] md:px-8 md:items-end md:ml-5">
-            <div className="md:text-5xl tracking-tight text-[#13FBD3] font-bold">
+          <div className=" flex flex-col items-center   justify-center gap-4 md:gap-3   h-[100%] w-[100%] md:w-[66%] md:h-[100%] md:px-8 md:items-end md:ml-5">
+            <div className="md:text-7xl text-4xl font-benderregular  text-[#13FBD3] font-bold">
               CISCO X LPU IGEN &apos; s
             </div>
-            <div>
+            <div className="w-[380px] md:w-[700px]">
               <Image src={symposium} alt="photo" className="h-[100%] w-[97%]" />
             </div>
-            <div>
+            <div className="w-[380px] md:w-[700px] flex items-center justify-center">
               <Typing />
             </div>
-            <button className="mt-3 border-dashed bg-green-900 border-1 border-green-600">
+            <button className="mt-3 border-dashed h-[50px] font-benderregular   border-2 p-3 border-green-600">
               ERROR 404
             </button>
           </div>
