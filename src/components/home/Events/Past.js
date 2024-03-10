@@ -19,25 +19,25 @@ const Past = () => {
       name: "Cisco ExpertSpeak Session",
       description:
         "Delved deep into industry insights with 6 hours of invaluable perspectives shared by Cisco oƯicials directly with our students.",
-      image: Event1,
+      image: event1,
     },
     {
       name: "Cisco NetAcad Workshop",
       description:
         "Ignited curiosity among enthusiastic learners with a 3-hour exploration of Cisco Packet Tracer, unlocking the world of networking",
-      image: Event1,
+      image: event2,
     },
     {
       name: "Ethical Hacking Training",
       description:
         "Empowered students with practical insights during a 20-hour deep dive into cybersecurity and ethical hacking techniques.",
-      image: Event1,
+      image: event3,
     },
     {
       name: "Capture the Flag (CTF) Challenge",
       description:
         "Tested skills in a thrilling 12-hour overnight challenge, ending the event on an exhilarating note!",
-      image: Event1,
+      image: event4,
     },
   ];
   const [current, setCurrent] = useState(0);

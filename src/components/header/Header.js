@@ -9,7 +9,7 @@ import Link from "next/link";
 
 const Header = () => {
   const [show, setshow] = useState(false);
- 
+
   return (
     <>
       <div className="w-[100vw] h-[8vh] px-5 z-1 flex items-center justify-between md:h-[15vh] ">
@@ -49,11 +49,13 @@ const Header = () => {
           </Link>
         </div>
         <div className="w-[45%] md:w-[10%] h-[80%] flex items-center justify-end md:justify-center  rounded-lg">
-          {/* <button class="relative w-[150px] mt-2 md:mt-0 inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-[37px] group bg-gradient-to-br from-[#00B3FF] to-[#2CE1C0]  hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800">
-            <span class="relative w-[150px] px-5 py-2.5 transition-all ease-in duration-75 text-[12px] md:text-[20px] font-semibold bg-white dark:bg-gray-900 rounded-[37px] text-[#13FBD3] hover:bg-[#13FBD3] hover:text-black">
-              Join Us
-            </span>
-          </button> */}
+          <Link href="https://discord.com/invite/BCuFMDzr">
+            <button class="relative w-[150px] mt-2 hidden md:mt-0 md:flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-[37px] group bg-gradient-to-br from-[#00B3FF] to-[#2CE1C0]  hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800">
+              <span class="relative w-[150px] px-5 py-2.5 transition-all ease-in duration-75 text-[12px] md:text-[20px] font-semibold bg-white dark:bg-gray-900 rounded-[37px] text-[#13FBD3] hover:bg-[#13FBD3] hover:text-black">
+                Join Us
+              </span>
+            </button>
+          </Link>
           <div
             onClick={() => setshow(!show)}
             className="w-[35%]  p-1 md:hidden flex flex-col gap-1 justify-center items-center   h-[90%] "
@@ -62,34 +64,45 @@ const Header = () => {
             <div className="h-[10%] w-[60%] bg-black"></div>
             <div className="h-[10%] w-[60%] bg-black"></div>
             {show && (
-              <div className="bg-gray-900 p-4 md:hidden absolute flex items-center justify-center top-8 rounded-xl z-[10000] right-5 h-[300px] w-[200px]">
-                <div className="w-[80%] h-[80%]  flex flex-col justify-between rounded-lg">
-                  <Link href="/" className="w-[23%] ">
-                    {" "}
-                    <div className="w-[100%] hover:border-b-2 hover:cursor-pointer hover:border-b-green-500 transition ease-in duration-100 flex text-white justify-center items-center font-bold text-xl  h-[100%] rounded-b-none    rounded-2xl ">
+              <div className="bg-gray-900 opacity-85 p-4 md:hidden absolute flex items-center justify-center top-8 rounded-xl z-[10000] right-5 h-[300px] w-[200px]">
+                <div className="w-[80%] h-[80%]  flex flex-col  justify-between rounded-lg">
+                  <Link
+                    href="https://ciscoxlpuigen.co.in/"
+                    className="w-[100%]"
+                  >
+                    <div className="w-[100%] font-benderregular hover:border-b-2 hover:cursor-pointer hover:border-b-green-500 transition ease-in duration-100 flex text-white justify-center items-center font-bold text-xl  h-[100%] rounded-b-none    rounded-2xl ">
                       HOME
                     </div>
                   </Link>
-                  <Link href="/About" className="w-[23%] ">
-                    <div className="w-[100%] hover:border-b-2 hover:cursor-pointer hover:border-b-green-500 transition ease-in duration-100 flex justify-center items-center font-bold text-xl text-white h-[100%]   rounded-b-none  rounded-2xl ">
+                  <Link
+                    href="https://ciscoxlpuigen.netlify.app/About"
+                    className="w-[100%] "
+                  >
+                    <div className="w-[100%] font-benderregular hover:border-b-2 hover:cursor-pointer hover:border-b-green-500 transition ease-in duration-100 flex justify-center items-center font-bold text-xl text-white h-[100%]   rounded-b-none  rounded-2xl ">
                       ABOUT US
                     </div>
                   </Link>
-                  <Link href="/cybersec" className="w-[23%] ">
-                    <div className="w-[100%] hover:border-b-2 hover:cursor-pointer hover:border-b-green-500 transition ease-in duration-100 flex justify-center items-center font-bold text-xl text-white h-[100%] rounded-b-none    rounded-2xl ">
-                      EVENTS
-                    </div>
-                  </Link>
-                  <Link href="/Blogs" className="w-[23%] ">
-                    <div className="w-[100%] hover:border-b-2 hover:cursor-pointer hover:border-b-green-500 transition ease-in duration-100 flex justify-center items-center font-bold text-xl text-white h-[100%] rounded-b-none    rounded-2xl ">
+                  <Link
+                    href="https://ciscoxlpuigen.netlify.app/Blogs"
+                    className="w-[100%]"
+                  >
+                    <div className="w-[100%] font-benderregular hover:border-b-2 hover:cursor-pointer hover:border-b-green-500 transition ease-in duration-100 flex justify-center items-center font-bold text-xl text-white h-[100%]  rounded-b-none   rounded-2xl ">
                       BLOGS
                     </div>
                   </Link>
                   <Link
-                    href="https://cisco-payments.sabal.in"
-                    className="w-[23%] "
+                    href="https://ciscoxlpuigen.netlify.app/cybersec"
+                    className="w-[100%]"
                   >
-                    <div className="w-[100%] hover:border-b-2 hover:cursor-pointer hover:border-b-green-500 transition ease-in duration-100 flex justify-center items-center font-bold text-xl text-white h-[100%] rounded-b-none    rounded-2xl ">
+                    <div className="w-[100%] font-benderregular  hover:border-b-2 hover:cursor-pointer hover:border-b-green-500 transition ease-in duration-100 flex justify-center items-center font-bold text-xl text-white h-[100%] rounded-b-none   rounded-2xl ">
+                      EVENTS
+                    </div>
+                  </Link>
+                  <Link
+                    href="https://cisco-payments.sabal.in/"
+                    className="w-[100%]"
+                  >
+                    <div className="w-[100%] font-benderregular hover:border-b-2 hover:cursor-pointer hover:border-b-green-500 transition ease-in duration-100 flex justify-center items-center font-bold text-xl text-white h-[100%] rounded-b-none    rounded-2xl ">
                       REGISTER
                     </div>
                   </Link>
