@@ -12,6 +12,12 @@ import {
   BsFillArrowLeftCircleFill,
 } from "react-icons/bs";
 
+import ctf from "../../assets/DSC_0139.JPG";
+import group from "../../assets/DSC_0584.JPG";
+import group1 from "../../assets/IMG_0346.JPG";
+import poster from "../../assets/Untitled design (9).png";
+import last from "../../assets/IMG_0369.JPG";
+
 const ImageSlider = () => {
   const ref = useRef(null);
   // const IsinView = useInView(ref, { amount: 0.5, once: true });
@@ -48,7 +54,7 @@ const ImageSlider = () => {
     });
   };
 
-  const images = [car, coverPage, girlUmbrella, future, darkWorld];
+  const images = [ctf, group, group1, poster, last];
 
   const positions = ["center", "left1", "left", "right", "right1"];
 
@@ -111,13 +117,13 @@ const ImageSlider = () => {
           })}
         </div>
       </div>
-      <motion.div className="hidden md:flex items-center  flex-col justify-start pt-10 h-[70vh]">
+      <motion.div className="hidden md:flex items-center  flex-col justify-start pt-10 h-[80vh]">
         {images.map((image, index) => (
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             key={index}
-            className="rounded-xl overflow-hidden"
+            className="rounded-xl overflow-hidden h-[50%]"
             animate={positions[positionIndexes[index]]}
             variants={imageVariants}
             transition={{ duration: 0.8 }}
@@ -126,7 +132,7 @@ const ImageSlider = () => {
             <Image src={image} alt="photos" />
           </motion.div>
         ))}
-        <div className="flex flex-row gap-3 -mb-12 mt-5">
+        <div className="flex flex-row gap-3  mt-12">
           <button
             className="mt-[400px] font-benderregular text-[#13FBD3] border-2 border-solid border-[#13FBD3] rounded-md py-2 px-4"
             onClick={handleBack}

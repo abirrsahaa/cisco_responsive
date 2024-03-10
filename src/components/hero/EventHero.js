@@ -6,6 +6,7 @@ import logo from "./Logo.png";
 import Image from "next/image";
 import Typing from "../typing/Typing";
 const EventHero = () => {
+ 
   return (
     <>
       <main

@@ -5,6 +5,12 @@ import { motion, useInView } from "framer-motion";
 import styles from "./Past.module.css";
 import { useEffect, useState } from "react";
 import Events from "@/components/events/Events";
+
+import event1 from "../../../assets/DSC_0137.JPG";
+import event2 from "../../../assets/DSC_0139.JPG";
+import event3 from "../../../assets/IMG_0346.JPG";
+import event4 from "../../../assets/IMG_0369.JPG";
+
 import Link from "next/link";
 const Past = () => {
   const [clicked, setclicked] = useState(false);
@@ -102,7 +108,7 @@ const Past = () => {
             <div className="w-[85%] cursor-pointer group-hover:brightness-100 rounded-3xl bg-[#09131D] h-[45vh] flex items-center justify-center gap-3">
               <div className=" w-[25%] h-[90%] scale-[0.8] transition-transform duration-500 group-hover:scale-[0.9]">
                 <Image
-                  src={Event1}
+                  src={event1}
                   alt="event1"
                   className="w-full h-full object-cover object-center rounded-[45px]"
                 />
@@ -165,7 +171,7 @@ const Past = () => {
               </div>
               <div className="w-[25%] h-[90%] scale-[0.8] transition-transform duration-500 group-hover:scale-[0.9]">
                 <Image
-                  src={Event1}
+                  src={event4}
                   alt="event1"
                   className="w-full h-full object-cover object-center rounded-[45px]"
                 />
@@ -181,7 +187,7 @@ const Past = () => {
             <div className="w-[85%] cursor-pointer bg-[#09131D]  group-hover:brightness-100 rounded-3xl h-[45vh] flex items-center justify-center gap-3 ">
               <div className=" w-[25%] h-[90%] scale-[0.8] transition-transform duration-500 group-hover:scale-[0.9]">
                 <Image
-                  src={Event1}
+                  src={event3}
                   alt="event1"
                   className="w-full h-full object-cover object-center rounded-[45px]"
                 />
@@ -241,7 +247,7 @@ const Past = () => {
               </div>
               <div className=" w-[25%] h-[90%] scale-[0.8] transition-transform duration-500 group-hover:scale-[0.9]">
                 <Image
-                  src={Event1}
+                  src={event2}
                   alt="event1"
                   className="w-full h-full object-cover object-center rounded-[45px]"
                 />

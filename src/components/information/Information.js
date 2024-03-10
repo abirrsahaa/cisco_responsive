@@ -104,7 +104,7 @@ const Information = () => {
                 Date
               </h3>
               <h1 className="text-3xl md:text-5xl text-[#13d1b2] mt-2">
-                OCT 30 - <br></br>NOV 25
+                APR<br></br> 1 - 3
               </h1>
             </div>
             {/*left  */}

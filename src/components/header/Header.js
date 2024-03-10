@@ -9,9 +9,10 @@ import Link from "next/link";
 
 const Header = () => {
   const [show, setshow] = useState(false);
+ 
   return (
     <>
-      <div className="w-[100vw] h-[8vh] px-5 z-10 flex items-center justify-between md:h-[15vh] ">
+      <div className="w-[100vw] h-[8vh] px-5 z-1 flex items-center justify-between md:h-[15vh] ">
         <div className="w-[20%] md:w-[10%] overflow-hidden h-[80%] flex items-center justify-center ml-3  rounded-lg">
           <Image
             src={cisco}
