@@ -4,6 +4,7 @@ import Image from "next/image";
 import cisco from "../../assets/CiscoLogo101.png";
 import { useState } from "react";
 import Link from "next/link";
+import lpu from "../../assets/LPU-logo-white.png";
 // import { slide as Menu } from "react-burger-menu";
 // import Sidebar from "../home/Sidebar/Sidebar";
 
@@ -48,14 +49,19 @@ const Header = () => {
             </div>
           </Link>
         </div>
-        <div className="w-[45%] md:w-[10%] h-[80%] flex items-center justify-end md:justify-center  rounded-lg">
-          <Link href="https://discord.com/invite/AkANatMu">
+        <div className="w-[45%] md:w-[15%]  h-[82%] flex items-center justify-end md:justify-center  rounded-lg">
+          {/* <Link href="https://discord.com/invite/AkANatMu">
             <button class="relative w-[150px] mt-2 hidden md:mt-0 md:flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-[37px] group bg-gradient-to-br from-[#00B3FF] to-[#2CE1C0]  hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800">
               <span class="relative font-benderregular w-[150px] px-5 py-2.5 transition-all ease-in duration-75 text-[12px] md:text-[20px] font-semibold bg-white dark:bg-gray-900 rounded-[37px] text-[#13FBD3] hover:bg-[#13FBD3] hover:text-black">
                 Join Us
               </span>
             </button>
-          </Link>
+          </Link> */}
+          <Image
+            src={lpu}
+            alt="lpu"
+            className="w-full h-full object-cover object-center"
+          />
           <div
             onClick={() => setshow(!show)}
             className="w-[35%]  p-1 md:hidden flex flex-col gap-1 justify-center items-center   h-[90%] "

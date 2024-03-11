@@ -40,12 +40,9 @@ const Information = () => {
                   pathways in the ever-evolving realm of cybersecurity.
                 </p>
               </div>
-              <Link
-                href="https://cisco-payments.sabal.in"
-                className="hover:cursor-pointer"
-              >
-                <button class="relative w-[150px]  mt-2 md:mt-5 inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-[37px] group bg-gradient-to-br from-[#00B3FF] to-[#2CE1C0]  hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800">
-                  <span class="relative font-benderregular w-[150px] hover:bg-blue-500   px-5 py-2.5 transition-all tracking-tighter ease-in duration-75 text-[12px] md:text-[15px] font-normal bg-white dark:bg-gray-900 rounded-[37px] text-[#13FBD3] ">
+              <Link href="https://cisco-payments.sabal.in">
+                <button class="relative w-[170px] mt-2 hidden md:mt-3 md:flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-[37px] group bg-gradient-to-br from-[#00B3FF] to-[#2CE1C0]  hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800">
+                  <span class="relative font-benderregular w-[170px] px-5 py-2.5 transition-all ease-in duration-75 text-[12px] md:text-[20px] font-semibold bg-white dark:bg-gray-900 rounded-[37px] text-[#13FBD3] hover:bg-[#13FBD3] hover:text-black">
                     Book Tickets
                   </span>
                 </button>
@@ -85,9 +82,12 @@ const Information = () => {
                   pathways in the ever-evolving realm of cybersecurity.
                 </p>
               </div>
+
               <Link href="https://cisco-payments.sabal.in">
-                <button class="relative font-benderregular w-[150px] h-[50px] shadow-2xl mt-4 md:mt-5 inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-[37px] group bg-gradient-to-br from-[#00B3FF] to-[#2CE1C0]  hover:text-white dark:text-white focus:ring-4 focus:outline-none hover:bg-blue">
-                  Book Tickets
+                <button class="relative w-[150px] mt-2 md:hidden  md:mt-0 flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-[37px] group bg-gradient-to-br from-[#00B3FF] to-[#2CE1C0]  hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800">
+                  <span class="relative font-benderregular w-[150px] px-5 py-2.5 transition-all ease-in duration-75 text-[12px] md:text-[20px] font-semibold bg-white dark:bg-gray-900 rounded-[37px] text-[#13FBD3] hover:bg-[#13FBD3] hover:text-black">
+                    Book Tickets
+                  </span>
                 </button>
               </Link>
             </div>
@@ -108,11 +108,11 @@ const Information = () => {
               </h1>
             </div>
             {/*left  */}
-            <div className="  mt-0 ml-3  bottom-10 flex flex-col justify-start ">
+            <div className="  mt-0 ml-0 md:ml-3  bottom-10 flex flex-col justify-start ">
               <h3 className="text-[#13d1b2] text-4xl md:text-7xl font-bold">
                 Location
               </h3>
-              <h1 className="text-3xl md:text-5xl text-[#13d1b2] mt-2 mr-2">
+              <h1 className="text-3xl md:text-5xl text-[#13d1b2] mt-2 mr-2 ">
                 Lovely<br></br> Proffessional<br></br> University
               </h1>
             </div>
@@ -123,9 +123,9 @@ const Information = () => {
               width="560"
               height="315"
               className="rounded-xl"
-              src="https://www.youtube.com/embed/GTRRJkfo5Xs?si=uueOmskwwRIkDNp8"
+              src="https://www.youtube.com/embed/asgv_upmU_c?si=Jc52tMc-6WLF1kXf?autoplay=1"
               title="YouTube video player"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allow="accelerometer autoplay loop clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             ></iframe>
           </div>
         </div>

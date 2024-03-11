@@ -7,6 +7,7 @@ import ReactPlayer from "react-player";
 // import high from "./e.mp4";
 // import low from "./hehe.mp4";
 import final from "./final.mp4";
+import Link from "next/link";
 
 // import pdf from "./"
 
@@ -68,14 +69,21 @@ const Main = () => {
               Sponsor Us
             </span>
           </button> */}
-          {/* <a href="https://uploadnow.io/f/3lHxBs3" download="resume">
+          {/* <Link href="https://discord.com/invite/AkANatMu">
+            <button class="relative w-[150px] mt-2 hidden md:mt-0 md:flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-[37px] group bg-gradient-to-br from-[#00B3FF] to-[#2CE1C0]  hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800">
+              <span class="relative font-benderregular w-[150px] px-5 py-2.5 transition-all ease-in duration-75 text-[12px] md:text-[20px] font-semibold bg-white dark:bg-gray-900 rounded-[37px] text-[#13FBD3] hover:bg-[#13FBD3] hover:text-black">
+                Join Us
+              </span>
+            </button>
+          </Link> */}
+          <Link href="https://discord.com/invite/AkANatMu">
             <button className="relative w-[150px] mt-10 inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-[37px] bg-gradient-to-br from-[#00B3FF] to-[#2CE1C0] hover:bg-blue-400 dark:text-white focus:ring-4 focus:outline-none group">
               <span className="absolute bottom-0 bg-blue-400 w-0 h-0 left-0 group-hover:w-full group-hover:h-full duration-400 ease-in"></span>
               <span className="relative z-10 w-[150px] font-benderlight px-5 py-2.5 transition-all ease-in duration-75 text-[12px] md:text-[20px] font-semibold bg-black hover:bg-[#13FBD3] rounded-[37px] text-[#13FBD3] group-hover:text-black">
-                Sponsor Us
+                Join Us
               </span>
             </button>
-          </a> */}
+          </Link>
         </div>
       </div>
     </>
