@@ -50,8 +50,8 @@ const Past = () => {
   return (
     <>
       <div className=" w-[100vw] min-h-screen m-1 mt-0 mb-0 bg-[#121E2C]">
-        <div className="flex flex-col items-center justify-center w-[100%] h-[100%] ">
-          <div className="w-[100%] flex flex-col items-center justify-center h-[25vh] md:h-[35vh]">
+        <div className="flex flex-col items-center md:items-start justify-center w-[100%] h-[100%] ">
+          <div className="w-[100%] flex flex-col items-center justify-center  h-[25vh] md:h-[35vh]">
             <motion.div
               initial={{ opacity: 0, x: -100 }}
               whileInView={{ opacity: 1, x: 0 }}
@@ -60,7 +60,7 @@ const Past = () => {
             >
               Recent Events
             </motion.div>
-            <p className="w-[297px] font-benderlight text-white text-[13px] md:w-[793px] md:mt-4 font-normal md:text-[20px] text-center h-[60%] p-3 ">
+            <p className="w-[297px]  flex justify-center items-center  font-benderlight text-white text-[13px] md:w-[793px] md:mt-4 font-normal md:text-[20px] text-center h-[60%] p-3 ">
               Our recent events were a testament to our commitment to providing
               valuable learning opportunities for our community. Let's reminisce
               on some of the highlights:
@@ -86,8 +86,8 @@ const Past = () => {
                 </p>
                 <div className="w-full h-[25%] flex items-center justify-start">
                   <Link href="/cybersec">
-                    <button class="relative w-[187px] inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 group bg-gradient-to-br from-[#00B3FF] to-[#2CE1C0]  hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800">
-                      <span class="relative w-[187px] px-5 py-2.5 transition-all ease-in duration-75 text-[20px] font-normal bg-white dark:bg-gray-900 text-[#13FBD3] ">
+                    <button class="relative w-[187px] inline-flex rounded-2xl items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 group bg-gradient-to-br from-[#00B3FF] to-[#2CE1C0]  hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800">
+                      <span class="relative w-[187px] px-5 py-2.5 rounded-2xl transition-all ease-in duration-75 text-[20px] font-normal bg-white dark:bg-gray-900 text-[#13FBD3] ">
                         View More
                       </span>
                     </button>
@@ -103,7 +103,7 @@ const Past = () => {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.6 }}
-            className="w-[100%] group hidden mb-5 mt-2 p-1 md:flex flex-col items-center justify-center"
+            className="w-[100%] group hidden mb-5 mt-0 p-1 md:flex flex-col items-center justify-center"
           >
             <div className="w-[85%] cursor-pointer group-hover:brightness-100 rounded-3xl bg-[#09131D] h-[45vh] flex items-center justify-center gap-3">
               <div className=" w-[25%] h-[90%] scale-[0.8] transition-transform duration-500 group-hover:scale-[0.9]">

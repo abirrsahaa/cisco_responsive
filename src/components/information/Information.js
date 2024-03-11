@@ -11,19 +11,19 @@ const Information = () => {
                 JOIN THE <br></br>ASSEMBLY
               </h1>
               <div className="  welcomeText text-[#12e2bf] text-xl ">
-                <p className="text-left font-benderregular">
+                <p className="text-left font-benderregular text-xl">
                   The Biggest Cybersecurity event of UNI is back! CyberSec
                   Symposium 2.0 returns, promising to ignite minds and foster
                   innovation. This symposium stands as a beacon of opportunity
-                  for students, professionals, and enthusiasts alike
+                  for students, professionals, and enthusiasts alike.
                 </p>
               </div>
               <br></br>
-              <p className="text-left font-benderregular">
+              <p className="text-left font-benderregular text-xl">
                 Featuring an impressive lineup of keynote speakers, panel
                 discussions, workshops, competitions, and networking sessions,
                 it covers ethical hacking, cybercrime, data privacy, metaverse
-                and more
+                and more.
               </p>
               <br></br>
               <div className=" font-benderregular  text-white commonFontLight text-xl ">
@@ -37,7 +37,7 @@ const Information = () => {
                   <br></br>
                   <br></br>
                   Join us as we come together to learn, inspire, and forge new
-                  pathways in the ever-evolving realm of cybersecurity
+                  pathways in the ever-evolving realm of cybersecurity.
                 </p>
               </div>
               <Link
@@ -60,7 +60,7 @@ const Information = () => {
                   The Biggest Cybersecurity event of UNI is back! CyberSec
                   Symposium 2.0 returns, promising to ignite minds and foster
                   innovation. This symposium stands as a beacon of opportunity
-                  for students, professionals, and enthusiasts alike
+                  for students, professionals, and enthusiasts alike.
                 </p>
               </div>
               <br></br>
@@ -68,7 +68,7 @@ const Information = () => {
                 Featuring an impressive lineup of keynote speakers, panel
                 discussions, workshops, competitions, and networking sessions,
                 it covers ethical hacking, cybercrime, data privacy, metaverse
-                and more
+                and more.
               </p>
               <br></br>
               <div className="  text-white font-benderregular commonFontLight text-lg ">
@@ -82,7 +82,7 @@ const Information = () => {
                   <br></br>
                   <br></br>
                   Join us as we come together to learn, inspire, and forge new
-                  pathways in the ever-evolving realm of cybersecurity
+                  pathways in the ever-evolving realm of cybersecurity.
                 </p>
               </div>
               <Link href="https://cisco-payments.sabal.in">

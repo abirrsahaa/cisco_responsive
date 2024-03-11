@@ -10,25 +10,29 @@ import keda from "../../../assets/car.png";
 
 import { useEffect, useState } from "react";
 
+import harsh from "../../../assets/harsh.png";
+import sai from "../../../assets/sai.png";
+import faizal from "../../../assets/rename.png";
+
 const Testimonials = () => {
   const data = [
     {
       name: "Harsh Kumar",
       bio: "I express my gratitude to Secuneus Technologies and Cisco x LPU iGen for providing an abundance of invaluable insights into the realm of Cybersecurity and Ethical Hacking. Your sessions were truly enlightening, and I greatly appreciated the wealth of knowledge shared. ",
       caption: " B.Tech CSE, LPU ’27 | CyberSec Symposium 1.0 Participant ",
-      img: me,
+      img: harsh,
     },
     {
       name: "Guru Sharan Kumar Priye",
       bio: "Thrilled to share that our team secured the runner-up position in the adrenaline-fueled 12-Hour CTF Challenge, a collaborative initiative by Cisco X LPU iGen! This 12-hour sprint was a thrilling journey where we honed our skills, delving into real-world scenarios and emerging with a deeper understanding of the cybersecurity domain. ",
       caption: " B.Tech CSE, LPU ’27 | CyberSec Symposium 1.0 Participant",
-      img: who,
+      img: sai,
     },
     {
       name: "MD Faisal Jaman",
       bio: "This was an amazing CTF of 12 hrs with a lot of challenges including cryptography, steganography, web security, reverse engineering, forensics, osint, networking. I along with my whole team have done a great performance in the CTF and shown our skills towards them. ",
       caption: " B.Tech CSE, LPU ’27 | CyberSec Symposium 1.0 Participant",
-      img: keda,
+      img: faizal,
     },
   ];
   const [currentIndex, setCurrentIndex] = useState(0);
