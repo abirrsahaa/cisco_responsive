@@ -6,7 +6,7 @@ import ReactPlayer from "react-player";
 // import bg from "../../../assets/vii.mp4";
 // import high from "./e.mp4";
 // import low from "./hehe.mp4";
-import final from "./final.mp4";
+import final from "../../../assets/final.mp4";
 import Link from "next/link";
 
 // import pdf from "./"
