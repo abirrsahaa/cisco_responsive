@@ -18,10 +18,7 @@ const Typing = () => {
       ]}
       wrapper="span"
       speed={50}
-      style={{
-        fontSize: "2em",
-      }}
-      className="text-[#13FBD3] font-benderregular font-bold text-sm  tracking-tight md:text-5xl p-2"
+      className="text-[#13FBD3] leading-3  font-benderregular font-bold text-lg tracking-tight md:text-5xl p-2"
       repeat={Infinity}
     />
   );
