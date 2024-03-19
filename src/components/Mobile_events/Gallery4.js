@@ -94,7 +94,7 @@ const Gallery4 = () => {
         <div className="w-full h-[20%]  rounded-xl text-center font-benderregular flex justify-center items-center font-bold text-[#13FBD3] text-3xl">
           Capture the Flag (CTF) Challenge
         </div>
-        <div className="w-full h-[50%] p-3  rounded-xl  text-center font-benderregular flex justify-center items-center font-bold text-white text-xl tracking-tighter leading-tight">
+        <div className="w-full h-[50%] p-3  rounded-xl  text-center font-benderregular flex justify-center items-center font-bold text-white text-xs tracking-tighter leading-tight">
           {" "}
           The Capture the Flag (CTF) Challenge was an adrenaline-fueled test of
           participants' cybersecurity prowess. Over 12 thrilling hours,

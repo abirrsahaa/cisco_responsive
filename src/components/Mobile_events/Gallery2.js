@@ -94,7 +94,7 @@ const Gallery2 = () => {
         <div className="w-full h-[20%]  rounded-xl text-center font-benderregular flex justify-center items-center font-bold text-[#13FBD3] text-3xl">
           Cisco NetAcad Workshop
         </div>
-        <div className="w-full h-[50%] p-3  rounded-xl  text-center font-benderregular flex justify-center items-center font-bold text-white text-xl tracking-tighter leading-tight">
+        <div className="w-full h-[50%] p-3  rounded-xl  text-center font-benderregular flex justify-center items-center font-bold text-white text-xs tracking-tighter leading-tight">
           {" "}
           The Cisco NetAcad Workshop was a gateway to expanding participants'
           networking skills. Over the course of 3 hours, attendees delved into
@@ -105,7 +105,7 @@ const Gallery2 = () => {
           digital realm.
         </div>
         <div className="w-full pl-3 h-[30%]  rounded-xl text-center font-benderregular flex flex-col justify-center items-start font-bold text-white text-xs">
-          <p className="text-left font-semibold text-white mt-1 flex items-center justify-center font-benderregular text-sm tracking-tighter leading-tight">
+          <p className="text-left font-semibold text-white mt-1 flex items-center justify-center font-benderregular text-xs tracking-tighter leading-tight">
             Speaker: Dr. Gulshan Kumar | Professor, LPU | Cisco Devnet Associate
             [https://www.linkedin.com/in/dr-gulshan-kumar-14178838/]
           </p>

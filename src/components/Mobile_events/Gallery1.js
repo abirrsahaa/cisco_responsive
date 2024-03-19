@@ -94,7 +94,7 @@ const Gallery1 = () => {
         <div className="w-full h-[20%]  rounded-xl text-center font-benderregular flex justify-center items-center font-bold text-[#13FBD3] text-3xl">
           Cisco ExpertSpeak Session
         </div>
-        <div className="w-full h-[50%] p-3  rounded-xl  text-center font-benderregular flex justify-center items-center font-bold text-white text-xl tracking-tighter leading-tight">
+        <div className="w-full h-[50%] p-3  rounded-xl  text-center font-benderregular flex justify-center items-center font-bold text-white text-xs tracking-tighter leading-tight">
           {" "}
           During the Cisco ExpertSpeak Session, participants had the exclusive
           opportunity to immerse themselves in industry insights. Led by Cisco
@@ -104,19 +104,19 @@ const Gallery1 = () => {
           understanding of key industry trends and challenges.
         </div>
         <div className="w-full h-[30%] pl-3  rounded-xl text-center font-benderregular flex flex-col justify-center items-start font-bold text-white text-xs">
-          <p className="text-left font-semibold text-white mt-1 flex items-center justify-center font-benderregular text-sm tracking-tighter leading-tight">
+          <p className="text-left font-semibold text-white mt-1 flex items-center justify-center font-benderregular text-xs tracking-tighter leading-tight">
             Day 1:&nbsp;&nbsp;PraƯul Khandelwal | Senior Security Cloud
             Consulting Engineer at Cisco | LPU Alumnus
           </p>
-          <p className="text-left font-semibold text-white mt-1 flex items-center justify-center font-benderregular text-sm tracking-tighter leading-tight">
+          <p className="text-left font-semibold text-white mt-1 flex items-center justify-center font-benderregular text-xs tracking-tighter leading-tight">
             Day 2 :&nbsp;&nbsp; Rajesh Kumar | Senior Solutions Architect at
             Cisco Systems
           </p>
-          <p className="text-left font-semibold text-white mt-1 flex items-center justify-center font-benderregular text-sm tracking-tighter leading-tight">
+          <p className="text-left font-semibold text-white mt-1 flex items-center justify-center font-benderregular text-xs tracking-tighter leading-tight">
             Day 3 :&nbsp;&nbsp; Ashish Dagar, Security Consultant Engineer at
             Cisco Systems
           </p>
-          <p className="text-left font-semibold text-white mt-1 flex items-center justify-center font-benderregular text-sm tracking-tighter leading-tight">
+          <p className="text-left font-semibold text-white mt-1 flex items-center justify-center font-benderregular text-xs tracking-tighter leading-tight">
             Day 3:&nbsp;&nbsp; Vishnu Dutt, Network Architect at Cisco
           </p>
         </div>

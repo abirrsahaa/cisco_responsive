@@ -94,7 +94,7 @@ const Gallery3 = () => {
         <div className="w-full h-[20%]  rounded-xl text-center font-benderregular flex justify-center items-center font-bold text-[#13FBD3] text-3xl">
           Ethical Hacking Training
         </div>
-        <div className="w-full h-[50%] p-3  rounded-xl  text-center font-benderregular flex justify-center items-center font-bold text-white text-xl tracking-tighter leading-tight">
+        <div className="w-full h-[50%] p-3  rounded-xl  text-center font-benderregular flex justify-center items-center font-bold text-white text-xs tracking-tighter leading-tight">
           {" "}
           In our Ethical Hacking Training program, participants embarked on a
           comprehensive journey into cybersecurity. Over 20 intensive hours,
@@ -105,7 +105,7 @@ const Gallery3 = () => {
           principles and best practices.
         </div>
         <div className="w-full pl-3 h-[30%]  rounded-xl text-center font-benderregular flex flex-col justify-center items-start font-bold text-white text-xs">
-          <p className="text-left font-semibold text-white mt-1 flex items-center justify-center font-benderregular text-sm tracking-tighter leading-tight">
+          <p className="text-left font-semibold text-white mt-1 flex items-center justify-center font-benderregular text-xs tracking-tighter leading-tight">
             Speaker: Palvinder Singh | Founder & CEO - Secuneus Tech. | Cyber
             Security Trainer - Instructor
             [https://www.linkedin.com/in/palvinder91/]
