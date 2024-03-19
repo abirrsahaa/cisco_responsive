@@ -10,6 +10,7 @@ import avdesh from "../../assets/avdesh.png";
 import simran from "../../assets/simran.png";
 import saurav from "../../assets/saurav.png";
 import Image from "next/image";
+import Link from "next/link";
 
 const Speaker = () => {
   return (
@@ -62,7 +63,12 @@ const Speaker = () => {
             <div className="w-full h-[10%] absolute bottom-0 right-1  rounded-lg flex items-center justify-end">
               <div className="w-[10vw] h-[90%]  rounded-lg flex justify-end items-center ">
                 <div className="w-[24%] h-[80%] rounded-xl flex items-center justify-center">
-                  <FaLinkedin className="w-full h-full text-[#00B3FF]" />
+                  <Link
+                    href="https://www.linkedin.com/in/rahulkolle/"
+                    className="w-full h-full"
+                  >
+                    <FaLinkedin className="w-full h-full text-[#00B3FF]" />
+                  </Link>
                 </div>
               </div>
             </div>
@@ -112,7 +118,12 @@ const Speaker = () => {
             <div className="w-full h-[10%] absolute bottom-0 right-1  rounded-lg flex items-center justify-end">
               <div className="w-[10vw] h-[90%]  rounded-lg flex justify-end items-center ">
                 <div className="w-[24%] h-[80%] rounded-xl flex items-center justify-center">
-                  <FaLinkedin className="w-full h-full text-[#00B3FF]" />
+                  <Link
+                    href="https://www.linkedin.com/in/vishnu-dutt-586a9813/"
+                    className="w-full h-full"
+                  >
+                    <FaLinkedin className="w-full h-full text-[#00B3FF]" />
+                  </Link>
                 </div>
               </div>
             </div>
@@ -162,7 +173,12 @@ const Speaker = () => {
             <div className="w-full h-[10%] absolute bottom-0 right-1  rounded-lg flex items-center justify-end">
               <div className="w-[10vw] h-[90%]  rounded-lg flex justify-end items-center ">
                 <div className="w-[24%] h-[80%] rounded-xl flex items-center justify-center">
-                  <FaLinkedin className="w-full h-full text-[#00B3FF]" />
+                  <Link
+                    href="https://www.linkedin.com/in/rajtilak-majumder-cissp-82b83412/"
+                    className="w-full h-full"
+                  >
+                    <FaLinkedin className="w-full h-full text-[#00B3FF]" />
+                  </Link>
                 </div>
               </div>
             </div>
@@ -214,7 +230,12 @@ const Speaker = () => {
             <div className="w-full h-[10%] absolute bottom-0 right-1  rounded-lg flex items-center justify-end">
               <div className="w-[10vw] h-[90%]  rounded-lg flex justify-end items-center ">
                 <div className="w-[24%] h-[80%] rounded-xl flex items-center justify-center">
-                  <FaLinkedin className="w-full h-full text-[#00B3FF]" />
+                  <Link
+                    href="https://www.linkedin.com/in/abhishek-sen-56b29416/"
+                    className="w-full h-full"
+                  >
+                    <FaLinkedin className="w-full h-full text-[#00B3FF]" />
+                  </Link>
                 </div>
               </div>
             </div>
@@ -265,7 +286,12 @@ const Speaker = () => {
             <div className="w-full h-[10%] absolute bottom-0 right-1  rounded-lg flex items-center justify-end">
               <div className="w-[10vw] h-[90%]  rounded-lg flex justify-end items-center ">
                 <div className="w-[24%] h-[80%] rounded-xl flex items-center justify-center">
-                  <FaLinkedin className="w-full h-full text-[#00B3FF]" />
+                  <Link
+                    href="https://www.linkedin.com/in/gobinda-karmakar-he-him-his-99584879/"
+                    className="w-full h-full"
+                  >
+                    <FaLinkedin className="w-full h-full text-[#00B3FF]" />
+                  </Link>
                 </div>
               </div>
             </div>
@@ -315,7 +341,12 @@ const Speaker = () => {
             <div className="w-full h-[10%] absolute bottom-0 right-1  rounded-lg flex items-center justify-end">
               <div className="w-[10vw] h-[90%]  rounded-lg flex justify-end items-center ">
                 <div className="w-[24%] h-[80%] rounded-xl flex items-center justify-center">
-                  <FaLinkedin className="w-full h-full text-[#00B3FF]" />
+                  <Link
+                    href="https://www.linkedin.com/in/shashankssm/"
+                    className="w-full h-full"
+                  >
+                    <FaLinkedin className="w-full h-full text-[#00B3FF]" />
+                  </Link>
                 </div>
               </div>
             </div>
@@ -365,7 +396,12 @@ const Speaker = () => {
             <div className="w-full h-[10%] absolute bottom-0 right-1  rounded-lg flex items-center justify-end">
               <div className="w-[10vw] h-[90%]  rounded-lg flex justify-end items-center ">
                 <div className="w-[24%] h-[80%] rounded-xl flex items-center justify-center">
-                  <FaLinkedin className="w-full h-full text-[#00B3FF]" />
+                  <Link
+                    href="https://www.linkedin.com/in/awadhesh/"
+                    className="w-full h-full"
+                  >
+                    <FaLinkedin className="w-full h-full text-[#00B3FF]" />
+                  </Link>
                 </div>
               </div>
             </div>
@@ -416,7 +452,12 @@ const Speaker = () => {
             <div className="w-full h-[10%] absolute bottom-0 right-1  rounded-lg flex items-center justify-end">
               <div className="w-[10vw] h-[90%]  rounded-lg flex justify-end items-center ">
                 <div className="w-[24%] h-[80%] rounded-xl flex items-center justify-center">
-                  <FaLinkedin className="w-full h-full text-[#00B3FF]" />
+                  <Link
+                    href="https://www.linkedin.com/in/pswalia2u/"
+                    className="w-full h-full"
+                  >
+                    <FaLinkedin className="w-full h-full text-[#00B3FF]" />
+                  </Link>
                 </div>
               </div>
             </div>
@@ -466,7 +507,12 @@ const Speaker = () => {
             <div className="w-full h-[10%] absolute bottom-0 right-1  rounded-lg flex items-center justify-end">
               <div className="w-[10vw] h-[90%]  rounded-lg flex justify-end items-center ">
                 <div className="w-[24%] h-[80%] rounded-xl flex items-center justify-center">
-                  <FaLinkedin className="w-full h-full text-[#00B3FF]" />
+                  <Link
+                    href="https://www.linkedin.com/in/sb5/"
+                    className="w-full h-full"
+                  >
+                    <FaLinkedin className="w-full h-full text-[#00B3FF]" />
+                  </Link>
                 </div>
               </div>
             </div>
@@ -499,7 +545,12 @@ const Speaker = () => {
             <div className="w-full h-[10%]  rounded-lg flex items-center justify-end">
               <div className="w-[10vw] h-[90%]  rounded-lg flex justify-end items-center ">
                 <div className="w-full h-full  rounded-xl flex items-center justify-center">
-                  <FaLinkedin className="w-full h-full text-[#00B3FF]" />
+                  <Link
+                    href="https://www.linkedin.com/in/rahulkolle/"
+                    className="w-full h-full"
+                  >
+                    <FaLinkedin className="w-full h-full text-[#00B3FF]" />
+                  </Link>
                 </div>
               </div>
             </div>
@@ -531,7 +582,12 @@ const Speaker = () => {
             <div className="w-full h-[10%]  rounded-lg flex items-center justify-end">
               <div className="w-[10vw] h-[90%]  rounded-lg flex justify-end items-center ">
                 <div className="w-full h-full  rounded-xl flex items-center justify-center">
-                  <FaLinkedin className="w-full h-full text-[#00B3FF]" />
+                  <Link
+                    href="https://www.linkedin.com/in/vishnu-dutt-586a9813/"
+                    className="w-full h-full"
+                  >
+                    <FaLinkedin className="w-full h-full text-[#00B3FF]" />
+                  </Link>
                 </div>
               </div>
             </div>
@@ -564,7 +620,12 @@ const Speaker = () => {
             <div className="w-full h-[10%]  rounded-lg flex items-center justify-end">
               <div className="w-[10vw] h-[90%]  rounded-lg flex justify-end items-center ">
                 <div className="w-full h-full  rounded-xl flex items-center justify-center">
-                  <FaLinkedin className="w-full h-full text-[#00B3FF]" />
+                  <Link
+                    href="https://www.linkedin.com/in/rajtilak-majumder-cissp-82b83412/"
+                    className="w-full h-full"
+                  >
+                    <FaLinkedin className="w-full h-full text-[#00B3FF]" />
+                  </Link>
                 </div>
               </div>
             </div>
@@ -596,7 +657,12 @@ const Speaker = () => {
             <div className="w-full h-[10%]  rounded-lg flex items-center justify-end">
               <div className="w-[10vw] h-[90%]  rounded-lg flex justify-end items-center ">
                 <div className="w-full h-full  rounded-xl flex items-center justify-center">
-                  <FaLinkedin className="w-full h-full text-[#00B3FF]" />
+                  <Link
+                    href="https://www.linkedin.com/in/abhishek-sen-56b29416/"
+                    className="w-full h-full"
+                  >
+                    <FaLinkedin className="w-full h-full text-[#00B3FF]" />
+                  </Link>
                 </div>
               </div>
             </div>
@@ -629,7 +695,12 @@ const Speaker = () => {
             <div className="w-full h-[10%]  rounded-lg flex items-center justify-end">
               <div className="w-[10vw] h-[90%]  rounded-lg flex justify-end items-center ">
                 <div className="w-full h-full  rounded-xl flex items-center justify-center">
-                  <FaLinkedin className="w-full h-full text-[#00B3FF]" />
+                  <Link
+                    href="https://www.linkedin.com/in/gobinda-karmakar-he-him-his-99584879/"
+                    className="w-full h-full"
+                  >
+                    <FaLinkedin className="w-full h-full text-[#00B3FF]" />
+                  </Link>
                 </div>
               </div>
             </div>
@@ -662,7 +733,12 @@ const Speaker = () => {
             <div className="w-full h-[10%]  rounded-lg flex items-center justify-end">
               <div className="w-[10vw] h-[90%]  rounded-lg flex justify-end items-center ">
                 <div className="w-full h-full  rounded-xl flex items-center justify-center">
-                  <FaLinkedin className="w-full h-full text-[#00B3FF]" />
+                  <Link
+                    href="https://www.linkedin.com/in/shashankssm/"
+                    className="w-full h-full"
+                  >
+                    <FaLinkedin className="w-full h-full text-[#00B3FF]" />
+                  </Link>
                 </div>
               </div>
             </div>
@@ -696,7 +772,12 @@ const Speaker = () => {
             <div className="w-full h-[10%]  rounded-lg flex items-center justify-end">
               <div className="w-[10vw] h-[90%]  rounded-lg flex justify-end items-center ">
                 <div className="w-full h-full  rounded-xl flex items-center justify-center">
-                  <FaLinkedin className="w-full h-full text-[#00B3FF]" />
+                  <Link
+                    href="https://www.linkedin.com/in/awadhesh/"
+                    className="w-full h-full"
+                  >
+                    <FaLinkedin className="w-full h-full text-[#00B3FF]" />
+                  </Link>
                 </div>
               </div>
             </div>
@@ -728,7 +809,12 @@ const Speaker = () => {
             <div className="w-full h-[10%]  rounded-lg flex items-center justify-end">
               <div className="w-[10vw] h-[90%]  rounded-lg flex justify-end items-center ">
                 <div className="w-full h-full  rounded-xl flex items-center justify-center">
-                  <FaLinkedin className="w-full h-full text-[#00B3FF]" />
+                  <Link
+                    href="https://www.linkedin.com/in/pswalia2u/"
+                    className="w-full h-full"
+                  >
+                    <FaLinkedin className="w-full h-full text-[#00B3FF]" />
+                  </Link>
                 </div>
               </div>
             </div>
@@ -761,7 +847,12 @@ const Speaker = () => {
             <div className="w-full h-[10%]  rounded-lg flex items-center justify-end">
               <div className="w-[10vw] h-[90%]  rounded-lg flex justify-end items-center ">
                 <div className="w-full h-full  rounded-xl flex items-center justify-center">
-                  <FaLinkedin className="w-full h-full text-[#00B3FF]" />
+                  <Link
+                    href="https://www.linkedin.com/in/sb5/"
+                    className="w-full h-full"
+                  >
+                    <FaLinkedin className="w-full h-full text-[#00B3FF]" />
+                  </Link>
                 </div>
               </div>
             </div>
