@@ -514,7 +514,7 @@ const Speaker = () => {
                 />
               </div>
               <div className=" w-[40vw] h-[6vh] absolute bottom-4 flex flex-col items-center justify-center ">
-                <div className="w-full h-[60%]  border-solid border-b-2  border-[#13FBD3]  text-lg text-white text-center font-benderregular font-bold flex justify-center items-start">
+                <div className="w-full h-[60%]  border-solid border-b-2  border-[#13FBD3]  text-sm text-white text-center font-benderregular font-bold flex justify-center items-start">
                   Vishnu Dutt
                 </div>
                 <div className="w-full h-[40%] text-sm tracking-tighter leading-tight rounded-lg flex items-center justify-center text-center font-benderregular font-semibold">
@@ -546,7 +546,7 @@ const Speaker = () => {
                 />
               </div>
               <div className=" w-[40vw] h-[6vh] absolute bottom-4 flex flex-col items-center justify-center ">
-                <div className="w-full h-[60%]  border-solid border-b-2  border-[#13FBD3]  text-lg text-white text-center font-benderregular font-bold flex justify-center items-start">
+                <div className="w-full h-[60%]  border-solid border-b-2  border-[#13FBD3]  text-sm text-white text-center font-benderregular font-bold flex justify-center items-start">
                   Rajtilak Majumder
                 </div>
                 <div className="w-full h-[40%] text-sm tracking-tighter leading-tight rounded-lg flex items-center justify-center text-center font-benderregular font-semibold">
@@ -579,7 +579,7 @@ const Speaker = () => {
                 />
               </div>
               <div className=" w-[40vw] h-[6vh] absolute bottom-4 flex flex-col items-center justify-center ">
-                <div className="w-full h-[60%]  border-solid border-b-2  border-[#13FBD3]  text-lg text-white text-center font-benderregular font-bold flex justify-center items-start">
+                <div className="w-full h-[60%]  border-solid border-b-2  border-[#13FBD3]  text-sm text-white text-center font-benderregular font-bold flex justify-center items-start">
                   Abhishek Sen
                 </div>
                 <div className="w-full h-[40%] text-sm tracking-tighter leading-tight rounded-lg flex items-center justify-center text-center font-benderregular font-semibold">
@@ -611,7 +611,7 @@ const Speaker = () => {
                 />
               </div>
               <div className=" w-[40vw] h-[6vh] absolute bottom-4 flex flex-col items-center justify-center ">
-                <div className="w-full h-[60%]  border-solid border-b-2  border-[#13FBD3]  text-lg text-white text-center font-benderregular font-bold flex justify-center items-start">
+                <div className="w-full h-[60%]  border-solid border-b-2  border-[#13FBD3]  text-sm text-white text-center font-benderregular font-bold flex justify-center items-start">
                   Gobinda Karmakar
                 </div>
                 <div className="w-full h-[40%] text-sm tracking-tighter leading-tight rounded-lg flex items-center justify-center text-center font-benderregular font-semibold">
@@ -644,7 +644,7 @@ const Speaker = () => {
                 />
               </div>
               <div className=" w-[40vw] h-[6vh] absolute bottom-4 flex flex-col items-center justify-center ">
-                <div className="w-full h-[60%]  border-solid border-b-2  border-[#13FBD3]  text-lg text-white text-center font-benderregular font-bold flex justify-center items-start">
+                <div className="w-full h-[60%]  border-solid border-b-2  border-[#13FBD3]  text-sm text-white text-center font-benderregular font-bold flex justify-center items-start">
                   Shashank Dubey
                 </div>
                 <div className="w-full h-[40%] text-sm tracking-tighter leading-tight rounded-lg flex items-center justify-center text-center font-benderregular font-semibold">
@@ -655,8 +655,8 @@ const Speaker = () => {
             <div className="w-[90%] h-[35%]  rounded-lg flex flex-col items-center justify-center text-center text-xs font-benderregular font-bold tracking-tighter leading-tight ">
               Shashank Dubey, a Cloud Security Engineer at Payatu, specializes
               in AWS and Kubernetes security. With over 3 years of industry
-              experience, he's adept at threat modeling, compliance frameworks,
-              and cloud-native security.
+              experience, he's adept at threat modeling and cloud-native
+              security.
             </div>
 
             <div className="w-full h-[10%]  rounded-lg flex items-center justify-end">
@@ -677,7 +677,7 @@ const Speaker = () => {
                 />
               </div>
               <div className=" w-[40vw] h-[6vh] absolute bottom-4 flex flex-col items-center justify-center ">
-                <div className="w-full h-[60%]  border-solid border-b-2  border-[#13FBD3]  text-lg text-white text-center font-benderregular font-bold flex justify-center items-start">
+                <div className="w-full h-[60%]  border-solid border-b-2  border-[#13FBD3]  text-sm text-white text-center font-benderregular font-bold flex justify-center items-start">
                   Awadhesh Shukla
                 </div>
                 <div className="w-full h-[40%] text-sm tracking-tighter leading-tight rounded-lg flex items-center justify-center text-center font-benderregular font-semibold">
@@ -711,7 +711,7 @@ const Speaker = () => {
                 />
               </div>
               <div className=" w-[40vw] h-[6vh] absolute bottom-4 flex flex-col items-center justify-center ">
-                <div className="w-full h-[60%]  border-solid border-b-2  border-[#13FBD3]  text-lg text-white text-center font-benderregular font-bold flex justify-center items-start">
+                <div className="w-full h-[60%]  border-solid border-b-2  border-[#13FBD3]  text-sm text-white text-center font-benderregular font-bold flex justify-center items-start">
                   Prabhsimran Singh
                 </div>
                 <div className="w-full h-[40%] text-sm tracking-tighter leading-tight rounded-lg flex items-center justify-center text-center font-benderregular font-semibold">
@@ -743,7 +743,7 @@ const Speaker = () => {
                 />
               </div>
               <div className=" w-[40vw] h-[6vh] absolute bottom-4 flex flex-col items-center justify-center ">
-                <div className="w-full h-[60%]  border-solid border-b-2  border-[#13FBD3]  text-lg text-white text-center font-benderregular font-bold flex justify-center items-start">
+                <div className="w-full h-[60%]  border-solid border-b-2  border-[#13FBD3]  text-sm text-white text-center font-benderregular font-bold flex justify-center items-start">
                   Sourabh Bhandari
                 </div>
                 <div className="w-full h-[40%] text-sm tracking-tighter leading-tight rounded-lg flex items-center justify-center text-center font-benderregular font-semibold">
