@@ -4,6 +4,7 @@ import Information from "@/components/information/Information";
 import ImageSlider from "@/components/caroussel/ImageSlider";
 import Header from "@/components/header/Header";
 import Footer from "@/components/footer/Footer";
+import Speaker from "@/components/speaker/Speaker";
 
 const cybersec = () => {
   return (
@@ -11,6 +12,7 @@ const cybersec = () => {
       <Header />
       <EventHero />
       <Countdown />
+      <Speaker />
       <Information />
       <ImageSlider />
       <Footer />

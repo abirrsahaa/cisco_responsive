@@ -4,7 +4,7 @@ import Image from "next/image";
 import cisco from "../../assets/CiscoLogo101.png";
 import { useState } from "react";
 import Link from "next/link";
-import lpu from "../../assets/LPU-logo-white.png";
+import lpu from "../../assets/scse.png";
 // import { slide as Menu } from "react-burger-menu";
 // import Sidebar from "../home/Sidebar/Sidebar";
 
