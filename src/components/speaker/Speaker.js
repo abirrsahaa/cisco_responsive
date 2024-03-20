@@ -150,9 +150,7 @@ const Speaker = () => {
               <p className="m-3 text-center text-white text-sm font-benderregular leading-tight">
                 Rajtilak Majumder, CISSP, is the Director of Information
                 Security at PwC India, bringing over a decade of experience in
-                cybersecurity leadership roles across diverse sectors. With
-                expertise in security policy governance, risk management, and
-                infrastructure controls.
+                cybersecurity leadership roles across diverse sectors.
               </p>
             </div>
             {/* <div className="w-full h-[25%]  rounded-lg flex flex-col items-center justify-center">
@@ -206,10 +204,9 @@ const Speaker = () => {
               <p className="m-3 text-center text-white text-sm font-benderregular leading-tight">
                 Abhishek Sen, an Associate Director at PwC, is a seasoned
                 Enterprise Security Architect spanning 17 years in Information
-                and Cyber Security. Holding certifications like CISSP, AZ-500,
-                and CDPSE, he excels in Security Solution Design, Risk
-                Management, and compliance frameworks like PCI DSS and ISO
-                27001.
+                and Cyber Security. Holding certifications like AZ-500, and
+                CDPSE, he excels in Security Solution Design and compliance
+                frameworks like PCI DSS and ISO 27001.
               </p>
             </div>
             {/* <div className="w-full h-[25%]  rounded-lg flex flex-col items-center justify-center">
@@ -259,13 +256,10 @@ const Speaker = () => {
               </div>
             </div>
             <div className="w-full h-[25%]  rounded-lg">
-              <p className="m-3 text-center text-[#B3B3B3] text-sm font-benderregular leading-tight text-white">
+              <p className="m-3 text-center  text-sm font-benderregular leading-tight text-white">
                 Gobinda Karmakar, an Application Security Architect at PwC India
                 and an alumnus of LPU, boasts extensive experience in
-                Information Security and Cybersecurity. Proficient in
-                implementing robust security controls, Gobinda specializes in
-                areas such as Identity and Access Management, Data Protection,
-                and Cloud Security.
+                Information Security and Cybersecurity.
               </p>
             </div>
             {/* <div className="w-full h-[25%]  rounded-lg flex flex-col items-center justify-center">
@@ -688,8 +682,7 @@ const Speaker = () => {
             <div className="w-[90%] h-[35%] text-white  rounded-lg flex flex-col items-center justify-center text-center text-xs font-benderregular font-bold tracking-tighter leading-tight  ">
               Gobinda Karmakar, an Application Security Architect at PwC India
               and an alumnus of LPU, boasts extensive experience in Information
-              Security and Cybersecurity. Proficient in implementing robust
-              security controls,..
+              Security and Cybersecurity.
             </div>
 
             <div className="w-full h-[10%]  rounded-lg flex items-center justify-end">
@@ -725,9 +718,7 @@ const Speaker = () => {
             </div>
             <div className="w-[90%] h-[35%] text-white  rounded-lg flex flex-col items-center justify-center text-center text-xs font-benderregular font-bold tracking-tighter leading-tight ">
               Shashank Dubey, a Cloud Security Engineer at Payatu, specializes
-              in AWS and Kubernetes security. With over 3 years of industry
-              experience, he's adept at threat modeling and cloud-native
-              security.
+              in AWS and Kubernetes security.
             </div>
 
             <div className="w-full h-[10%]  rounded-lg flex items-center justify-end">
@@ -765,8 +756,7 @@ const Speaker = () => {
               {" "}
               Awadhesh Shukla, an esteemed alumnus of LPU, is a distinguished
               cybersecurity professional serving as a Principal Security
-              Consultant at Quick Heal. Armed with a plethora of CompTIA
-              certifications.
+              Consultant at Quick Heal.
             </div>
 
             <div className="w-full h-[10%]  rounded-lg flex items-center justify-end">
@@ -839,9 +829,7 @@ const Speaker = () => {
             </div>
             <div className="w-[90%] h-[35%] text-white  rounded-lg flex flex-col items-center justify-center text-center font-benderregular leading-tight tracking-tighter font-bold text-xs ">
               Sourabh Bhandari, an alumnus of LPU, currently serves as a Staff
-              Engineer at Palo Alto Networks. With a background spanning roles
-              at HaloDoc and HackerEarth, Sourabh excels in platform
-              engineering.
+              Engineer at Palo Alto Networks.
             </div>
 
             <div className="w-full h-[10%]  rounded-lg flex items-center justify-end">

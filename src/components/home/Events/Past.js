@@ -236,7 +236,7 @@ const Past = () => {
                   >
                     <span
                       // onClick={() => setclicked(!clicked)}
-                      class="relative w-[187px] px-5 rounded-2xl py-2.5 transition-all ease-in duration-75 text-[20px] font-semibold bg-gray-900 dark:bg-gray-900 text-[#13FBD3] hover:bg-[#13FBD3] hover:text-black"
+                      className="relative w-[187px] px-5 rounded-2xl py-2.5 transition-all ease-in duration-75 text-[20px] font-semibold bg-gray-900 dark:bg-gray-900 text-[#13FBD3] hover:bg-[#13FBD3] hover:text-black"
                     >
                       View More
                     </span>
@@ -275,7 +275,7 @@ const Past = () => {
                   >
                     <span
                       // onClick={() => setclicked(!clicked)}
-                      class="relative w-[187px] px-5 rounded-2xl py-2.5 transition-all ease-in duration-75 text-[20px] font-semibold bg-gray-900 dark:bg-gray-900 text-[#13FBD3] hover:bg-[#13FBD3] hover:text-black"
+                      className="relative w-[187px] px-5 rounded-2xl py-2.5 transition-all ease-in duration-75 text-[20px] font-semibold bg-gray-900 dark:bg-gray-900 text-[#13FBD3] hover:bg-[#13FBD3] hover:text-black"
                     >
                       View More
                     </span>

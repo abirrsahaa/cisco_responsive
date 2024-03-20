@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 
-import symposium from "../../../assets/logo_new.png";
+import symposium from "../../../assets/logo (2100 x 550 px) (1).png";
 import { useEffect, useState } from "react";
 import { motion, useInView } from "framer-motion";
 import Link from "next/link";
@@ -51,12 +51,12 @@ const Symposium = () => {
             Upcoming Event
           </motion.div>
           <div className="w-[100%] h-[25%] md:h-[36%] flex items-center justify-center ">
-            <div className="w-[94%] md:w-[85%] h-[95%] rounded-xl">
+            <div className="w-full  md:w-[85%] h-[95%] md:h-[98%] rounded-xl px-2">
               <Link href="/cybersec">
                 <Image
                   src={symposium}
                   alt="symposium"
-                  className="w-full h-full object-contain object-center"
+                  className="w-full h-full object-cover  object-center"
                 />
               </Link>
             </div>
@@ -98,7 +98,7 @@ const Symposium = () => {
                 className="w-[45%] h-[80%] md:w-[50%] md:h-[40%]"
               >
                 <button className="card-wrapper w-[100%] shadow-xl h-[100%]  flex items-center justify-center text-center rounded-2xl p-2 text-sm text-blue-300 font-semibold ">
-                  <div class="card-content flex items-center justify-center text-lg  md:text-xl">
+                  <div className="card-content flex items-center justify-center text-lg  md:text-xl">
                     <span className="font-benderregular ">Register Now</span>
                   </div>
                 </button>
