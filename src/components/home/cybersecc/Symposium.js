@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 
-import symposium from "../../../assets/symposium.png";
+import symposium from "../../../assets/logo_new.png";
 import { useEffect, useState } from "react";
 import { motion, useInView } from "framer-motion";
 import Link from "next/link";

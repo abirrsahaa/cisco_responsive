@@ -6,11 +6,12 @@ import Header from "@/components/header/Header";
 import Footer from "@/components/footer/Footer";
 import NewSymposium from "@/components/home/cybersecc/NewSymposium";
 import Sponsors from "@/components/sponsors/Sponsors";
+import Header1 from "@/components/home/Header/Header1";
 
 export default function Home() {
   return (
-    <div className="w-[100%] overflow-y-hidden min-h-screen m-0 p-0 overflow-x-hidden flex justify-center items-center flex-col bg-[#121E2C] text-white">
-      <Header />
+    <div className="w-[100%] overflow-y-hidden min-h-screen m-0 p-0 overflow-x-hidden flex justify-center items-center flex-col  text-white">
+      <Header1 />
       <Main />
       <Symposium />
       {/* <NewSymposium /> */}
