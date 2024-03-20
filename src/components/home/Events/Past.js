@@ -59,7 +59,7 @@ const Past = () => {
   }, [data]);
   return (
     <>
-      <div className=" w-[100vw] min-h-screen m-1 mt-0 mb-0 bg-[#121E2C]">
+      <div className=" w-[100vw] min-h-screen  mt-0 mb-0 bg-[#121E2C]">
         <div className="flex flex-col items-center md:items-start justify-center w-[100%] h-[100%] ">
           <div className="w-[100%] flex flex-col items-center justify-center  h-[25vh] md:h-[35vh]">
             <motion.div

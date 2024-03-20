@@ -63,7 +63,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className="w-full h-[17%] mt-3 flex justify-center items-center gap-4  md:hidden">
+        <div className="w-full h-[17%] mt-3 flex justify-center items-center gap-4  md:hidden text-white">
           <Link href="https://discord.com/invite/y73D7NAn">
             <FaDiscord className="w-8 h-8 text-[#13FBD3]" />
           </Link>
@@ -95,7 +95,7 @@ const Footer = () => {
             objective to revolutionize the way we approach tech education and
             thus encourage peer-based practical learning
           </div>
-          <div className="w-[90%] h-[30%] flex justify-start items-center gap-4 ">
+          <div className="w-[90%] h-[30%] flex justify-start items-center gap-4 text-white">
             <Link href="https://discord.com/invite/y73D7NAn">
               <FaDiscord className="w-8 h-8 text-[#13FBD3]" />
             </Link>
@@ -115,8 +115,8 @@ const Footer = () => {
           <div className="text-5xl font-benderregular font-bold mx-3 mb-16 text-[#13FBD3] ">
             Quick Links
           </div>
-          <ul className="flex gap-16 mx-3 tracking-tighter text-xl mt-4">
-            <div className="flex font-benderregular flex-col gap-3 mx-3">
+          <ul className="flex gap-16 mx-3 tracking-tighter text-xl mt-4 text-white">
+            <div className="flex font-benderregular flex-col gap-3 mx-3 text-white">
               <Link href="https://ciscoxlpuigen.co.in/">
                 <li>Home</li>
               </Link>
@@ -136,17 +136,20 @@ const Footer = () => {
           <div className="text-5xl font-benderregular font-bold mx-3 mb-14 text-[#13FBD3] ">
             Contact Us
           </div>
-          <ul className="flex flex-col gap-3 mx-3 pl-5 mt-4 tracking-tighter text-xl items-start justify-center">
+          <ul className="flex flex-col gap-3 mx-3 pl-5 mt-4 tracking-tighter text-xl items-start justify-center text-white">
             <li className="flex gap-2 justify-center items-center h-10 ">
               <MdOutlineMailOutline className="text-[#13FBD3] h-8" />
-              <span className="flex font-benderregular items-center justify-center  h-8 pb-1">
+              <span
+                className="flex font-benderregular items-center justify-center  h-8 pb-1"
+                text-white
+              >
                 {" "}
                 support@ciscoxlpuigen.co.in
               </span>
             </li>
             <li className="flex gap-2 justify-center items-center h-10 ">
               <IoCallOutline className="text-[#13FBD3]  h-8" />
-              <span className="flex font-benderregular items-center justify-center  h-8 pb-1">
+              <span className="flex font-benderregular items-center justify-center  h-8 pb-1 text-white">
                 {" "}
                 +91&nbsp;82580&nbsp;63058 &nbsp;
               </span>

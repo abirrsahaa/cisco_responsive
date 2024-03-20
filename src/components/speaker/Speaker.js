@@ -33,13 +33,13 @@ const Speaker = () => {
                 <div className="w-full h-[60%]  border-solid border-b-2  border-[#13FBD3]  text-xl text-white text-center font-benderregular font-bold flex justify-center items-start">
                   Rahul Kolle
                 </div>
-                <div className="w-full h-[40%]  rounded-lg text-center font-benderregular font-semibold">
+                <div className="w-full h-[40%]  rounded-lg text-center font-benderregular font-semibold text-white">
                   Cisco
                 </div>
               </div>
             </div>
             <div className="w-full h-[25%]  rounded-lg">
-              <p className="m-3 text-center text-[#B3B3B3] text-sm font-benderregular leading-tight">
+              <p className="m-3 text-center text-white text-sm font-benderregular leading-tight">
                 Rahul Kolle is a Technical Project Manager at Cisco where he
                 manages multi-million dollar projects for Cisco customers in
                 Europe and the UK.{" "}
@@ -87,13 +87,13 @@ const Speaker = () => {
                 <div className="w-full h-[60%]  border-solid border-b-2  border-[#13FBD3]  text-xl text-white text-center font-benderregular font-bold flex justify-center items-start">
                   Vishnu Dutt
                 </div>
-                <div className="w-full h-[40%]  rounded-lg text-center font-benderregular font-semibold">
+                <div className="w-full h-[40%]  rounded-lg text-center font-benderregular font-semibold text-white">
                   Cisco
                 </div>
               </div>
             </div>
             <div className="w-full h-[25%]  rounded-lg">
-              <p className="m-3 text-center text-[#B3B3B3] text-sm font-benderregular leading-tight">
+              <p className="m-3 text-center text-white text-sm font-benderregular leading-tight">
                 Vishnu Dutt is a seasoned Solutions Architect with over 15 years
                 of expertise in Network Consulting.He holds a prestigious CCIE
                 Routing and Switching certification, showcasing his profound
@@ -141,13 +141,13 @@ const Speaker = () => {
                 <div className="w-full h-[60%]  border-solid border-b-2  border-[#13FBD3]  text-xl text-white text-center font-benderregular font-bold flex justify-center items-start">
                   Rajtilak Majumder
                 </div>
-                <div className="w-full h-[40%]  rounded-lg text-center font-benderregular font-semibold">
+                <div className="w-full h-[40%]  rounded-lg text-center font-benderregular font-semibold text-white">
                   PwC
                 </div>
               </div>
             </div>
             <div className="w-full h-[25%]  rounded-lg">
-              <p className="m-3 text-center text-[#B3B3B3] text-sm font-benderregular leading-tight">
+              <p className="m-3 text-center text-white text-sm font-benderregular leading-tight">
                 Rajtilak Majumder, CISSP, is the Director of Information
                 Security at PwC India, bringing over a decade of experience in
                 cybersecurity leadership roles across diverse sectors. With
@@ -197,13 +197,13 @@ const Speaker = () => {
                 <div className="w-full h-[60%]  border-solid border-b-2  border-[#13FBD3]  text-xl text-white text-center font-benderregular font-bold flex justify-center items-start">
                   Abhishek Sen
                 </div>
-                <div className="w-full h-[40%]  rounded-lg text-center font-benderregular font-semibold">
+                <div className="w-full h-[40%]  rounded-lg text-center font-benderregular font-semibold text-white">
                   PwC
                 </div>
               </div>
             </div>
             <div className="w-full h-[25%]  rounded-lg">
-              <p className="m-3 text-center text-[#B3B3B3] text-sm font-benderregular leading-tight">
+              <p className="m-3 text-center text-white text-sm font-benderregular leading-tight">
                 Abhishek Sen, an Associate Director at PwC, is a seasoned
                 Enterprise Security Architect spanning 17 years in Information
                 and Cyber Security. Holding certifications like CISSP, AZ-500,
@@ -253,13 +253,13 @@ const Speaker = () => {
                 <div className="w-full h-[60%]  border-solid border-b-2  border-[#13FBD3]  text-xl text-white text-center font-benderregular font-bold flex justify-center items-start">
                   Gobinda Karmakar
                 </div>
-                <div className="w-full h-[40%]  rounded-lg text-center font-benderregular font-semibold">
+                <div className="w-full h-[40%]  rounded-lg text-center font-benderregular font-semibold text-white">
                   PwC
                 </div>
               </div>
             </div>
             <div className="w-full h-[25%]  rounded-lg">
-              <p className="m-3 text-center text-[#B3B3B3] text-sm font-benderregular leading-tight">
+              <p className="m-3 text-center text-[#B3B3B3] text-sm font-benderregular leading-tight text-white">
                 Gobinda Karmakar, an Application Security Architect at PwC India
                 and an alumnus of LPU, boasts extensive experience in
                 Information Security and Cybersecurity. Proficient in
@@ -310,13 +310,13 @@ const Speaker = () => {
                 <div className="w-full h-[60%]  border-solid border-b-2  border-[#13FBD3]  text-xl text-white text-center font-benderregular font-bold flex justify-center items-start">
                   Shashank Dubey
                 </div>
-                <div className="w-full h-[40%]  rounded-lg text-center font-benderregular font-semibold">
+                <div className="w-full h-[40%]  rounded-lg text-center font-benderregular font-semibold text-white">
                   Payatu
                 </div>
               </div>
             </div>
             <div className="w-full h-[25%]  rounded-lg">
-              <p className="m-3 text-center text-[#B3B3B3] text-sm font-benderregular leading-tight">
+              <p className="m-3 text-center text-white text-sm font-benderregular leading-tight">
                 Shashank Dubey, a Cloud Security Engineer at Payatu, specializes
                 in AWS and Kubernetes security. With over 3 years of industry
                 experience, he's adept at threat modeling, compliance
@@ -364,13 +364,13 @@ const Speaker = () => {
                 <div className="w-full h-[60%]  border-solid border-b-2  border-[#13FBD3]  text-xl text-white text-center font-benderregular font-bold flex justify-center items-start">
                   Awadhesh Shukla
                 </div>
-                <div className="w-full h-[40%]  rounded-lg text-center font-benderregular font-semibold">
+                <div className="w-full h-[40%]  rounded-lg text-center font-benderregular font-semibold text-white">
                   Quick Heal
                 </div>
               </div>
             </div>
             <div className="w-full h-[25%]  rounded-lg">
-              <p className="m-3 text-center text-[#B3B3B3] text-sm font-benderregular leading-tight">
+              <p className="m-3 text-center  text-sm font-benderregular leading-tight text-white">
                 Awadhesh Shukla, an esteemed alumnus of LPU, is a distinguished
                 cybersecurity professional serving as a Principal Security
                 Consultant at Quick Heal. Armed with a plethora of CompTIA
@@ -420,13 +420,13 @@ const Speaker = () => {
                 <div className="w-full h-[60%]  border-solid border-b-2  border-[#13FBD3]  text-xl text-white text-center font-benderregular font-bold flex justify-center items-start">
                   Prabhsimran Singh
                 </div>
-                <div className="w-full h-[40%]  rounded-lg text-center font-benderregular font-semibold">
+                <div className="w-full h-[40%]  rounded-lg text-center font-benderregular font-semibold text-white">
                   Finelabs
                 </div>
               </div>
             </div>
             <div className="w-full h-[25%]  rounded-lg">
-              <p className="m-3 text-center text-[#B3B3B3] text-sm font-benderregular leading-tight">
+              <p className="m-3 text-center text-white text-sm font-benderregular leading-tight">
                 Prabhsimran Singh, a Senior Security Engineer at Finelabs and an
                 alumnus of LPU, is a distinguished Cybersecurity Consultant
                 specializing in product security. With a robust background in
@@ -476,13 +476,13 @@ const Speaker = () => {
                 <div className="w-full h-[60%]  border-solid border-b-2  border-[#13FBD3]  text-xl text-white text-center font-benderregular font-bold flex justify-center items-start">
                   Sourabh Bhandari
                 </div>
-                <div className="w-full h-[40%]  rounded-lg text-center font-benderregular font-semibold">
+                <div className="w-full h-[40%]  rounded-lg text-center font-benderregular font-semibold text-white">
                   Palo Alto
                 </div>
               </div>
             </div>
             <div className="w-full h-[25%]  rounded-lg">
-              <p className="m-3 text-center text-[#B3B3B3] text-sm font-benderregular leading-tight">
+              <p className="m-3 text-center text-white text-sm font-benderregular leading-tight">
                 Sourabh Bhandari, an alumnus of LPU, currently serves as a Staff
                 Engineer at Palo Alto Networks. With a background spanning roles
                 at HaloDoc and HackerEarth, Sourabh excels in platform
@@ -531,12 +531,12 @@ const Speaker = () => {
                 <div className="w-full h-[60%]  border-solid border-b-2  border-[#13FBD3]  text-sm text-white text-center font-benderregular font-bold flex justify-center items-start">
                   Rahul Kolle
                 </div>
-                <div className="w-full h-[40%] text-sm  leading-tight rounded-lg flex items-center justify-center text-center font-benderregular font-semibold">
+                <div className="w-full h-[40%] text-sm  leading-tight rounded-lg flex items-center justify-center text-center font-benderregular font-semibold text-white">
                   Cisco
                 </div>
               </div>
             </div>
-            <div className="w-[90%] h-[35%]  rounded-lg flex flex-col items-center justify-center tracking-tighter leading-tight  text-xs text-center font-benderregular font-bold">
+            <div className="w-[90%] h-[35%]  rounded-lg text-white flex flex-col items-center justify-center tracking-tighter leading-tight  text-xs text-center font-benderregular font-bold">
               Rahul Kolle is a Technical Project Manager at Cisco where he
               manages multi-million dollar projects for Cisco customers in
               Europe and the UK.{" "}
@@ -568,12 +568,12 @@ const Speaker = () => {
                 <div className="w-full h-[60%]  border-solid border-b-2  border-[#13FBD3]  text-sm text-white text-center font-benderregular font-bold flex justify-center items-start">
                   Vishnu Dutt
                 </div>
-                <div className="w-full h-[40%] text-sm tracking-tighter leading-tight rounded-lg flex items-center justify-center text-center font-benderregular font-semibold">
+                <div className="w-full h-[40%] text-white text-sm tracking-tighter leading-tight rounded-lg flex items-center justify-center text-center font-benderregular font-semibold">
                   Cisco
                 </div>
               </div>
             </div>
-            <div className="w-[90%] h-[35%]  rounded-lg flex flex-col items-center justify-center  text-center text-xs font-benderregular font-bold tracking-tighter leading-tight ">
+            <div className="w-[90%] h-[35%] text-white  rounded-lg flex flex-col items-center justify-center  text-center text-xs font-benderregular font-bold tracking-tighter leading-tight ">
               Vishnu Dutt is a seasoned Solutions Architect with over 15 years
               of expertise in Network Consulting.He holds a prestigious CCIE
               Routing and Switching certification.
@@ -605,12 +605,12 @@ const Speaker = () => {
                 <div className="w-full h-[60%]  border-solid border-b-2  border-[#13FBD3]  text-sm text-white text-center font-benderregular font-bold flex justify-center items-start">
                   Rajtilak Majumder
                 </div>
-                <div className="w-full h-[40%] text-sm tracking-tighter leading-tight rounded-lg flex items-center justify-center text-center font-benderregular font-semibold">
+                <div className="w-full text-white h-[40%] text-sm tracking-tighter leading-tight rounded-lg flex items-center justify-center text-center font-benderregular font-semibold">
                   PwC
                 </div>
               </div>
             </div>
-            <div className="w-[90%] h-[35%]  rounded-lg flex flex-col items-center justify-center text-center text-xs font-benderregular font-bold tracking-tighter leading-tight  ">
+            <div className="w-[90%] text-white h-[35%]  rounded-lg flex flex-col items-center justify-center text-center text-xs font-benderregular font-bold tracking-tighter leading-tight  ">
               {" "}
               Rajtilak Majumder, CISSP, is the Director of Information Security
               at PwC India, bringing over a decade of experience in
@@ -643,12 +643,12 @@ const Speaker = () => {
                 <div className="w-full h-[60%]  border-solid border-b-2  border-[#13FBD3]  text-sm text-white text-center font-benderregular font-bold flex justify-center items-start">
                   Abhishek Sen
                 </div>
-                <div className="w-full h-[40%] text-sm tracking-tighter leading-tight rounded-lg flex items-center justify-center text-center font-benderregular font-semibold">
+                <div className="w-full text-white h-[40%] text-sm tracking-tighter leading-tight rounded-lg flex items-center justify-center text-center font-benderregular font-semibold">
                   PwC
                 </div>
               </div>
             </div>
-            <div className="w-[90%] h-[35%]  rounded-lg flex flex-col items-center justify-center text-center text-xs font-benderregular font-bold tracking-tighter leading-tight   ">
+            <div className="w-[90%] h-[35%] text-white  rounded-lg flex flex-col items-center justify-center text-center text-xs font-benderregular font-bold tracking-tighter leading-tight   ">
               Abhishek Sen, an Associate Director at PwC, is a seasoned
               Enterprise Security Architect. Holding certifications like CISSP,
               AZ-500, and CDPSE.
@@ -680,12 +680,12 @@ const Speaker = () => {
                 <div className="w-full h-[60%]  border-solid border-b-2  border-[#13FBD3]  text-sm text-white text-center font-benderregular font-bold flex justify-center items-start">
                   Gobinda Karmakar
                 </div>
-                <div className="w-full h-[40%] text-sm tracking-tighter leading-tight rounded-lg flex items-center justify-center text-center font-benderregular font-semibold">
+                <div className="w-full text-white h-[40%] text-sm tracking-tighter leading-tight rounded-lg flex items-center justify-center text-center font-benderregular font-semibold">
                   PwC
                 </div>
               </div>
             </div>
-            <div className="w-[90%] h-[35%]  rounded-lg flex flex-col items-center justify-center text-center text-xs font-benderregular font-bold tracking-tighter leading-tight  ">
+            <div className="w-[90%] h-[35%] text-white  rounded-lg flex flex-col items-center justify-center text-center text-xs font-benderregular font-bold tracking-tighter leading-tight  ">
               Gobinda Karmakar, an Application Security Architect at PwC India
               and an alumnus of LPU, boasts extensive experience in Information
               Security and Cybersecurity. Proficient in implementing robust
@@ -718,12 +718,12 @@ const Speaker = () => {
                 <div className="w-full h-[60%]  border-solid border-b-2  border-[#13FBD3]  text-sm text-white text-center font-benderregular font-bold flex justify-center items-start">
                   Shashank Dubey
                 </div>
-                <div className="w-full h-[40%] text-sm tracking-tighter leading-tight rounded-lg flex items-center justify-center text-center font-benderregular font-semibold">
+                <div className="w-full text-white h-[40%] text-sm tracking-tighter leading-tight rounded-lg flex items-center justify-center text-center font-benderregular font-semibold">
                   Payatu
                 </div>
               </div>
             </div>
-            <div className="w-[90%] h-[35%]  rounded-lg flex flex-col items-center justify-center text-center text-xs font-benderregular font-bold tracking-tighter leading-tight ">
+            <div className="w-[90%] h-[35%] text-white  rounded-lg flex flex-col items-center justify-center text-center text-xs font-benderregular font-bold tracking-tighter leading-tight ">
               Shashank Dubey, a Cloud Security Engineer at Payatu, specializes
               in AWS and Kubernetes security. With over 3 years of industry
               experience, he's adept at threat modeling and cloud-native
@@ -756,12 +756,12 @@ const Speaker = () => {
                 <div className="w-full h-[60%]  border-solid border-b-2  border-[#13FBD3]  text-sm text-white text-center font-benderregular font-bold flex justify-center items-start">
                   Awadhesh Shukla
                 </div>
-                <div className="w-full h-[40%] text-sm tracking-tighter leading-tight rounded-lg flex items-center justify-center text-center font-benderregular font-semibold">
+                <div className="w-full text-white h-[40%] text-sm tracking-tighter leading-tight rounded-lg flex items-center justify-center text-center font-benderregular font-semibold">
                   Quick Heal
                 </div>
               </div>
             </div>
-            <div className="w-[90%] h-[35%]  rounded-lg flex flex-col items-center justify-center text-center font-benderregular leading-tight tracking-tighter font-bold text-xs ">
+            <div className="w-[90%] h-[35%] text-white  rounded-lg flex flex-col items-center justify-center text-center font-benderregular leading-tight tracking-tighter font-bold text-xs ">
               {" "}
               Awadhesh Shukla, an esteemed alumnus of LPU, is a distinguished
               cybersecurity professional serving as a Principal Security
@@ -795,12 +795,12 @@ const Speaker = () => {
                 <div className="w-full h-[60%]  border-solid border-b-2  border-[#13FBD3]  text-sm text-white text-center font-benderregular font-bold flex justify-center items-start">
                   Prabhsimran Singh
                 </div>
-                <div className="w-full h-[40%] text-sm tracking-tighter leading-tight rounded-lg flex items-center justify-center text-center font-benderregular font-semibold">
+                <div className="w-full text-white h-[40%] text-sm tracking-tighter leading-tight rounded-lg flex items-center justify-center text-center font-benderregular font-semibold">
                   Finelabs
                 </div>
               </div>
             </div>
-            <div className="w-[90%] h-[35%]  rounded-lg flex flex-col items-center justify-center text-center font-benderregular leading-tight tracking-tighter font-bold text-xs ">
+            <div className="w-[90%] h-[35%] text-white  rounded-lg flex flex-col items-center justify-center text-center font-benderregular leading-tight tracking-tighter font-bold text-xs ">
               Prabhsimran Singh, a Senior Security Engineer at Finelabs. With a
               robust background in ethical hacking and a suite of prestigious
               certifications including OSCP and CEH.
@@ -832,12 +832,12 @@ const Speaker = () => {
                 <div className="w-full h-[60%]  border-solid border-b-2  border-[#13FBD3]  text-sm text-white text-center font-benderregular font-bold flex justify-center items-start">
                   Sourabh Bhandari
                 </div>
-                <div className="w-full h-[40%] text-sm tracking-tighter leading-tight rounded-lg flex items-center justify-center text-center font-benderregular font-semibold">
+                <div className="w-full text-white h-[40%] text-sm tracking-tighter leading-tight rounded-lg flex items-center justify-center text-center font-benderregular font-semibold">
                   Palo Alto
                 </div>
               </div>
             </div>
-            <div className="w-[90%] h-[35%]  rounded-lg flex flex-col items-center justify-center text-center font-benderregular leading-tight tracking-tighter font-bold text-xs ">
+            <div className="w-[90%] h-[35%] text-white  rounded-lg flex flex-col items-center justify-center text-center font-benderregular leading-tight tracking-tighter font-bold text-xs ">
               Sourabh Bhandari, an alumnus of LPU, currently serves as a Staff
               Engineer at Palo Alto Networks. With a background spanning roles
               at HaloDoc and HackerEarth, Sourabh excels in platform

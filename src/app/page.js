@@ -13,9 +13,9 @@ export default function Home() {
       <Header />
       <Main />
       <Symposium />
-      <NewSymposium />
+      {/* <NewSymposium /> */}
       <Past />
-      <Sponsors />
+      {/* <Sponsors /> */}
       <Testimonials />
       <Footer />
     </div>

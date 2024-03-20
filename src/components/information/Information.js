@@ -3,7 +3,7 @@ import Link from "next/link";
 const Information = () => {
   return (
     <>
-      <div className="w-[100vw] min-h-screen  rounded-lg flex-col md:flex-row md:flex justify-between items-start p-8 bg-[#121E2C]">
+      <div className="w-[100vw] min-h-screen   flex-col md:flex-row md:flex justify-between items-start p-8 bg-[#121E2C]">
         <div className="  h-[100%] w-[100%] md:w-[50%]   m-1 ">
           <div className="   h-[100%] w-[100%] ">
             <div className=" hidden md:block  text-left px-5 pt-0 pb-0 ">
@@ -19,7 +19,7 @@ const Information = () => {
                 </p>
               </div>
               <br></br>
-              <p className="text-left font-benderregular text-xl">
+              <p className="text-left font-benderregular text-xl text-white">
                 Featuring an impressive lineup of keynote speakers, panel
                 discussions, workshops, competitions, and networking sessions,
                 it covers ethical hacking, cybercrime, data privacy, metaverse
@@ -61,7 +61,7 @@ const Information = () => {
                 </p>
               </div>
               <br></br>
-              <p className="text-left font-benderregular text-lg">
+              <p className="text-left font-benderregular text-lg text-white">
                 Featuring an impressive lineup of keynote speakers, panel
                 discussions, workshops, competitions, and networking sessions,
                 it covers ethical hacking, cybercrime, data privacy, metaverse

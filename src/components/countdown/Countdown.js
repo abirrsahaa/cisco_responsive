@@ -53,25 +53,25 @@ const Countdown = () => {
             </motion.div>
             <div className="w-[100%] md:w-[85%] flex justify-between items-center  h-[60%]  p-1">
               <div className="bg-gray-800 font-benderregular p-4 rounded-lg w-[24%] h-[95%] gap-1 md:gap-2 flex flex-col justify-center items-center">
-                <div className="text-4xl md:text-7xl font-semibold  ">
+                <div className="text-4xl md:text-7xl font-semibold  text-white">
                   {days}
                 </div>
                 <div className="text-gray-400 text-sm md:text-3xl">DAYS</div>
               </div>
               <div className="bg-gray-800 font-benderregular p-4 rounded-lg w-[24%] h-[95%] gap-1 md:gap-2 flex flex-col justify-center items-center">
-                <div className="text-4xl md:text-7xl font-semibold  ">
+                <div className="text-4xl md:text-7xl font-semibold  text-white">
                   {hours}
                 </div>
                 <div className="text-gray-400 text-sm md:text-3xl">HOURS</div>
               </div>
               <div className="bg-gray-800 font-benderregular p-4 rounded-lg w-[24%] h-[95%] gap-1 md:gap-2 flex flex-col justify-center items-center">
-                <div className="text-4xl md:text-7xl font-semibold  ">
+                <div className="text-4xl md:text-7xl font-semibold  text-white">
                   {minutes}
                 </div>
                 <div className="text-gray-400 text-sm md:text-3xl">MINUTES</div>
               </div>
               <div className="bg-gray-800 font-benderregular p-4 rounded-lg w-[24%] h-[95%] gap-1 md:gap-2 flex flex-col justify-center items-center">
-                <div className="text-4xl md:text-7xl font-semibold  ">
+                <div className="text-4xl md:text-7xl font-semibold  text-white">
                   {seconds}
                 </div>
                 <div className="text-gray-400 text-sm md:text-3xl">SECONDS</div>
