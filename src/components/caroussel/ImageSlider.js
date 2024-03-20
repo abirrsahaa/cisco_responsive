@@ -66,7 +66,7 @@ const ImageSlider = () => {
     right1: { x: "50%", scale: 0.7, zIndex: 3 },
   };
   return (
-    <>
+    <div className="w-[100vw] h-[100vh] bg-[#121E2C]">
       <motion.h1
         initial={{ opacity: 0, x: -100 }}
         whileInView={{ opacity: 1, x: 0 }}
@@ -147,7 +147,7 @@ const ImageSlider = () => {
           </button>
         </div>
       </motion.div>
-    </>
+    </div>
   );
 };
 

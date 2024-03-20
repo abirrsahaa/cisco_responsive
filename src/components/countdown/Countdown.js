@@ -40,7 +40,7 @@ const Countdown = () => {
 
   return (
     <>
-      <div className="w-[100%] h-[30vh] md:h-[40vh]  ">
+      <div className="w-[100%] h-[30vh] md:h-[40vh]  bg-[#121E2C]">
         <div className="w-[100%] h-[100%]   flex justify-center items-center p-2">
           <div className="h-[90%] w-[90%] md:w-[50%]  rounded-lg flex flex-col items-center justify-center ">
             <motion.div

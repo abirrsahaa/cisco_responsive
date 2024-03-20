@@ -3,7 +3,7 @@ import Link from "next/link";
 const Information = () => {
   return (
     <>
-      <div className="w-[100vw] min-h-screen  rounded-lg flex-col md:flex-row md:flex justify-between items-start p-8">
+      <div className="w-[100vw] min-h-screen  rounded-lg flex-col md:flex-row md:flex justify-between items-start p-8 bg-[#121E2C]">
         <div className="  h-[100%] w-[100%] md:w-[50%]   m-1 ">
           <div className="   h-[100%] w-[100%] ">
             <div className=" hidden md:block  text-left px-5 pt-0 pb-0 ">

@@ -26,7 +26,7 @@ const Footer = () => {
             Quick Links
           </div>
           <ul className="flex gap-2 mx-2 pl-2 mt-2 tracking-tighter text-sm">
-            <div className="flex font-benderregular flex-col gap-3 mx-3">
+            <div className="flex font-benderregular flex-col gap-3 mx-3 text-white">
               <Link href="https://ciscoxlpuigen.co.in/">
                 <li>Home</li>
               </Link>
@@ -49,14 +49,14 @@ const Footer = () => {
           <ul className="flex flex-col gap-1 mx-3 pl-2 mt-4 tracking-tighter text-lg items-start justify-center">
             <li className="flex gap-2 justify-center items-center h-5 ">
               <MdOutlineMailOutline className="text-[#13FBD3]  h-4" />
-              <span className="flex font-benderregular items-center justify-center  h-4 pb-1">
+              <span className="flex font-benderregular items-center justify-center  h-4 pb-1 text-white">
                 {" "}
                 support@ciscoxlpuigen.co.in
               </span>
             </li>
             <li className="flex gap-2 justify-center items-center h-10 ">
               <IoCallOutline className="text-[#13FBD3]  h-8" />
-              <span className="flex font-benderregular items-center justify-center  h-8 pb-1">
+              <span className="flex font-benderregular items-center justify-center  h-8 pb-1 text-white">
                 {" "}
                 +91&nbsp;82580&nbsp;63058 &nbsp;
               </span>
@@ -88,7 +88,7 @@ const Footer = () => {
               />
             </div>
           </div>
-          <div className="w-[90%] font-benderregular h-[40%]  flex justify-start items-center text-left ">
+          <div className="w-[90%] font-benderregular h-[40%]  flex justify-start items-center text-left text-white ">
             {" "}
             The Cisco x LPU iGen Community is an initiative undertaken by the
             tech enthusiasts at Lovely Professional University, with an

@@ -13,7 +13,7 @@ const Header = () => {
 
   return (
     <>
-      <div className="w-[100vw] h-[8vh] px-5 z-1 flex items-center justify-between md:h-[15vh] ">
+      <div className="w-[100vw] h-[8vh] px-5 z-1 flex items-center justify-between md:h-[15vh] bg-gradient-to-b  from-[#09131D] to-[#121E2C]">
         <div className="w-[20%] md:w-[10%] overflow-hidden h-[80%] flex items-center justify-center ml-3  rounded-lg">
           <Image
             src={cisco}
