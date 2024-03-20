@@ -9,7 +9,7 @@ import Sponsors from "@/components/sponsors/Sponsors";
 
 export default function Home() {
   return (
-    <div className="w-[100%] overflow-y-hidden min-h-screen m-0 p-0 overflow-x-hidden flex justify-center items-center flex-col">
+    <div className="w-[100%] overflow-y-hidden min-h-screen m-0 p-0 overflow-x-hidden flex justify-center items-center flex-col bg-[#121E2C] text-white">
       <Header />
       <Main />
       <Symposium />
