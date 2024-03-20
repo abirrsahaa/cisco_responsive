@@ -8,7 +8,7 @@ import Speaker from "@/components/speaker/Speaker";
 
 const cybersec = () => {
   return (
-    <main className="min-w-screen  overflow-hidden overflow-x-hidden bg-[#121E2C] text-white">
+    <main className="min-w-screen  overflow-hidden overflow-x-hidden bg-[#121E2C] ">
       <Header />
       <EventHero />
       <Countdown />

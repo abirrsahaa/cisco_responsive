@@ -139,10 +139,7 @@ const Footer = () => {
           <ul className="flex flex-col gap-3 mx-3 pl-5 mt-4 tracking-tighter text-xl items-start justify-center text-white">
             <li className="flex gap-2 justify-center items-center h-10 ">
               <MdOutlineMailOutline className="text-[#13FBD3] h-8" />
-              <span
-                className="flex font-benderregular items-center justify-center  h-8 pb-1"
-                text-white
-              >
+              <span className="flex font-benderregular items-center justify-center  h-8 pb-1 text-white">
                 {" "}
                 support@ciscoxlpuigen.co.in
               </span>

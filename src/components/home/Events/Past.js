@@ -96,8 +96,8 @@ const Past = () => {
                 </p>
                 <div className="w-full h-[25%] flex items-center justify-start">
                   <Link href="/Events">
-                    <button class="relative w-[187px] inline-flex rounded-2xl items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 group bg-gradient-to-br from-[#00B3FF] to-[#2CE1C0]  hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800">
-                      <span class="relative w-[187px] px-5 py-2.5 rounded-2xl transition-all ease-in duration-75 text-[20px] font-normal bg-gray-900s dark:bg-gray-900 text-[#13FBD3] ">
+                    <button className="relative w-[187px] inline-flex rounded-2xl items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 group bg-gradient-to-br from-[#00B3FF] to-[#2CE1C0]  hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800">
+                      <span className="relative w-[187px] px-5 py-2.5 rounded-2xl transition-all ease-in duration-75 text-[20px] font-normal bg-gray-900s dark:bg-gray-900 text-[#13FBD3] ">
                         View More
                       </span>
                     </button>
@@ -142,7 +142,7 @@ const Past = () => {
                         setshowmodal(true);
                         console.log(showmodal);
                       }}
-                      class="relative w-[187px] z-10 px-5 rounded-2xl py-2.5 transition-all ease-in duration-75 text-[20px] font-semibold bg-gray-900 dark:bg-gray-900 text-[#13FBD3] hover:bg-[#13FBD3] hover:text-black"
+                      className="relative w-[187px] z-10 px-5 rounded-2xl py-2.5 transition-all ease-in duration-75 text-[20px] font-semibold bg-gray-900 dark:bg-gray-900 text-[#13FBD3] hover:bg-[#13FBD3] hover:text-black"
                     >
                       View More
                     </span>
@@ -183,7 +183,7 @@ const Past = () => {
                   >
                     <span
                       onClick={() => setclicked(!clicked)}
-                      class="relative w-[187px] px-5 rounded-2xl py-2.5 transition-all ease-in duration-75 text-[20px] font-semibold bg-gray-900 dark:bg-gray-900 text-[#13FBD3] hover:bg-[#13FBD3] hover:text-black"
+                      className="relative w-[187px] px-5 rounded-2xl py-2.5 transition-all ease-in duration-75 text-[20px] font-semibold bg-gray-900 dark:bg-gray-900 text-[#13FBD3] hover:bg-[#13FBD3] hover:text-black"
                     >
                       View More
                     </span>
