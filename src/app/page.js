@@ -8,6 +8,7 @@ import NewSymposium from "@/components/home/cybersecc/NewSymposium";
 import Sponsors from "@/components/sponsors/Sponsors";
 import Header1 from "@/components/home/Header/Header1";
 import Speaker from "@/components/speaker/Speaker";
+import Advisory from "@/components/speaker/Advisory";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Main />
       <Symposium />
       {/* <NewSymposium /> */}
+      <Advisory />
       <Speaker />
       <Past />
       {/* <Sponsors /> */}
