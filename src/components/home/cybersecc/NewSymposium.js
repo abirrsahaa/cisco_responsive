@@ -7,7 +7,7 @@ import logo from "../../../assets/logo_new.png";
 import Image from "next/image";
 import Link from "next/link";
 
-import rahul from "../../../assets/Rahul.png";
+import rahul from "../../../assets/rahul1.png";
 
 const NewSymposium = () => {
   const eventDate = new Date("2024-04-01T23:59:59");
