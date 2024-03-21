@@ -9,7 +9,7 @@ import Speakercompod from "./Speakercompom";
 const Advisory = () => {
   return (
     <div className="w-[100vw]  bg-[#121E2C] gap-4  flex flex-col justify-start items-center">
-      <div className="w-[90vw] rounded-xl h-[20vh]  text-center flex items-center justify-center text-3xl md:text-6xl font-benderregular font-bold text-[#12e2bf]">
+      <div className="w-[90vw] rounded-xl h-[20vh]  text-center flex items-center justify-center text-3xl md:text-5xl font-benderregular font-bold text-[#12e2bf]">
         Advisory Committee
       </div>
       <div className="w-[95vw] md:w-[90vw] rounded-xl   flex flex-row flex-wrap gap-2 md:gap-4 justify-center items-center ">
