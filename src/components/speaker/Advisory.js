@@ -2,7 +2,7 @@ import lovi from "../../assets/lovi.png";
 import atul from "../../assets/atul.png";
 import deepak from "../../assets/deepak.png";
 import max from "../../assets/max.png";
-import raj from "../../assets/rahul.png";
+import raj from "../../assets/rajj.png";
 import Speakercompom from "./SpeakerCompod";
 import Speakercompod from "./Speakercompom";
 
