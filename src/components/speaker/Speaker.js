@@ -27,7 +27,7 @@ const Speaker = () => {
           KEYNOTE SPEAKERS
         </div>
         <div className="w-[95vw] md:w-[90vw] rounded-xl   flex flex-row flex-wrap gap-2 md:gap-4 justify-center items-center ">
-          <Speakercompod
+          {/* <Speakercompod
             name="Rahul Kolle"
             company="Technical Project Manager at Cisco"
             bio="Rahul Kolle is a Technical Project Manager at Cisco where he manages
@@ -35,8 +35,8 @@ const Speaker = () => {
           UK."
             linkedin="https://www.linkedin.com/in/rahulkolle/"
             photo={rahul}
-          />
-          <Speakercompod
+          /> */}
+          {/* <Speakercompod
             name="Vishnu Dutt"
             company="Seasoned Solutions Architect at Cisco"
             bio="Vishnu Dutt is a seasoned Solutions Architect with over 15 years
@@ -45,7 +45,7 @@ const Speaker = () => {
             knowledge in Switching, Routing, and Network Security domains."
             linkedin="https://www.linkedin.com/in/vishnu-dutt-586a9813/"
             photo={vishnu}
-          />
+          /> */}
           {/* vishal kumar */}
           <Speakercompod
             name="Vishal Kumar"
@@ -162,7 +162,7 @@ const Speaker = () => {
           />
 
           {/* mobile screen */}
-          <Speakercompom
+          {/* <Speakercompom
             name="Rahul Kolle"
             company="Technical Project Manager at Cisco"
             bio="Rahul Kolle is a Technical Project Manager at Cisco where he manages
@@ -170,8 +170,8 @@ const Speaker = () => {
           UK."
             linkedin="https://www.linkedin.com/in/rahulkolle/"
             photo={rahul}
-          />
-          <Speakercompom
+          /> */}
+          {/* <Speakercompom
             name="Vishnu Dutt"
             company="Seasoned Solutions Architect at Cisco"
             bio="Vishnu Dutt is a seasoned Solutions Architect with over 15 years
@@ -179,7 +179,7 @@ const Speaker = () => {
             Routing and Switching certification."
             linkedin="https://www.linkedin.com/in/vishnu-dutt-586a9813/"
             photo={vishnu}
-          />
+          /> */}
           {/* vishal */}
           <Speakercompom
             name="Vishal Kumar"
