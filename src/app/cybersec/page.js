@@ -13,8 +13,9 @@ const cybersec = () => {
       <Header />
       <EventHero />
       <Countdown />
-      <Advisory />
+
       <Speaker />
+      <Advisory />
       <Information />
       <ImageSlider />
       <Footer />

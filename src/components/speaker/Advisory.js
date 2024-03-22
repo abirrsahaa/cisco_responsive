@@ -74,7 +74,7 @@ const Advisory = () => {
         />
         <Speakercompom
           name="Dr. Rajeev Sobti"
-          company="Head of School, School of Computer Science & Engineering"
+          company="HOS, School of Computer Science & Engineering, Lovely Professional University"
           bio=" Dr. Rajeev Sobti, Head of School at Lovely Professional University's School of Computer Science & 
           Engineering, is a cornerstone of academic excellence, With extensive experience and mentorship."
           linkedin=""
@@ -82,7 +82,8 @@ const Advisory = () => {
         />
         <Speakercompom
           name="Dr. Deepak Prashar"
-          company="Coordinator of School, School of Computer Science & Engineering"
+          company="COS, School of Computer Science & Engineering, Lovely Professional 
+          University"
           bio=" Dr. Deepak Prashar, a dedicated educator and cybersecurity expert, serves as Professor & Deputy Dean 
          at Lovely Professional University. With expertise in network security."
           linkedin="https://www.linkedin.com/in/dr-deepak-prashar-97196030/"
@@ -90,7 +91,8 @@ const Advisory = () => {
         />
         <Speakercompom
           name="Dr. Max Bhatia"
-          company=" Head of Department,School of Computer Science & Engineering"
+          company=" HOD, Network & Security-II Domain, School of Computer Science & 
+          Engineering, Lovely Professional University"
           bio=" Dr. Max Bhatia, an esteemed Assistant Professor  at Lovely Professional University, plays a pivotal role in navigating the academic and administrative realms of 
           Cyber Security"
           linkedin="https://www.linkedin.com/in/maxbhatia-007/"
@@ -98,7 +100,8 @@ const Advisory = () => {
         />
         <Speakercompom
           name="Atul Malhotra "
-          company="Program Coordinator,School of Computer Science & Engineering"
+          company="PC, Network & Security-II Domain, School of Computer Science & 
+          Engineering, Lovely Professional University"
           bio="Atul Malhotra is an Assistant Professor specializing in Cyber Security at Lovely Professional University. 
           He's dedicated to integrating industry-relevant technology into education."
           linkedin="https://www.linkedin.com/in/atul-malhotra-6001281b/ "

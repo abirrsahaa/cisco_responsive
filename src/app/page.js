@@ -17,11 +17,12 @@ export default function Home() {
       <Main />
       <Symposium />
       {/* <NewSymposium /> */}
-      <Advisory />
+
       <Speaker />
+      <Advisory />
       <Past />
       {/* <Sponsors /> */}
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Footer />
     </div>
   );
