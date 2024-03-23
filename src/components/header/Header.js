@@ -15,11 +15,11 @@ const Header = () => {
     <>
       <div className="w-[100vw] h-[8vh] px-5 z-1 flex items-center justify-between md:h-[15vh] bg-gradient-to-b  from-[#09131D] to-[#121E2C]">
         <div className="w-[20%] md:w-[10%] overflow-hidden h-[80%] flex items-center justify-center ml-3  rounded-lg">
-          <Image
+          {/* <Image
             src={cisco}
             alt="cisco"
             className="w-[100%] h-[100%] md:w-[70%] md:h-[70%] object-cover object-center"
-          />
+          /> */}
         </div>
         <div className="hidden font-benderregular md:flex justify-between items-center w-[50%] h-[80%]  rounded-lg">
           <Link href="/" className="w-[23%] ">

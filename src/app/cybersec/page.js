@@ -6,6 +6,7 @@ import Header from "@/components/header/Header";
 import Footer from "@/components/footer/Footer";
 import Speaker from "@/components/speaker/Speaker";
 import Advisory from "@/components/speaker/Advisory";
+import Sponsors from "@/components/sponsors/Sponsors";
 
 const cybersec = () => {
   return (
@@ -18,6 +19,7 @@ const cybersec = () => {
       <Advisory />
       <Information />
       <ImageSlider />
+      <Sponsors />
       <Footer />
     </main>
   );

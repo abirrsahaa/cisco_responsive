@@ -22,7 +22,7 @@ const EventHero = () => {
         >
           <div className=" flex flex-col items-center   justify-center gap-4 md:gap-3   h-[100%] w-[100%] md:w-[66%] md:h-[100%] md:px-8 md:items-end md:ml-5">
             <div className="md:text-7xl text-4xl font-benderregular md:mr-10  text-[#13FBD3] font-bold">
-              Cisco x LPU iGen&apos;s
+              LPU iGen&apos;s
             </div>
             <div className="w-[380px] md:w-[700px]">
               <Image src={symposium} alt="photo" className="h-[100%] w-[97%]" />

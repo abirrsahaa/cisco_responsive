@@ -21,7 +21,7 @@ export default function Home() {
       <Speaker />
       <Advisory />
       <Past />
-      {/* <Sponsors /> */}
+      <Sponsors />
       {/* <Testimonials /> */}
       <Footer />
     </div>

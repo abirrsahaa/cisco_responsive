@@ -24,7 +24,7 @@ const Speaker = () => {
     <>
       <div className="w-[100vw]  bg-[#121E2C] gap-4  flex flex-col justify-start items-center">
         <div className="w-[90vw] rounded-xl h-[20vh]  text-center flex items-center justify-center text-3xl md:text-6xl font-benderregular font-bold text-[#12e2bf]">
-          KEYNOTE SPEAKERS
+          Guest Speakers
         </div>
         <div className="w-[95vw] md:w-[90vw] rounded-xl   flex flex-row flex-wrap gap-2 md:gap-4 justify-center items-center ">
           {/* <Speakercompod
@@ -49,7 +49,7 @@ const Speaker = () => {
           {/* vishal kumar */}
           <Speakercompod
             name="Vishal Kumar"
-            company="Seasoned expert in cyber law and security"
+            company="Cyber law and security expert, at Quick Heal"
             bio="Vishnu Dutt is a seasoned Solutions Architect with over 15 years
             of expertise in Network Consulting.He holds a prestigious CCIE
             Routing and Switching certification, showcasing his profound
@@ -88,7 +88,7 @@ const Speaker = () => {
             linkedin="https://www.linkedin.com/in/rajtilak-majumder-cissp-82b83412/"
             photo={raj}
           />
-          <Speakercompod
+          {/* <Speakercompod
             name="Abhishek Sen"
             company="Seasoned Enterprise Security Architect & Associate Director at PwC"
             bio="Abhishek Sen, an Associate Director at PwC, is a seasoned
@@ -98,7 +98,7 @@ const Speaker = () => {
             frameworks like PCI DSS and ISO 27001."
             linkedin="https://www.linkedin.com/in/abhishek-sen-56b29416/"
             photo={abhisek}
-          />
+          /> */}
           <Speakercompod
             name="Gobinda Karmakar"
             company="Application Security Architect at PwC India"
@@ -145,7 +145,7 @@ const Speaker = () => {
           {/* harshit */}
           <Speakercompod
             name="Harshit Arora"
-            company="Junior Associate in Compliance and Data Protection at Evalueserve"
+            company="Compliance and Data Protection Associate at Evalueserve"
             bio="  Sourabh Bhandari, an alumnus of LPU, currently serves as a Staff
            Engineer at Palo Alto Networks."
             linkedin="https://www.linkedin.com/in/harshitarora00/"
@@ -183,7 +183,7 @@ const Speaker = () => {
           {/* vishal */}
           <Speakercompom
             name="Vishal Kumar"
-            company="Seasoned expert in cyber law and security"
+            company="Cyber law and security expert, at Quick Heal"
             bio="Vishnu Dutt is a seasoned Solutions Architect with over 15 years
         of expertise in Network Consulting.He holds a prestigious CCIE
         Routing and Switching certification, showcasing his profound
@@ -220,7 +220,7 @@ const Speaker = () => {
             linkedin="https://www.linkedin.com/in/rajtilak-majumder-cissp-82b83412/"
             photo={raj}
           />
-
+          {/* 
           <Speakercompom
             name="Abhishek Sen"
             company="Seasoned Enterprise Security Architect & Associate Director at PwC"
@@ -229,7 +229,7 @@ const Speaker = () => {
                 AZ-500, and CDPSE."
             linkedin="https://www.linkedin.com/in/abhishek-sen-56b29416/"
             photo={abhisek}
-          />
+          /> */}
 
           <Speakercompom
             name="Gobinda Karmakar"
@@ -271,7 +271,7 @@ const Speaker = () => {
 
           <Speakercompom
             name="Harshit Arora"
-            company="Junior Associate in Compliance and Data Protection at Evalueserve"
+            company="Compliance and Data Protection Associate at Evalueserve"
             bio="  Sourabh Bhandari, an alumnus of LPU, currently serves as a Staff
            Engineer at Palo Alto Networks."
             linkedin="https://www.linkedin.com/in/harshitarora00/"
