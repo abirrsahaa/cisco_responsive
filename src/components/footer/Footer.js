@@ -69,8 +69,8 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className="w-full h-[17%] mt-3 flex justify-center items-center gap-4  md:hidden text-white">
-          <Link href="https://discord.com/invite/y73D7NAn">
+        <div className="w-full h-[17%]  flex justify-center items-start gap-4  md:hidden text-white">
+          <Link href="https://discord.com/invite/qkRZ9RN3RJ">
             <FaDiscord className="w-8 h-8 text-[#13FBD3]" />
           </Link>
           <Link href="https://twitter.com/XIgen48327">
@@ -102,7 +102,7 @@ const Footer = () => {
             peer-based practical learning
           </div>
           <div className="w-[90%] h-[30%] flex justify-start items-center gap-4 text-white">
-            <Link href="https://discord.com/invite/y73D7NAn">
+            <Link href="https://discord.com/invite/qkRZ9RN3RJ">
               <FaDiscord className="w-8 h-8 text-[#13FBD3]" />
             </Link>
             <Link href="https://twitter.com/XIgen48327">

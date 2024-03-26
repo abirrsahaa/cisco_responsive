@@ -58,7 +58,7 @@ const Speaker = () => {
             photo={vishal}
           />
           {/* jaswinder sign */}
-          <Speakercompod
+          {/* <Speakercompod
             name="Jaswinder Singh"
             company="Director of Engineering at SEQRITE Labs, Quick Heal"
             bio="Vishnu Dutt is a seasoned Solutions Architect with over 15 years
@@ -67,7 +67,7 @@ const Speaker = () => {
             knowledge in Switching, Routing, and Network Security domains."
             linkedin=" https://www.linkedin.com/in/jaswinder-singh-b134315/ "
             photo={jaswinder}
-          />
+          /> */}
           <Speakercompod
             name="Awadhesh Shukla"
             company="Principal Security Consultant at Quick Heal"
@@ -79,7 +79,7 @@ const Speaker = () => {
             linkedin="https://www.linkedin.com/in/awadhesh/"
             photo={avdesh}
           />
-          <Speakercompod
+          {/* <Speakercompod
             name="Rajtilak Majumder"
             company="Director of Information Security at PwC India"
             bio="Rajtilak Majumder, CISSP, is the Director of Information
@@ -87,7 +87,7 @@ const Speaker = () => {
             cybersecurity leadership roles across diverse sectors."
             linkedin="https://www.linkedin.com/in/rajtilak-majumder-cissp-82b83412/"
             photo={raj}
-          />
+          /> */}
           {/* <Speakercompod
             name="Abhishek Sen"
             company="Seasoned Enterprise Security Architect & Associate Director at PwC"
@@ -99,7 +99,7 @@ const Speaker = () => {
             linkedin="https://www.linkedin.com/in/abhishek-sen-56b29416/"
             photo={abhisek}
           /> */}
-          <Speakercompod
+          {/* <Speakercompod
             name="Gobinda Karmakar"
             company="Application Security Architect at PwC India"
             bio="Gobinda Karmakar, an Application Security Architect at PwC India
@@ -107,7 +107,7 @@ const Speaker = () => {
             Information Security and Cybersecurity."
             linkedin="https://www.linkedin.com/in/gobinda-karmakar-he-him-his-99584879/"
             photo={govindo}
-          />
+          /> */}
           <Speakercompod
             name="Shashank Dubey"
             company="Cloud Security Engineer at Payatu"
@@ -120,7 +120,7 @@ const Speaker = () => {
           />
 
           {/* prasenjit gautam */}
-          <Speakercompod
+          {/* <Speakercompod
             name="Prasenjit Gautam"
             company="Co-Founder of DEF CON Delhi and Founding Member at Xainik"
             bio="Shashank Dubey, a Cloud Security Engineer at Payatu, specializes
@@ -129,7 +129,7 @@ const Speaker = () => {
             frameworks, and cloud-native security."
             linkedin=" https://www.linkedin.com/in/dotslashtx/"
             photo={prasenjit}
-          />
+          /> */}
 
           <Speakercompod
             name="Sourabh Bhandari"
@@ -143,13 +143,21 @@ const Speaker = () => {
           />
 
           {/* harshit */}
-          <Speakercompod
+          {/* <Speakercompod
             name="Harshit Arora"
             company="Compliance and Data Protection Associate at Evalueserve"
             bio="  Sourabh Bhandari, an alumnus of LPU, currently serves as a Staff
            Engineer at Palo Alto Networks."
             linkedin="https://www.linkedin.com/in/harshitarora00/"
             photo={harshit}
+          /> */}
+          <Speakercompod
+            name=" Prabhsimran Singh "
+            company="Senior Security Engineer at Finelabs"
+            bio="  Sourabh Bhandari, an alumnus of LPU, currently serves as a Staff
+            Engineer at Palo Alto Networks."
+            linkedin=" https://www.linkedin.com/in/pswalia2u/ "
+            photo={simran}
           />
           {/* aditya */}
           <Speakercompod
@@ -192,7 +200,7 @@ const Speaker = () => {
             photo={vishal}
           />
           {/* jaswinder singh */}
-          <Speakercompom
+          {/* <Speakercompom
             name="Jaswinder Singh"
             company="Director of Engineering at SEQRITE Labs, Quick Heal"
             bio="Vishnu Dutt is a seasoned Solutions Architect with over 15 years
@@ -201,7 +209,7 @@ const Speaker = () => {
            knowledge in Switching, Routing, and Network Security domains."
             linkedin=" https://www.linkedin.com/in/jaswinder-singh-b134315/ "
             photo={jaswinder}
-          />
+          /> */}
           <Speakercompom
             name="Awadhesh Shukla"
             company="Principal Security Consultant at Quick Heal"
@@ -211,7 +219,7 @@ const Speaker = () => {
             linkedin="https://www.linkedin.com/in/awadhesh/"
             photo={avdesh}
           />
-          <Speakercompom
+          {/* <Speakercompom
             name="Rajtilak Majumder"
             company="Director of Information Security at PwC India"
             bio="Rajtilak Majumder, CISSP, is the Director of Information Security
@@ -219,7 +227,7 @@ const Speaker = () => {
              cybersecurity leadership roles across diverse sectors."
             linkedin="https://www.linkedin.com/in/rajtilak-majumder-cissp-82b83412/"
             photo={raj}
-          />
+          /> */}
           {/* 
           <Speakercompom
             name="Abhishek Sen"
@@ -231,7 +239,7 @@ const Speaker = () => {
             photo={abhisek}
           /> */}
 
-          <Speakercompom
+          {/* <Speakercompom
             name="Gobinda Karmakar"
             company="Application Security Architect at PwC India"
             bio=" Gobinda Karmakar, an Application Security Architect at PwC India
@@ -239,7 +247,7 @@ const Speaker = () => {
             Security and Cybersecurity."
             linkedin="https://www.linkedin.com/in/gobinda-karmakar-he-him-his-99584879/"
             photo={govindo}
-          />
+          /> */}
 
           <Speakercompom
             name="Shashank Dubey"
@@ -249,7 +257,7 @@ const Speaker = () => {
             linkedin="https://www.linkedin.com/in/shashankssm/"
             photo={shashank}
           />
-          <Speakercompom
+          {/* <Speakercompom
             name="Prasenjit Gautam"
             company="Co-Founder of DEF CON Delhi and Founding Member at Xainik"
             bio="Shashank Dubey, a Cloud Security Engineer at Payatu, specializes
@@ -258,7 +266,7 @@ const Speaker = () => {
            frameworks, and cloud-native security."
             linkedin=" https://www.linkedin.com/in/dotslashtx/"
             photo={prasenjit}
-          />
+          /> */}
 
           <Speakercompom
             name="Sourabh Bhandari"
@@ -269,14 +277,24 @@ const Speaker = () => {
             photo={saurav}
           />
 
-          <Speakercompom
+          {/* <Speakercompom
             name="Harshit Arora"
             company="Compliance and Data Protection Associate at Evalueserve"
             bio="  Sourabh Bhandari, an alumnus of LPU, currently serves as a Staff
            Engineer at Palo Alto Networks."
             linkedin="https://www.linkedin.com/in/harshitarora00/"
             photo={harshit}
+          /> */}
+
+          <Speakercompom
+            name=" Prabhsimran Singh "
+            company="Senior Security Engineer at Finelabs"
+            bio="  Sourabh Bhandari, an alumnus of LPU, currently serves as a Staff
+           Engineer at Palo Alto Networks."
+            linkedin=" https://www.linkedin.com/in/pswalia2u/ "
+            photo={simran}
           />
+
           <Speakercompom
             name=" Aditya Rai "
             company="Cyber Security Engineer at TCS"
