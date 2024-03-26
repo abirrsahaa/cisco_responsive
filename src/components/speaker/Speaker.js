@@ -3,6 +3,7 @@ import { FaLinkedin } from "react-icons/fa";
 import rahul from "../../assets/rahul1.png";
 import harshit from "../../assets/harshit.png";
 import aditya from "../../assets/aditya.png";
+import adhok from "../../assets/adhok.png";
 import vishal from "../../assets/vishal.png";
 import jaswinder from "../../assets/jaswinder.png";
 import prasenjit from "../../assets/prasenjit.png";
@@ -56,6 +57,16 @@ const Speaker = () => {
             knowledge in Switching, Routing, and Network Security domains."
             linkedin=" https://www.linkedin.com/in/vishalpune2/"
             photo={vishal}
+          />
+          <Speakercompod
+            name=" Adhokshaj Mishra"
+            company=" Security Research Lead at Quick Hea"
+            bio="Shashank Dubey, a Cloud Security Engineer at Payatu, specializes
+            in AWS and Kubernetes security. With over 3 years of industry
+            experience, he's adept at threat modeling, compliance
+            frameworks, and cloud-native security."
+            linkedin="https://www.linkedin.com/in/adhokshajmishra/"
+            photo={adhok}
           />
           {/* jaswinder sign */}
           {/* <Speakercompod
@@ -198,6 +209,16 @@ const Speaker = () => {
         knowledge in Switching, Routing, and Network Security domains."
             linkedin=" https://www.linkedin.com/in/vishalpune2/"
             photo={vishal}
+          />
+          <Speakercompom
+            name=" Adhokshaj Mishra"
+            company=" Security Research Lead at Quick Hea"
+            bio="Shashank Dubey, a Cloud Security Engineer at Payatu, specializes
+           in AWS and Kubernetes security. With over 3 years of industry
+           experience, he's adept at threat modeling, compliance
+           frameworks, and cloud-native security."
+            linkedin="https://www.linkedin.com/in/adhokshajmishra/"
+            photo={adhok}
           />
           {/* jaswinder singh */}
           {/* <Speakercompom
