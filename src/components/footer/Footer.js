@@ -99,7 +99,7 @@ const Footer = () => {
             The iGen Community is an initiative undertaken by the tech
             enthusiasts at Lovely Professional University, with an objective to
             revolutionize the way we approach tech education and thus encourage
-            peer-based practical learning
+            peer-based practical learning.
           </div>
           <div className="w-[90%] h-[30%] flex justify-start items-center gap-4 text-white">
             <Link href="https://discord.com/invite/qkRZ9RN3RJ">
