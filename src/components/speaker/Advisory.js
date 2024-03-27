@@ -1,8 +1,8 @@
 import lovi from "../../assets/lovi.png";
 import atul from "../../assets/atul.png";
-import deepak from "../../assets/deepak.png";
+import deepak from "../../assets/dipu.png";
 import max from "../../assets/max.png";
-import raj from "../../assets/rajj.png";
+import raj from "../../assets/sobtiii.png";
 import Speakercompom from "./SpeakerCompod";
 import Speakercompod from "./Speakercompom";
 

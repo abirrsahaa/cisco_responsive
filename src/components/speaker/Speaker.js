@@ -60,7 +60,7 @@ const Speaker = () => {
           />
           <Speakercompod
             name=" Adhokshaj Mishra"
-            company=" Security Research Lead at Quick Hea"
+            company=" Security Research Lead at Quick Heal"
             bio="Shashank Dubey, a Cloud Security Engineer at Payatu, specializes
             in AWS and Kubernetes security. With over 3 years of industry
             experience, he's adept at threat modeling, compliance
@@ -212,7 +212,7 @@ const Speaker = () => {
           />
           <Speakercompom
             name=" Adhokshaj Mishra"
-            company=" Security Research Lead at Quick Hea"
+            company=" Security Research Lead at Quick Heal"
             bio="Shashank Dubey, a Cloud Security Engineer at Payatu, specializes
            in AWS and Kubernetes security. With over 3 years of industry
            experience, he's adept at threat modeling, compliance
