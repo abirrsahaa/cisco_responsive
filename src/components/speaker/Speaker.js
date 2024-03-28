@@ -3,7 +3,12 @@ import { FaLinkedin } from "react-icons/fa";
 import rahul from "../../assets/rahul1.png";
 import harshit from "../../assets/harshit.png";
 import aditya from "../../assets/aditya.png";
-import adhok from "../../assets/adhok.png";
+import prishita from "../../assets/Prishita.png";
+import gowtham from "../../assets/Gowtham.png";
+import pradipto from "../../assets/Pradipto.png";
+import palwinder from "../../assets/Plawinder.png";
+import sumit from "../../assets/Sumit.png";
+import adhok from "../../assets/AdhokNew.png";
 import vishal from "../../assets/vishal.png";
 import jaswinder from "../../assets/jaswinder.png";
 import prasenjit from "../../assets/prasenjit.png";
@@ -58,6 +63,62 @@ const Speaker = () => {
             linkedin=" https://www.linkedin.com/in/vishalpune2/"
             photo={vishal}
           />
+          {/* pradipto */}
+          <Speakercompod
+            name="Pradipto Chakrabarty"
+            company="Regional director (South Asia) for CompTIA"
+            bio="Vishnu Dutt is a seasoned Solutions Architect with over 15 years
+            of expertise in Network Consulting.He holds a prestigious CCIE
+            Routing and Switching certification, showcasing his profound
+            knowledge in Switching, Routing, and Network Security domains."
+            linkedin=" https://www.linkedin.com/in/pradiptochakrabarty/"
+            photo={pradipto}
+          />
+          {/* palwinder */}
+          <Speakercompod
+            name="Palvinder Singh"
+            company="Founder & CEO - Secuneus Tech"
+            bio="Vishnu Dutt is a seasoned Solutions Architect with over 15 years
+            of expertise in Network Consulting.He holds a prestigious CCIE
+            Routing and Switching certification, showcasing his profound
+            knowledge in Switching, Routing, and Network Security domains."
+            linkedin=" https://www.linkedin.com/in/palvinder91/"
+            photo={palwinder}
+          />
+          {/* prishita */}
+          <Speakercompod
+            name="Prishita Dhingra"
+            company="Security and Risk compliance auditor and implementor,Bobble AI"
+            bio="Vishnu Dutt is a seasoned Solutions Architect with over 15 years
+            of expertise in Network Consulting.He holds a prestigious CCIE
+            Routing and Switching certification, showcasing his profound
+            knowledge in Switching, Routing, and Network Security domains."
+            linkedin=" https://www.linkedin.com/in/prishita-dhingra/"
+            photo={prishita}
+          />
+          {/* sumit */}
+          <Speakercompod
+            name="Sumit Sharma"
+            company="Senior Application Development Security Analyst at TaskUs"
+            bio="Vishnu Dutt is a seasoned Solutions Architect with over 15 years
+            of expertise in Network Consulting.He holds a prestigious CCIE
+            Routing and Switching certification, showcasing his profound
+            knowledge in Switching, Routing, and Network Security domains."
+            linkedin=" https://www.linkedin.com/in/-sumit-sharma/"
+            photo={sumit}
+          />
+          {/* gowtham */}
+          <Speakercompod
+            name="Gowtham Naidu Ponnana"
+            company="Security Researcher,TECHFUND inc"
+            bio="Vishnu Dutt is a seasoned Solutions Architect with over 15 years
+            of expertise in Network Consulting.He holds a prestigious CCIE
+            Routing and Switching certification, showcasing his profound
+            knowledge in Switching, Routing, and Network Security domains."
+            linkedin=" https://www.linkedin.com/in/gowtham-ponnana/"
+            photo={gowtham}
+          />
+
           <Speakercompod
             name=" Adhokshaj Mishra"
             company=" Security Research Lead at Quick Heal"
@@ -209,6 +270,61 @@ const Speaker = () => {
         knowledge in Switching, Routing, and Network Security domains."
             linkedin=" https://www.linkedin.com/in/vishalpune2/"
             photo={vishal}
+          />
+          {/* pradipto */}
+          <Speakercompom
+            name="Pradipto Chakrabarty"
+            company="Regional director (South Asia) for CompTIA"
+            bio="Vishnu Dutt is a seasoned Solutions Architect with over 15 years
+             of expertise in Network Consulting.He holds a prestigious CCIE
+             Routing and Switching certification, showcasing his profound
+             knowledge in Switching, Routing, and Network Security domains."
+            linkedin=" https://www.linkedin.com/in/pradiptochakrabarty/"
+            photo={pradipto}
+          />
+          {/* palwinder */}
+          <Speakercompom
+            name="Palvinder Singh"
+            company="Founder & CEO - Secuneus Tech"
+            bio="Vishnu Dutt is a seasoned Solutions Architect with over 15 years
+            of expertise in Network Consulting.He holds a prestigious CCIE
+            Routing and Switching certification, showcasing his profound
+            knowledge in Switching, Routing, and Network Security domains."
+            linkedin=" https://www.linkedin.com/in/palvinder91/"
+            photo={palwinder}
+          />
+          {/* prishita */}
+          <Speakercompom
+            name="Prishita Dhingra"
+            company="Security and Risk compliance auditor and implementor,Bobble AI"
+            bio="Vishnu Dutt is a seasoned Solutions Architect with over 15 years
+               of expertise in Network Consulting.He holds a prestigious CCIE
+               Routing and Switching certification, showcasing his profound
+               knowledge in Switching, Routing, and Network Security domains."
+            linkedin=" https://www.linkedin.com/in/prishita-dhingra/"
+            photo={prishita}
+          />
+          {/* sumit */}
+          <Speakercompom
+            name="Vishal Kumar"
+            company="Cyber law and security expert, at Quick Heal"
+            bio="Vishnu Dutt is a seasoned Solutions Architect with over 15 years
+        of expertise in Network Consulting.He holds a prestigious CCIE
+        Routing and Switching certification, showcasing his profound
+        knowledge in Switching, Routing, and Network Security domains."
+            linkedin=" https://www.linkedin.com/in/vishalpune2/"
+            photo={vishal}
+          />
+          {/* gowtham */}
+          <Speakercompom
+            name="Gowtham Naidu Ponnana"
+            company="Security Researcher,TECHFUND inc"
+            bio="Vishnu Dutt is a seasoned Solutions Architect with over 15 years
+            of expertise in Network Consulting.He holds a prestigious CCIE
+            Routing and Switching certification, showcasing his profound
+            knowledge in Switching, Routing, and Network Security domains."
+            linkedin=" https://www.linkedin.com/in/gowtham-ponnana/"
+            photo={gowtham}
           />
           <Speakercompom
             name=" Adhokshaj Mishra"
