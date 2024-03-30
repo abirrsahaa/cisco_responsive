@@ -2,6 +2,7 @@ import Image from "next/image";
 import quick from "../../assets/quick.png";
 import sabal from "../../assets/sabal.jpeg.jpg";
 import heal from "../../assets/quickheal.png";
+import comptia from "../../assets/comptia.png";
 
 const Sponsors = () => {
   return (
@@ -43,12 +44,31 @@ const Sponsors = () => {
                 </div>
               </div>
               <div className="w-full h-[20%] mt-2  rounded-xl m-1 flex flex-col gap-1 items-center justify-center">
-                <div className="w-full h-full font-benderregular font-bold text-xl rounded-xl text-[#13FBD3] flex items-center justify-center">
+                <div className="w-full h-full font-benderregular font-bold text-lg  md:text-xl rounded-xl text-[#13FBD3] flex items-center justify-center">
                   Ticket Partner
                 </div>
                 {/* <div className="w-full h-[59%] bg-yellow-500 rounded-xl"></div> */}
               </div>
             </div>
+            <div className="w-[44%] md:w-[24%] h-[95%]   rounded-xl flex flex-col items-center justify-center gap-2">
+              <div className="w-full h-[79%] md:h-[69%]   rounded-xl m-1 flex items-center justify-center ">
+                <div className="w-[30vw] h-[30vw] md:w-[11vw] md:h-[11vw] bg-[#121E2C] rounded-3xl ">
+                  <Image
+                    src={comptia}
+                    key={1}
+                    alt="quick"
+                    className="w-full h-full rounded-3xl object-contain object-center"
+                  />
+                </div>
+              </div>
+              <div className="w-full h-[20%] mt-2  rounded-xl m-1 flex flex-col gap-1 items-center justify-center">
+                <div className="w-full h-full font-benderregular font-bold text-xl rounded-xl text-[#13FBD3] flex items-center justify-center">
+                  Sponsor
+                </div>
+                {/* <div className="w-full h-[59%] bg-yellow-500 rounded-xl"></div> */}
+              </div>
+            </div>
+
             {/* <div className="w-[24%] h-[95%] bg-blue-500 rounded-xl "></div>
             <div className="w-[24%] h-[95%] bg-blue-500 rounded-xl "></div> */}
           </div>
