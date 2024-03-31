@@ -5,7 +5,7 @@ import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 
 const Countdown = () => {
-  const eventDate = new Date("2024-04-01T23:59:59");
+  const eventDate = new Date("2024-04-01T10:00:00");
   const [days, setDays] = useState(0);
   const [hours, setHours] = useState(0);
   const [minutes, setMinutes] = useState(0);
