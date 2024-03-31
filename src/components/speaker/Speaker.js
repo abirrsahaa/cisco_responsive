@@ -20,6 +20,7 @@ import shashank from "../../assets/shashank.png";
 import avdesh from "../../assets/avdesh.png";
 import simran from "../../assets/simran.png";
 import saurav from "../../assets/saurav.png";
+import sairam from "../../assets/sairam.png";
 import Image from "next/image";
 import Link from "next/link";
 import Speakercompod from "./Speakercompom";
@@ -87,14 +88,14 @@ const Speaker = () => {
           />
           {/* prishita */}
           <Speakercompod
-            name="Prishita Dhingra"
-            company="Security and Risk compliance auditor and implementor,Bobble AI"
+            name="Sairam Santharam "
+            company="Global IT & Cybersecurity Executive Driving Innovation and Security"
             bio="Vishnu Dutt is a seasoned Solutions Architect with over 15 years
             of expertise in Network Consulting.He holds a prestigious CCIE
             Routing and Switching certification, showcasing his profound
             knowledge in Switching, Routing, and Network Security domains."
-            linkedin=" https://www.linkedin.com/in/prishita-dhingra/"
-            photo={prishita}
+            linkedin=" https://www.linkedin.com/in/sairamsantharam/"
+            photo={sairam}
           />
           {/* sumit */}
           <Speakercompod
@@ -294,7 +295,7 @@ const Speaker = () => {
             photo={palwinder}
           />
           {/* prishita */}
-          <Speakercompom
+          {/* <Speakercompom
             name="Prishita Dhingra"
             company="Security and Risk compliance auditor and implementor,Bobble AI"
             bio="Vishnu Dutt is a seasoned Solutions Architect with over 15 years
@@ -303,6 +304,16 @@ const Speaker = () => {
                knowledge in Switching, Routing, and Network Security domains."
             linkedin=" https://www.linkedin.com/in/prishita-dhingra/"
             photo={prishita}
+          /> */}
+          <Speakercompom
+            name="Sairam Santharam "
+            company="Global IT & Cybersecurity Executive Driving Innovation and Security"
+            bio="Vishnu Dutt is a seasoned Solutions Architect with over 15 years
+             of expertise in Network Consulting.He holds a prestigious CCIE
+             Routing and Switching certification, showcasing his profound
+             knowledge in Switching, Routing, and Network Security domains."
+            linkedin=" https://www.linkedin.com/in/sairamsantharam/"
+            photo={sairam}
           />
           {/* sumit */}
           <Speakercompom
