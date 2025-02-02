@@ -33,7 +33,7 @@ const Footer = () => {
               <Link href="https://ciscoxlpuigen.netlify.app/cybersec">
                 <li>Events</li>
               </Link>
-              <Link href="https://cisco-payments.sabal.in/">
+              <Link href="https://ciscobackend.webacing.tech/">
                 <li>Register</li>
               </Link>
               <Link href="https://ciscoxlpuigen.co.in/privacy-policy.php">
@@ -129,7 +129,7 @@ const Footer = () => {
               <Link href="https://ciscoxlpuigen.netlify.app/cybersec">
                 <li>Events</li>
               </Link>
-              <Link href="https://cisco-payments.sabal.in/">
+              <Link href="https://ciscobackend.webacing.tech/">
                 <li>Register</li>
               </Link>
               <Link href="https://ciscoxlpuigen.co.in/privacy-policy.php">

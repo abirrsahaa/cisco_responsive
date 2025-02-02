@@ -43,7 +43,7 @@ const Header = () => {
               BLOGS
             </div>
           </Link>
-          <Link href="https://cisco-payments.sabal.in" className="w-[23%] ">
+          <Link href="https://ciscobackend.webacing.tech" className="w-[23%] ">
             <div className="w-[100%] hover:border-b-2 hover:cursor-pointer hover:border-b-green-500 transition ease-in duration-100 flex justify-center items-center font-bold text-xl text-white h-[100%] rounded-b-none    rounded-2xl ">
               REGISTER
             </div>
@@ -105,7 +105,7 @@ const Header = () => {
                     </div>
                   </Link>
                   <Link
-                    href="https://cisco-payments.sabal.in/"
+                    href="https://ciscobackend.webacing.tech/"
                     className="w-[100%]"
                   >
                     <div className="w-[100%] font-benderregular hover:border-b-2 hover:cursor-pointer hover:border-b-green-500 transition ease-in duration-100 flex justify-center items-center font-bold text-xl text-white h-[100%] rounded-b-none    rounded-2xl ">
